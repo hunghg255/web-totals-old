@@ -1,12 +1,14 @@
+import Image from 'next/image'
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/heesungjang',
+  docsRepositoryBase: 'https://github.com/heesungjang/javascript-questions-doc',
+  titleSuffix: ' | JavaScript Questions',
+  floatTOC: true,
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+      <Image src="/logo.svg" width={25} height={25} />
+      <span className="font-normal hidden md:inline ml-2">
+        JavaScript Questions
       </span>
     </>
   ),
@@ -62,6 +64,9 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © Heesung Jang</>,
   unstable_faviconGlyph: '👋',
+  nextThemes: {
+    defaultTheme: 'dark',
+  },
 }
