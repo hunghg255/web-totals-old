@@ -9,4 +9,13 @@ module.exports = withNextra({
   experiments: {
     esmExternals: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/questions',
+        permanent: true,
+      },
+    ]
+  },
 })

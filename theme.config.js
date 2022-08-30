@@ -69,4 +69,5 @@ export default {
   nextThemes: {
     defaultTheme: 'dark',
   },
+  defaultMenuCollapsed: true,
 }
