@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default {
   github: 'https://github.com/heesungjang',
-  docsRepositoryBase: 'https://github.com/heesungjang/javascript-questions-doc',
+  projectLink: 'https://github.com/heesungjang/javascript-questions-doc',
   titleSuffix: ' | JavaScript Questions',
   floatTOC: true,
   logo: (
@@ -60,6 +60,7 @@ export default {
     </>
   ),
   search: true,
+  font: false,
   prevLinks: true,
   nextLinks: true,
   footer: true,
