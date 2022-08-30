@@ -35,7 +35,7 @@ video {
 }
 
 p > strong {
-  color: #fcd34d;
+  color: #fb923c;
 }
 
 .nextra-sidebar-menu {
@@ -52,4 +52,16 @@ p > strong {
 
 a > h1 {
   font-weight: 500;
+}
+
+.default-answer-button {
+  @apply w-full h-12 bg-[#F4F7FC] dark:bg-[#1F2930] rounded-md mt-2 px-3 hover:shadow-sm transition-all duration-75 ease-linear  font-sans;
+}
+
+.wrong-answer-button {
+  @apply h-12 bg-[#F4F7FC] dark:bg-[#1F2930] rounded-md mt-2 px-3 hover:shadow-sm transition-all duration-75 ease-linear  font-sans border-solid border-2 border-red-500;
+}
+
+.correct-answer-button {
+  @apply h-12 bg-[#F4F7FC] dark:bg-[#1F2930] rounded-md mt-2 px-3 hover:shadow-sm transition-all duration-75 ease-linear  font-sans border-solid border-2 border-green-400;
 }

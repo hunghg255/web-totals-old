@@ -7,7 +7,7 @@ export default {
   logo: (
     <>
       <Image src="/logo.svg" width={25} height={25} />
-      <span className="font-normal hidden md:inline ml-2">
+      <span className="font-semibold hidden md:inline ml-2">
         JavaScript Questions
       </span>
     </>
