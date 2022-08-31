@@ -3,6 +3,8 @@
 <div align="center">
 
 <img width="400" src="https://repository-images.githubusercontent.com/191529732/60b55880-bd67-11ea-9b27-34ffd8496e21">
+  
+### Visit the [playground](https://jsquestions.vercel.app/questions) and enjoy!!
 
 A long list of (advanced) JavaScript questions, and their explanations
 ✨
@@ -15,6 +17,6 @@ All of the questions are from [Lydia](https://github.com/lydiahallie)'s Javascri
 
 
 
-### Visit the [playground](https://jsquestions.vercel.app/questions) and enjoy!!
+
 
 </div>
