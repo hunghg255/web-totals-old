@@ -2,7 +2,7 @@ import React from 'react'
 
 function Question({ render, children }) {
   return (
-    <div className="flex items-center">
+    <div className="lg:flex lg:flex-row items-center">
       {/* markdown */}
       <div className="w-[100%] mr-4">{children}</div>
       {/* answers */}
