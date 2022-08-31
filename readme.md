@@ -6,7 +6,7 @@
   
 ### Visit the [playground](https://jsquestions.vercel.app/questions) and enjoy!!
 
-Playground of a long list of (advanced) interactive JavaScript questions.
+Playground for a long list of (advanced) interactive JavaScript questions.
 
 From basic to advanced: **test how well you know JavaScript**, refresh your knowledge a bit, or prepare for your coding interview!
 
