@@ -1,9 +1,13 @@
 import Image from 'next/image'
 export default {
-  github: 'https://github.com/heesungjang',
-  projectLink: 'https://github.com/heesungjang/javascript-questions-doc',
+  github: 'https://github.com/heesungjang/javascript-questions-playground',
   titleSuffix: ' | JavaScript Questions',
-  floatTOC: true,
+  float: true,
+  i18n: [
+    { locale: "en-US", text: "English" },
+    { locale: "ko", text: "한국어" },
+    
+  ],
   logo: (
     <>
       <Image src="/logo.svg" width={25} height={25} />
@@ -74,16 +78,19 @@ export default {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
   ),
-  search: true,
-  font: false,
-  prevLinks: true,
-  nextLinks: true,
-  footer: true,
-  footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Heesung Jang</>,
+  font: false,  
   unstable_faviconGlyph: '👋',
   nextThemes: {
     defaultTheme: 'dark',
   },
-  defaultMenuCollapsed: true,
+  footer: {
+    text() {
+      
+      return (
+        <>MIT {new Date().getFullYear()} © Heesung Jang</>,
+      );
+    },
+  },
+  docsRepositoryBase:
+    "https://github.com/heesungjang/javascript-questions-playground/tree/main/pages"
 }

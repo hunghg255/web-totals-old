@@ -3,10 +3,12 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.js',
   unstable_flexsearch: true,
   unstable_staticImage: true,
+  unstable_defaultShowCopyCode: true
 })
 
 module.exports = withNextra({
-  experiments: {
-    esmExternals: true,
+  i18n: {
+    locales: ["en-US",  "ko"],
+    defaultLocale: "en-US",
   },
 })

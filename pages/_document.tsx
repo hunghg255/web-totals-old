@@ -6,7 +6,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
+        <Head lang="en">
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=optional"
             rel="stylesheet"
