@@ -4,7 +4,7 @@
 
 <img width="400" src="https://repository-images.githubusercontent.com/191529732/60b55880-bd67-11ea-9b27-34ffd8496e21">
   
-### Visit the [playground](https://jsquestions.vercel.app/questions) and enjoy!!
+### Visit the [playground](https://jsquestions.vercel.app) and enjoy!!
 
 Playground for a long list of (advanced) interactive JavaScript questions.
 
