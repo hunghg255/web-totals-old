@@ -1,0 +1,375 @@
+import Question from '../../components/Question.tsx'
+import Answer from '../../components/Answer.tsx'
+
+# 31-40
+
+### Q. 31. 버튼을 클릭했을때 event.target은 무엇일까요?
+
+<Question render={
+  <Answer answer="C">
+  <Answer.Option>A: 외부의 `div`</Answer.Option>
+  <Answer.Option>B: 내부의 `div`</Answer.Option>
+  <Answer.Option>C: `button`</Answer.Option>
+  <Answer.Option>D: 중첩된 모든 요소의 배열</Answer.Option>
+</Answer>
+}>
+
+```html
+<div onclick="console.log('first div')">
+  <div onclick="console.log('second div')">
+    <button onclick="console.log('button')">Click!</button>
+  </div>
+</div>
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: C_**
+
+가장 깊이 중첩된 요소가 이벤트를 발생시킬 이벤트 대상이예요. `event.stopPropagation`을 통해서 버블링을 중단할 수 있어요.
+
+</details>
+
+---
+
+### Q. 32. p태그를 클릭하면 출력된 로그는 무엇일까요?
+
+<Question render={
+  <Answer answer="A">
+  <Answer.Option>A: `p` `div`</Answer.Option>
+  <Answer.Option>B: `div` `p`</Answer.Option>
+  <Answer.Option>C: `p`</Answer.Option>
+  <Answer.Option>D: `div`</Answer.Option>
+</Answer>
+}>
+
+```html
+<div onclick="console.log('div')">
+  <p onclick="console.log('p')">Click here!</p>
+</div>
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: A_**
+
+`p`를 클릭하면, 2개의 로그를 볼 수 있어요: `p` 그리고 `div`. 이벤트의 전파 중에는 3단계가 있어요: 캡처링, 타겟, 버블링. 기본적으로, 이벤트 핸들러는 버블링 단계에서 시작돼요. (`useCapture`를 `true`로 설정하지 않는 한). 가장 깊게 중첩된 요소에서 바깥쪽으로 가요.
+
+</details>
+
+---
+
+### Q. 33. 무엇이 출력 될까요?
+
+<Question render={
+  <Answer answer="D">
+  <Answer.Option>A: `undefined is 21` `Lydia is 21`</Answer.Option>
+  <Answer.Option>B: `function` `function`</Answer.Option>
+  <Answer.Option>C: `Lydia is 21` `Lydia is 21`</Answer.Option>
+  <Answer.Option>D: `Lydia is 21` `function`</Answer.Option>
+</Answer>
+}>
+
+```javascript
+const person = { name: 'Lydia' }
+
+function sayHi(age) {
+  return `${this.name} is ${age}`
+}
+
+console.log(sayHi.call(person, 21))
+console.log(sayHi.bind(person, 21))
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: D_**
+
+두 개 모두, `this` 키워드를 참조하고자 하는 객체로 보낼 수 있어요. 그렇지만, `.call`은 _즉시 실행돼요_!
+
+`.bind.`는 함수의 _복사본_ 을 반환하지만, 바인딩된 콘텍스트죠! 즉시 실행되지 않아요.
+
+</details>
+
+---
+
+### Q. 34. 무엇이 출력 될까요?
+
+<Question render={
+  <Answer answer="B">
+  <Answer.Option>A: "object"</Answer.Option>
+  <Answer.Option>B: "number"</Answer.Option>
+  <Answer.Option>C: "function"</Answer.Option>
+  <Answer.Option>D: "undefined"</Answer.Option>
+</Answer>
+}>
+
+```javascript
+function sayHi() {
+  return (() => 0)()
+}
+
+console.log(typeof sayHi())
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: B_**
+
+`sayHi`함수는 즉시 호출 함수 표현식(IIFE)으로서 반환된 값을 반환해요. 이 함수는 `0`을 반환하고, 형은 `"number"`이에요.
+
+참고: 내장된 형은 7개만 있어요: `null`, `undefined`, `boolean`, `number`, `string`, `object` 그리고 `symbol`. 함수는 객체이기 때문에 `"function"`은 형이 아니라 `"object"`형이에요.
+
+</details>
+
+---
+
+### Q. 35. 이 값 중 어느 것이 거짓 같은 값일까요?
+
+<Question render={
+  <Answer answer="A">
+  <Answer.Option>A: 0, '', undefined</Answer.Option>
+  <Answer.Option>B: 0, new Number(0), '', new Boolean(false), undefined</Answer.Option>
+  <Answer.Option>C: 0, '', new Boolean(false), undefined</Answer.Option>
+  <Answer.Option>D: 모든 값은 거짓</Answer.Option>
+</Answer>
+}>
+
+```javascript
+0
+new Number(0)
+;('')
+;(' ')
+new Boolean(false)
+undefined
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: A_**
+
+8개의 거짓 같은 값이 있어요:
+
+- `undefined`
+- `null`
+- `NaN`
+- `false`
+- `''` (빈 문자열)
+- `0`
+- `-0`
+- `-0n` (BigInt(0))
+
+`new Number` 그리고 `new Boolean`과 같은 생성자 함수는 참 같은 값이에요.
+
+</details>
+
+---
+
+### Q. 36. 무엇이 출력 될까요?
+
+<Question render={
+  <Answer answer="B">
+  <Answer.Option>A: "number"</Answer.Option>
+  <Answer.Option>B: "string"</Answer.Option>
+  <Answer.Option>C: "object"</Answer.Option>
+  <Answer.Option>D: "undefined"</Answer.Option>
+</Answer>
+}>
+
+```javascript
+console.log(typeof typeof 1)
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: B_**
+
+`typeof 1` 은 `"number"`를 반환해요.
+
+`typeof "number"`은 `"string"`을 반환해요.
+
+</details>
+
+---
+
+### Q. 37. 무엇이 출력 될까요?
+
+<Question render={
+  <Answer answer="C">
+  <Answer.Option>A: [1, 2, 3, null x 7, 11]</Answer.Option>
+  <Answer.Option>B: [1, 2, 3, 11]</Answer.Option>
+  <Answer.Option>C: [1, 2, 3, empty x 7, 11]</Answer.Option>
+  <Answer.Option>D: SyntaxError</Answer.Option>
+</Answer>
+}>
+
+```javascript
+const numbers = [1, 2, 3]
+numbers[10] = 11
+console.log(numbers)
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: C_**
+
+배열의 길이를 초과한 값을 배열의 요소로 설정하고자 할 때, JavaScript는 "empty slots"라고 불리는 것을 생성해요. 이것은 사실 `undefined`의 값을 가지고 있지만, 다음과 같은 것을 보게 될 거예요:
+
+`[1, 2, 3, 7 x empty, 11]`
+
+실행 위치에 따라 달라요 (브라우저, node 등마다 달라요.)
+
+</details>
+
+---
+
+### Q. 38. 무엇이 출력 될까요?
+
+<Question render={
+  <Answer answer="A">
+  <Answer.Option>A: 1 undefined 2</Answer.Option>
+  <Answer.Option>B: undefined undefined undefined</Answer.Option>
+  <Answer.Option>C: 1 1 2</Answer.Option>
+  <Answer.Option>D: 1 undefined undefined</Answer.Option>
+</Answer>
+}>
+
+```javascript
+;(() => {
+  let x, y
+  try {
+    throw new Error()
+  } catch (x) {
+    ;(x = 1), (y = 2)
+    console.log(x)
+  }
+  console.log(x)
+  console.log(y)
+})()
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: A_**
+
+`catch`블록은 인수`x`를 받아요. 이것은 인수를 전달할 때 변수로서의 `x`와는 달라요. 이 `x` 변수는 블록-스코프예요.
+
+후에, 블록-스코프 변수는 `1`로 설정하고, 변수 `y`의 값을 설정해요. 여기서, 블록-스코프의 변수 `x`를 출력하는데, 이것은 `1`이에요.
+
+`catch` 블록 밖에서, `x`는 여전히 `undefined`이고 `y`는 `2`이에요. `catch` 블록 밖에서 `console.log(x)`를 출력하면, `undefined`를 반환하고. 그리고 `y`는 `2`를 반환해요.
+
+</details>
+
+---
+
+### Q. 39. JavaScript의 모든 것은...
+
+<Question render={
+  <Answer answer="A">
+  <Answer.Option>A: primitive 또는 object</Answer.Option>
+  <Answer.Option>B: function 또는 object</Answer.Option>
+  <Answer.Option>C: 함정 문제! objects만</Answer.Option>
+  <Answer.Option>D: number 또는 object</Answer.Option>
+</Answer>
+}>
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: A_**
+
+JavaScript는 원시형과 객체만 가지고 있어요.
+
+원시형은 `boolean`, `null`, `undefined`, `bigint`, `number`, `string` 그리고 `symbol`이 있어요.
+
+원시형과 객체를 구별하는 법은 원시형에는 속성이나 메소드가 없어요. 그렇지만 `'foo'.toUpperCase()`는 `'FOO'`로 평가되어, 결과적으로 `TypeError`가 되지 않아요. 문자열과 같은 원시형이 속성 또는 메소드에 접근하려고 할 때, JavaScript는 래퍼 클래스 중 하나인 `String`을 사용하여 암묵적으로 감싸고, 표현 식이 평가된 후 즉시 래퍼를 폐기하기 때문이에요. `null` 그리고 `undefined`를 제외한 모든 원시형은 이러한 행동을 합니다.
+
+</details>
+
+---
+
+### Q. 40. 무엇이 출력 될까요?
+
+<Question render={
+  <Answer answer="C">
+  <Answer.Option>A: [0, 1, 2, 3, 1, 2]</Answer.Option>
+  <Answer.Option>B: [6, 1, 2]</Answer.Option>
+  <Answer.Option>C: [1, 2, 0, 1, 2, 3]</Answer.Option>
+  <Answer.Option>D: [1, 2, 6]</Answer.Option>
+</Answer>
+}>
+
+```javascript
+const arr = [
+  [0, 1],
+  [2, 3],
+]
+
+arr.reduce(
+  (acc, cur) => {
+    return acc.concat(cur)
+  },
+  [1, 2]
+)
+```
+
+</Question>
+
+<details>
+    <summary>
+    <b>💡 답</b>
+    </summary>
+
+**_답: C_**
+
+`[1, 2]`은 초기값이에요. 이것은 시작하는 최초의 값이고, `acc`의 제일 처음 값이에요. 처음 라운드 동안에 `acc`는 `[1,2]`이며, `cur`은 `[0, 1]`이에요. 그것을 연결하면 결과적으로 `[1, 2, 0, 1]`이 돼요.
+
+그 후, `[1, 2, 0, 1]`은 `acc`이고, `[2, 3]`은 `cur`이에요. 그것을 연결하면 `[1, 2, 0, 1, 2, 3]`을 얻게 돼요.
+
+</details>
+
+---

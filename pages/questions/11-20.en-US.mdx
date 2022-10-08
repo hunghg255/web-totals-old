@@ -36,7 +36,7 @@ console.log(member.getFullName())
     </summary>
 
 
-***Answer: A***
+**_Answer: A_**
 
 In JavaScript, functions are objects, and therefore, the method `getFullName` gets added to the constructor function object itself. For that reason, we can call `Person.getFullName()`, but `member.getFullName` throws a `TypeError`.
 
@@ -85,7 +85,7 @@ console.log(sarah)
     </summary>
 
 
-***Answer: A***
+**_Answer: A_**
 
 For `sarah`, we didn't use the `new` keyword. When using `new`, `this` refers to the new empty object we create. However, if you don't add `new`, `this` refers to the **global object**!
 
@@ -116,7 +116,7 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
     </summary>
 
 
-***Answer: D***
+**_Answer: D_**
 
 During the **capturing** phase, the event goes through the ancestor elements down to the target element. It then reaches the **target** element, and **bubbling** begins.
 
@@ -145,7 +145,7 @@ During the **capturing** phase, the event goes through the ancestor elements dow
     </summary>
 
 
-***Answer: B***
+**_Answer: B_**
 
 All objects have prototypes, except for the **base object**. The base object is the object created by the user, or an object that is created using the `new` keyword. The base object has access to some methods and properties, such as `.toString`. This is the reason why you can use built-in JavaScript methods! All of such methods are available on the prototype. Although JavaScript can't find it directly on your object, it goes down the prototype chain and finds it there, which makes it accessible for you.
 
@@ -182,7 +182,7 @@ sum(1, '2')
     </summary>
 
 
-***Answer: C***
+**_Answer: C_**
 
 JavaScript is a **dynamically typed language**: we don't specify what types certain variables are. Values can automatically be converted into another type without you knowing, which is called _implicit type coercion_. **Coercion** is converting from one type into another.
 
@@ -218,7 +218,7 @@ console.log(number)
     </summary>
 
 
-***Answer: C***
+**_Answer: C_**
 
 The **postfix** unary operator `++`:
 
@@ -269,7 +269,7 @@ getPersonInfo`${person} is ${age} years old`
     </summary>
 
 
-***Answer: B***
+**_Answer: B_**
 
 If you use tagged template literals, the value of the first argument is always an array of the string values. The remaining arguments get the values of the passed expressions!
 
@@ -310,7 +310,7 @@ checkAge({ age: 18 })
     </summary>
 
 
-***Answer: C***
+**_Answer: C_**
 
 When testing equality, primitives are compared by their _value_, while objects are compared by their _reference_. JavaScript checks if the objects have a reference to the same location in memory.
 
@@ -352,7 +352,7 @@ getAge(21)
     </summary>
 
 
-***Answer: C***
+**_Answer: C_**
 
 The rest parameter (`...args`) lets us "collect" all remaining arguments into an array. An array is an object, so `typeof args` returns `"object"`
 
@@ -390,7 +390,7 @@ getAge()
     </summary>
 
 
-***Answer: C***
+**_Answer: C_**
 
 With `"use strict"`, you can make sure that you don't accidentally declare global variables. We never declared the variable `age`, and since we use `"use strict"`, it will throw a reference error. If we didn't use `"use strict"`, it would have worked, since the property `age` would have gotten added to the global object.
 

@@ -25,11 +25,9 @@ const sum = eval('10*10+5')
     <b>💡 답</b>
     </summary>
 
-
-***Answer: A***
+**_답: A_**
 
 `eval` 문자열로 통과된 코드를 평가해요. 만약 그것이 이 경우처럼 표현 식이라면, 표현 식을 평가해요. 표현식은 `10 * 10 + 5`이에요. 이것은 숫자 `105`를 반환해요.
-
 
 </details>
 
@@ -57,13 +55,11 @@ sessionStorage.setItem('cool_secret', 123)
         <b>💡 답</b>
     </summary>
 
-
-***Answer: B***
+**_답: B_**
 
 `sessionStorage`에 저장된 데이터는 _탭_ 을 닫은 후에 삭제돼요.
 
 만약 `localStorage`를 사용했다면, 예를 들어 `localStorage.clear()`를 호출하지 않는 한, 데이터는 영원할 거예요.
-
 
 </details>
 
@@ -94,14 +90,11 @@ console.log(num)
         <b>💡 답</b>
     </summary>
 
-
-
-***Answer: B***
+**_답: B_**
 
 `var` 키워드를 사용하면, 같은 이름으로 복수의 변수를 선언할 수 있어요. 변수는 최신의 값을 가져요.
 
 블록 스코프의 `let` 또는 `const`에서는 할 수 없어요.
-
 
 </details>
 
@@ -135,13 +128,11 @@ set.has(1)
         <b>💡 답</b>
     </summary>
 
-
-***Answer: C***
+**_답: C_**
 
 모든 객체의 키는(심볼 제외) 문자열로 직접 입력하지 않았다고 해도 내부적으로는 문자열이에요. 이것이 `obj.hasOwnProperty('1')`도 true를 반환하는 이유예요.
 
 set에서는 동작하지 않아요. set에는 `'1'`이 없어요: `set.has('1')`은 `false`를 반환해요. 숫자 유형인 `1`을 가지고 있어, `set.has(1)`는 `true`를 반환해요.
-
 
 </details>
 
@@ -170,11 +161,9 @@ console.log(obj)
         <b>💡 답</b>
     </summary>
 
-
-***Answer: C***
+**_답: C_**
 
 같은 이름의 키를 두 개 갖고 있다면, 키는 대체 될 거예요. 여전히 첫 번째 위치에 있지만, 마지막으로 지정된 값을 가져요.
-
 
 </details>
 
@@ -198,11 +187,9 @@ console.log(obj)
         <b>💡 답</b>
     </summary>
 
-
-***Answer: A***
+**_답: A_**
 
 기본적인 실행 콘텍스트는 전역 실행 문장이에요: 당신의 코드 모든 곳에서 접근할 수 있어요.
-
 
 </details>
 
@@ -233,11 +220,9 @@ for (let i = 1; i < 5; i++) {
         <b>💡 답</b>
     </summary>
 
-
-***Answer: C***
+**_답: C_**
 
 `continue` 표현 식은 특정 조건이 `true`를 반환하면 반복 처리를 건너뛰어요.
-
 
 </details>
 
@@ -271,11 +256,9 @@ console.log(name.giveLydiaPizza())
         <b>💡 답</b>
     </summary>
 
-
-***Answer: A***
+**_답: A_**
 
 `String`은 내장 생성자로 속성을 추가할 수 있어요. 그냥 문자열 프로토타입에 메소드를 추가한거예요. 원시형 문자열은 문자열 프로토타입 함수가 생성한 문자열 객체로 자동 변환돼요. 그래서, 모든 문자열(문자열 객체)은 그 메소드에 접근할 수 있어요!
-
 
 </details>
 
@@ -310,15 +293,13 @@ console.log(a[b])
         <b>💡 답</b>
     </summary>
 
-
-***Answer: B***
+**_답: B_**
 
 객체 키는 자동으로 문자열로 변환돼요. 객체 `a`에 키는 객체(b), 값은 `123`으로 설정하려고 해요.
 
 그러나, 객체를 문자열화 하면 `"[object Object]"`가 돼요. 그래서 여기서 말하고자 하는 건 `a["object Object"] = 123`이라는 거예요. 그 후, 같은 일을 다시 시도해요. `c`는 암묵적으로 문자열화 한 다른 객체에요. 그래서 `a["object Object"] = 456`이 돼요.
 
 그 후, `a[b]`를 출력하면 실제로는 `a["object Object"]`예요. 그냥 `456`을 설정했기 때문에, `456`을 반환해요.
-
 
 </details>
 
@@ -352,8 +333,7 @@ baz()
         <b>💡 답</b>
     </summary>
 
-
-***Answer: B***
+**_답: B_**
 
 처음에 `setTimeout`함수를 호출했어요. 그러나 그것은 마지막에 출력돼요.
 
@@ -361,25 +341,24 @@ baz()
 
 _callback_ 이 WebAPI에 푸시된 후, `setTimeout`함수 자체(callback이 아니에요!)는 stack에 사라졌어요.
 
-<img src="https://i.imgur.com/X5wsHOg.png" width="200"/>
+<img src="https://i.imgur.com/X5wsHOg.png" width="200" />
 
 지금, `foo` 는 호출되었고, `"First"`는 출력되었어요.
 
-<img src="https://i.imgur.com/Pvc0dGq.png" width="200"/>
+<img src="https://i.imgur.com/Pvc0dGq.png" width="200" />
 
 `foo`는 stack에 사라지고, `baz`가 호출되었어요. `"Third"`가 출력되었어요.
 
-<img src="https://i.imgur.com/WhA2bCP.png" width="200"/>
+<img src="https://i.imgur.com/WhA2bCP.png" width="200" />
 
 WebAPI는 준비가 될 때마다 stack에 항목을 추가할 수 없어요. 대신에, _queue_ 라고 불리는 것에 callback 함수를 푸시해요.
 
-<img src="https://i.imgur.com/NSnDZmU.png" width="200"/>
+<img src="https://i.imgur.com/NSnDZmU.png" width="200" />
 
 여기서 event loop가 작동하기 시작해요. **event loop**는 stack과 task queue를 봐요. stack이 비어있다면, queue에 첫 번째의 것을 가져다가 stack 위로 푸시해요.
 
-<img src="https://i.imgur.com/uyiScAI.png" width="200"/>
+<img src="https://i.imgur.com/uyiScAI.png" width="200" />
 
 `bar`가 호출되었고, `"Second"`가 출력되었으며, stack에서 사라졌어요.
-
 
 </details>
