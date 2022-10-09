@@ -1,7 +1,7 @@
 import Question from '../../components/Question.tsx'
 import Answer from '../../components/Answer.tsx'
 
-# 11-20
+# 2. 11-20
 
 ### Q11. What is the output?
 
@@ -35,7 +35,6 @@ console.log(member.getFullName())
     <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: A_**
 
 In JavaScript, functions are objects, and therefore, the method `getFullName` gets added to the constructor function object itself. For that reason, we can call `Person.getFullName()`, but `member.getFullName` throws a `TypeError`.
@@ -48,10 +47,7 @@ Person.prototype.getFullName = function () {
 }
 ```
 
-
 </details>
-
----
 
 ### Q12. What's the output?
 
@@ -79,11 +75,10 @@ console.log(sarah)
 
 </Question>
 
-<details> 
+<details>
     <summary>
     <b>💡 Answer</b>
     </summary>
-
 
 **_Answer: A_**
 
@@ -91,10 +86,7 @@ For `sarah`, we didn't use the `new` keyword. When using `new`, `this` refers to
 
 We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smith"`. What we actually did, is defining `global.firstName = 'Sarah'` and `global.lastName = 'Smith'`. `sarah` itself is left `undefined`, since we don't return a value from the `Person` function.
 
-
 </details>
-
----
 
 ### Q13. What are the three phases of event propagation?
 
@@ -115,17 +107,13 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: D_**
 
 During the **capturing** phase, the event goes through the ancestor elements down to the target element. It then reaches the **target** element, and **bubbling** begins.
 
 <img src="https://i.imgur.com/N18oRgd.png" width="200" />
 
-
 </details>
-
----
 
 ### Q14. All object have prototypes.
 
@@ -144,15 +132,11 @@ During the **capturing** phase, the event goes through the ancestor elements dow
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: B_**
 
 All objects have prototypes, except for the **base object**. The base object is the object created by the user, or an object that is created using the `new` keyword. The base object has access to some methods and properties, such as `.toString`. This is the reason why you can use built-in JavaScript methods! All of such methods are available on the prototype. Although JavaScript can't find it directly on your object, it goes down the prototype chain and finds it there, which makes it accessible for you.
 
-
 </details>
-
----
 
 ### Q15. What's the output?
 
@@ -181,13 +165,11 @@ sum(1, '2')
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: C_**
 
 JavaScript is a **dynamically typed language**: we don't specify what types certain variables are. Values can automatically be converted into another type without you knowing, which is called _implicit type coercion_. **Coercion** is converting from one type into another.
 
 In this example, JavaScript converts the number `1` into a string, in order for the function to make sense and return a value. During the addition of a numeric type (`1`) and a string type (`'2'`), the number is treated as a string. We can concatenate strings like `"Hello" + "World"`, so what's happening here is `"1" + "2"` which returns `"12"`.
-
 
 </details>
 
@@ -217,7 +199,6 @@ console.log(number)
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: C_**
 
 The **postfix** unary operator `++`:
@@ -232,10 +213,7 @@ The **prefix** unary operator `++`:
 
 This returns `0 2 2`.
 
-
 </details>
-
----
 
 ### Q17. What's the output?
 
@@ -268,15 +246,11 @@ getPersonInfo`${person} is ${age} years old`
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: B_**
 
 If you use tagged template literals, the value of the first argument is always an array of the string values. The remaining arguments get the values of the passed expressions!
 
-
 </details>
-
----
 
 ### Q18. What's the output?
 
@@ -309,7 +283,6 @@ checkAge({ age: 18 })
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: C_**
 
 When testing equality, primitives are compared by their _value_, while objects are compared by their _reference_. JavaScript checks if the objects have a reference to the same location in memory.
@@ -318,10 +291,7 @@ The two objects that we are comparing don't have that: the object we passed as a
 
 This is why both `{ age: 18 } === { age: 18 }` and `{ age: 18 } == { age: 18 }` return `false`.
 
-
 </details>
-
----
 
 ### Q19. What's the output?
 
@@ -351,11 +321,9 @@ getAge(21)
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: C_**
 
 The rest parameter (`...args`) lets us "collect" all remaining arguments into an array. An array is an object, so `typeof args` returns `"object"`
-
 
 </details>
 
@@ -389,10 +357,8 @@ getAge()
         <b>💡 Answer</b>
     </summary>
 
-
 **_Answer: C_**
 
 With `"use strict"`, you can make sure that you don't accidentally declare global variables. We never declared the variable `age`, and since we use `"use strict"`, it will throw a reference error. If we didn't use `"use strict"`, it would have worked, since the property `age` would have gotten added to the global object.
-
 
 </details>

@@ -1,0 +1,402 @@
+import Question from '../../components/Question.tsx'
+import Answer from '../../components/Answer.tsx'
+
+# 14. 131-140
+
+### 131. Output là gì?
+
+```javascript
+const emojis = ['🥑', ['✨', '✨', ['🍕', '🍕']]]
+
+console.log(emojis.flat(1))
+```
+
+- A: `['🥑', ['✨', '✨', ['🍕', '🍕']]]`
+- B: `['🥑', '✨', '✨', ['🍕', '🍕']]`
+- C: `['🥑', ['✨', '✨', '🍕', '🍕']]`
+- D: `['🥑', '✨', '✨', '🍕', '🍕']`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Với phương thức `flat`, ta có thể tạo một mảng mới với các phần tử đã được `flattened` (làm phẳng). Độ sâu của mảng đã làm phẳng sẽ phụ thuộc vào giá trị ta đưa vào. Trong trường hợp này ta đưa vào là `1` (thực ra đây là giá trị default, ta không đưa vào cũng không sao), có nghĩa là chỉ những phần tử ở độ sâu 1 sẽ được làm phẳng. Chúng là`['🥑']` và `['✨', '✨', ['🍕', '🍕']]` trong trường hợp này. Nối lại ta sẽ có mảng mới `['🥑', '✨', '✨', ['🍕', '🍕']]`.
+
+</p>
+</details>
+
+### 132. Output là gì?
+
+```javascript
+class Counter {
+  constructor() {
+    this.count = 0
+  }
+
+  increment() {
+    this.count++
+  }
+}
+
+const counterOne = new Counter()
+counterOne.increment()
+counterOne.increment()
+
+const counterTwo = counterOne
+counterTwo.increment()
+
+console.log(counterOne.count)
+```
+
+- A: `0`
+- B: `1`
+- C: `2`
+- D: `3`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+`counterOne` là một instance của class `Counter`. Trong counter class có thuộc tính `count` bên trong constructor, và một phương thức `increment`. Đầu tiên chúng ta gọi phương thức `increment` hai lần bằng `counterOne.increment()`. Nên hiện tại giá trị của `counterOne.count` là `2`.
+
+<img src="https://i.imgur.com/KxLlTm9.png" width="400" />
+
+Sau đó chúng ta có thêm một biến mới là `counterTwo`, và set cho nó giá trị bằng với `counterOne`. Do object được tương tác bằng reference, nên việc này tương ứng với ta đã tạo thêm một reference đến bộ nhớ mà biến `counterOne` đã trỏ vào. Do chúng có chung bộ nhớ, bất cứ thay đổi nào trên `counterTwo` cũng sẽ thay đổi trên `counterOne`. Lúc này `counterTwo.count` cũng sẽ là `2`.
+
+Ta gọi hàm `counterTwo.increment()` để tăng `count` lên `3`. Sau đó chúng ta in ra `count` ở `counterOne`, kết quả là `3`.
+
+<img src="https://i.imgur.com/BNBHXmc.png" width="400" />
+
+</p>
+</details>
+
+### 133. Output là gì?
+
+```javascript
+const myPromise = Promise.resolve(Promise.resolve('Promise!'))
+
+function funcOne() {
+  myPromise.then((res) => res).then((res) => console.log(res))
+  setTimeout(() => console.log('Timeout!', 0))
+  console.log('Last line!')
+}
+
+async function funcTwo() {
+  const res = await myPromise
+  console.log(await res)
+  setTimeout(() => console.log('Timeout!', 0))
+  console.log('Last line!')
+}
+
+funcOne()
+funcTwo()
+```
+
+- A: `Promise! Last line! Promise! Last line! Last line! Promise!`
+- B: `Last line! Timeout! Promise! Last line! Timeout! Promise!`
+- C: `Promise! Last line! Last line! Promise! Timeout! Timeout!`
+- D: `Last line! Promise! Promise! Last line! Timeout! Timeout!`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+Đầu tiên chúng ta gọi `funcOne`. Trong dòng đầu tiên của `funcOne`, chúng ta gọi `myPromise`, đây là một hàm _bất đồng bộ_. Trong khi chờ promise này hoàn thành, nó sẽ tiếp tục thực thi các dòng khác trong `funcOne`. Dòng tiếp theo là cũng là một hàm _bất đồng bộ_ `setTimeout`, phần callback của nó sẽ được gửi tới Web API (các bạn có thể tham khảo câu hỏi trước đó để hiểu về callstack và Web API).
+
+Do cả promise và timeout đều là những hàm xử lý bất đồng bộ, nên trong khi chờ chúng hoàn thành thì các dòng tiếp theo vẫn tiếp tục được thực thi. Có nghĩa là `Last line!` sẽ được in ra đầu tiên, do nó là một hàm chạy _đồng bộ_. Và đây cũng là dòng cuối cùng của hàm `funcOne`, khi này promise sẽ được resolve, trả về `Promise!`. Tuy nhiên do ta tiếp tục gọi hàm `funcTwo()`, call stack của ta vẫn chưa rỗng, nên callback của `setTimeout` vẫn chưa thể được đưa vào callstack (vẫn đang năm ở Web API).
+
+Trong hàm `funcTwo` đầu tiên ta sẽ _awaiting_ myPromise. Với từ khóa `await`, Ta sẽ tạm dừng thực thi cho tới khi n ào promise được resolved (hay rejected). Khi này ta sẽ in ra giá trị của `res` (do bản thân hàm promise lại trả về một promise). Nó sẽ in ra `Promise!`.
+
+Dòng tiếp theo lại là một hàm _bất đồng bộ_ `setTimeout`, callback khi này tiếp tục được gửi tới Web API.
+
+Ta tiếp tục thực thi dòng cuối cùng của `funcTwo`, trả về `Last line!`. Khi này `funcTwo` đã làm rỗng call stack. Các callback khi nãy (`() => console.log("Timeout!")` từ `funcOne`, và `() => console.log("Timeout!")` từ `funcTwo`) lần lượt được đưa vào trong call stack. Callback đầu tiên in ra `Timeout!`. Callback thứ hai in ra `Timeout!`. Kết quả cuối cùng sẽ là `Last line! Promise! Promise! Last line! Timeout! Timeout!`
+
+</p>
+</details>
+
+### 134. Làm thế nào có thể gọi hàm `sum` trong `index.js` từ `sum.js?`
+
+```javascript
+// sum.js
+export default function sum(x) {
+  return x + x
+}
+
+// index.js
+import * as sum from './sum'
+```
+
+- A: `sum(4)`
+- B: `sum.sum(4)`
+- C: `sum.default(4)`
+- D: Default aren't imported with `*`, only named exports
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Với dấu hoa thị `*`, ta sẽ import tất cả những gì đã được export ra bởi file đó, cả default lẫn những hàm có tên. Nếu ta có một dòng như sau:
+
+```javascript
+// info.js
+export const name = 'Lydia'
+export const age = 21
+export default 'I love JavaScript'
+
+// index.js
+import * as info from './info'
+console.log(info)
+```
+
+Thì kết quả sẽ là:
+
+```javascript
+{
+  default: "I love JavaScript",
+  name: "Lydia",
+  age: 21
+}
+```
+
+Trong ví dụ hàm `sum`, nó giống với chúng ta đã import hàm `sum` như thế này:
+
+```javascript
+{ default: function sum(x) { return x + x } }
+```
+
+Ta có thể gọi hàm này bằng cách sử dụng `sum.default`
+
+</p>
+</details>
+
+### 135. Output là gì?
+
+```javascript
+const handler = {
+  set: () => console.log('Added a new property!'),
+  get: () => console.log('Accessed a property!'),
+}
+
+const person = new Proxy({}, handler)
+
+person.name = 'Lydia'
+person.name
+```
+
+- A: `Added a new property!`
+- B: `Accessed a property!`
+- C: `Added a new property!` `Accessed a property!`
+- D: Nothing gets logged
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Với Proxy object, ta có thể add thêm được các hành vi (behavior) cho object bằng cách đưa nó vào làm đối số thứ hai. Trong trường hợp này, chúng ta đưa vào object `handler` có hai thuộc tính: `set` và `get`. `set` sẽ được gọi mỗi khi ta _thay đổi_ giá trị của thuộc tính, `get` sẽ được gọi mỗi khi ta _truy cập_ giá trị của thuộc tính.
+
+Giá trị của `person` sẽ là đối số đầu tiên đưa vào, là một object rỗng `{}`. Hành vi của `person` là đối số thứ hai, tức `handler`. Do đó môi khi ta thêm thuộc tính của obejct `person`, `set` sẽ được gọi. Nếu ta truy cập thuộc tính của `person` thì `get` sẽ được gọi.
+
+Đầu tiên ra thêm vào thuộc tính `name` cho proxy object (`person.name = "Lydia"`). `set` được gọi và in ra `"Added a new property!"`.
+
+Sau đó chúng truy cập thuộc tính này, `get` được gọi và in ra `"Accessed a property!"`.
+
+</p>
+</details>
+
+### 136. Cách nào sau đây sẽ thay đổi object `person`?
+
+```javascript
+const person = { name: 'Lydia Hallie' }
+
+Object.seal(person)
+```
+
+- A: `person.name = "Evan Bacon"`
+- B: `person.age = 21`
+- C: `delete person.name`
+- D: `Object.assign(person, { age: 21 })`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Với `Object.seal` ta có thể ngăn _thêm vào_ các thuộc tính mới, hay _xóa đi_ các thuộc tính cũ.
+
+Tuy nhiên ta vẫn có thể _thay đổi_ các thuộc tính cũ.
+
+</p>
+</details>
+
+### 137. Cách nào sau đây có thể thay đổi object `person`?
+
+```javascript
+const person = {
+  name: 'Lydia Hallie',
+  address: {
+    street: '100 Main St',
+  },
+}
+
+Object.freeze(person)
+```
+
+- A: `person.name = "Evan Bacon"`
+- B: `delete person.address`
+- C: `person.address.street = "101 Main St"`
+- D: `person.pet = { name: "Mara" }`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Phương thức `Object.freeze` sẽ _đóng băng_ object. Ta không thể thêm/sửa/xóa bất kì thuộc tính nào.
+
+Tuy nhiên trên thực tế đây chỉ là đóng băng _nông_ (_shallowly_) object, có nghĩa là nó chỉ đóng băng các thuộc tính _trực tiếp_ của object mà thôi. Nếu thuộc tính lại là một object khác, như `address` trong trường hợp này, thuộc tính bên trong của `address` sẽ không bị đóng băng, và ta vẫn có thể chỉnh sửa như bình thường.
+
+</p>
+</details>
+
+### 138. Output là gì?
+
+```javascript
+const add = (x) => x + x
+
+function myFunc(num = 2, value = add(num)) {
+  console.log(num, value)
+}
+
+myFunc()
+myFunc(3)
+```
+
+- A: `2` `4` and `3` `6`
+- B: `2` `NaN` and `3` `NaN`
+- C: `2` `Error` and `3` `6`
+- D: `2` `4` and `3` `Error`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Đầu tiên, ta gọi hàm `myFunc()` nhưng không đưa vào đối số nào. Do đó `num` và `value` sẽ nhận các giá trị mặc định: `num` là `2`, và `value` sẽ là giá trị trả về của hàm `add`. Với hàm `add`, ta đưa `num` vào làm đối số, tức `2`. `add` trả về `4`, đây sẽ là giá trị của `value`.
+
+Sau đó ta gọi hàm `myFunc(3)`, khi này `3` sẽ là giá trị của `num`. Ta không đưa vào giá trị cho `value`. Lúc này `value` tiếp tục nhận giá trị mặc định: giá trị trả về của hàm `add`. Trong `add`, ta đưa vào `num`, khi này là `3`. `add` sẽ trả về `6`, đây sẽ là giá trị của `value`.
+
+</p>
+</details>
+
+### 139. Output là gì?
+
+```javascript
+class Counter {
+  #number = 10
+
+  increment() {
+    this.#number++
+  }
+
+  getNum() {
+    return this.#number
+  }
+}
+
+const counter = new Counter()
+counter.increment()
+
+console.log(counter.#number)
+```
+
+- A: `10`
+- B: `11`
+- C: `undefined`
+- D: `SyntaxError`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+Với cú pháp ES2020, ta có thể thêm các thuộc tính private vào class bằng cách sử dụng `#`. Ta không thể truy cập được biến này bên ngoài class. Khi ta in ra `counter.#number`, một SyntaxError sẽ được throw: ta không thể truy cập từ phía ngoài class `Counter`!
+
+</p>
+</details>
+
+### 140. Câu lệnh còn thiếu là gì?
+
+```javascript
+const teams = [
+  { name: 'Team 1', members: ['Paul', 'Lisa'] },
+  { name: 'Team 2', members: ['Laura', 'Tim'] },
+]
+
+function* getMembers(members) {
+  for (let i = 0; i < members.length; i++) {
+    yield members[i]
+  }
+}
+
+function* getTeams(teams) {
+  for (let i = 0; i < teams.length; i++) {
+    // ✨ SOMETHING IS MISSING HERE ✨
+  }
+}
+
+const obj = getTeams(teams)
+obj.next() // { value: "Paul", done: false }
+obj.next() // { value: "Lisa", done: false }
+```
+
+- A: `yield getMembers(teams[i].members)`
+- B: `yield* getMembers(teams[i].members)`
+- C: `return getMembers(teams[i].members)`
+- D: `return yield getMembers(teams[i].members)`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Ta duyệt và in ra giá trị của từng member bên trong `members`, mà `members` lại nằm bên trong mảng `teams`, ta cần đưa vào đối số `teams[i].members` cho hàm generator `getMembers` trong phần code thiếu. Hàm generator sẽ trả về một generator object. Để duyệt qua từng phần tử của một generator object, ta dùng từ khóa `yield*`.
+
+Nếu ta dùng `yield`, `return yield`, hay `return`, toàn bộ generator sẽ được trả về trong lần đầu tiên chúng ta gọi phương thức `next`.
+
+</p>
+</details>

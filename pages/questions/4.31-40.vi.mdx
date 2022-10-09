@@ -1,0 +1,330 @@
+import Question from '../../components/Question.tsx'
+import Answer from '../../components/Answer.tsx'
+
+# 4. 31-40
+
+###### 31. Giá trị của event.target là gì khi click button?
+
+```html
+<div onclick="console.log('first div')">
+  <div onclick="console.log('second div')">
+    <button onclick="console.log('button')">Click!</button>
+  </div>
+</div>
+```
+
+- A: Outer `div`
+- B: Inner `div`
+- C: `button`
+- D: Một mảng với toàn bộ các phần tử lồng nhau.
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Phần tử sâu nhất trong các phần tử lồng nhau sẽ là target của event. Bạn có thể ngăn việc đó lại bằng cách sử dụng `event.stopPropagation`
+
+</p>
+</details>
+
+---
+
+###### 32. Khi bạn click vào đoạn văn, giá trị của output sẽ là gì?
+
+```html
+<div onclick="console.log('div')">
+  <p onclick="console.log('p')">Click here!</p>
+</div>
+```
+
+- A: `p` `div`
+- B: `div` `p`
+- C: `p`
+- D: `div`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Nếu ta click vào `p`, ta sẽ thấy hai log: `p` và `div`. Trong chuỗi event sẽ có 3 phases: capturing, target, và bubbling. Mặc định thì event handlers sẽ được thực hiện tại bubbling phase (trừ phi chúng ta khai báo `useCapture` là `true`). Chúng sẽ đi từ phần tử sâu nhất ra đến bên ngoài.
+
+</p>
+</details>
+
+---
+
+###### 33. Output là gì?
+
+```javascript
+const person = { name: 'Lydia' }
+
+function sayHi(age) {
+  console.log(`${this.name} is ${age}`)
+}
+
+sayHi.call(person, 21)
+sayHi.bind(person, 21)
+```
+
+- A: `undefined is 21` `Lydia is 21`
+- B: `function` `function`
+- C: `Lydia is 21` `Lydia is 21`
+- D: `Lydia is 21` `function`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+Với cả hai, chúng ta có thể đưa vào object để sử dụng từ khóa `this`. Tuy nhiên, `.call` có nghĩa là _thực hiện ngay lập tức_!
+
+`.bind.` trả về một bản _copy_ của function, với context kèm theo! Nó sẽ không thực hiện ngay lập tức.
+
+</p>
+</details>
+
+---
+
+###### 34. Output là gì?
+
+```javascript
+function sayHi() {
+  return (() => 0)()
+}
+
+typeof sayHi()
+```
+
+- A: `"object"`
+- B: `"number"`
+- C: `"function"`
+- D: `"undefined"`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+`sayHi` function trả về giá trị của một _hàm gọi ngay lập tức_ (immediately invoked function - IIFE). Function này trả về `0`, kiểu dữ liệu `"number"`.
+
+FYI: chỉ có 7 kiểu dữ liệu built-in: `null`, `undefined`, `boolean`, `number`, `string`, `object`, `symbol`, and `bigint`. `"function"` không phải là một kiểu, mà là objects, kiểu dữ liệu là `"object"`.
+
+</p>
+</details>
+
+---
+
+###### 35. Giá trị nào trong các giá trị dưới đây là falsy?
+
+```javascript
+0
+new Number(0)
+;('')
+;(' ')
+new Boolean(false)
+undefined
+```
+
+- A: `0`, `''`, `undefined`
+- B: `0`, `new Number(0)`, `''`, `new Boolean(false)`, `undefined`
+- C: `0`, `''`, `new Boolean(false)`, `undefined`
+- D: Tất cả đều là falsy
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Chỉ có 6 giá trị _falsy_:
+
+- `undefined`
+- `null`
+- `NaN`
+- `0`
+- `''` (chuỗi rỗng)
+- `false`
+
+Function constructors như `new Number` và `new Boolean` đều là _truthy_.
+
+</p>
+</details>
+
+---
+
+###### 36. Output là gì?
+
+```javascript
+console.log(typeof typeof 1)
+```
+
+- A: `"number"`
+- B: `"string"`
+- C: `"object"`
+- D: `"undefined"`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+`typeof 1` trả về `"number"`.
+`typeof "number"` trả về `"string"`
+
+</p>
+</details>
+
+---
+
+###### 37. Output là gì?
+
+```javascript
+const numbers = [1, 2, 3]
+numbers[10] = 11
+console.log(numbers)
+```
+
+- A: `[1, 2, 3, 7 x null, 11]`
+- B: `[1, 2, 3, 11]`
+- C: `[1, 2, 3, 7 x empty, 11]`
+- D: `SyntaxError`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Mỗi khi chúng ta set một giá trị cho một phần tử trong mảng mà vượt quá độ dài của mảng, JavaScript sẽ tạo ra những "empty slots". Chúng sẽ có giá trị là `undefined`, nhưng khi ghi ra thì chúng ta sẽ thấy dạng:
+
+`[1, 2, 3, 7 x empty, 11]`
+
+phụ thuộc vào nơi mà chúng ta chạy chúng (có thể khác nhau tùy môi trường browser, node, etc.)
+
+</p>
+</details>
+
+---
+
+###### 38. Output là gì?
+
+```javascript
+;(() => {
+  let x, y
+  try {
+    throw new Error()
+  } catch (x) {
+    ;(x = 1), (y = 2)
+    console.log(x)
+  }
+  console.log(x)
+  console.log(y)
+})()
+```
+
+- A: `1` `undefined` `2`
+- B: `undefined` `undefined` `undefined`
+- C: `1` `1` `2`
+- D: `1` `undefined` `undefined`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+`catch` block nhận về giá trị `x`. Đây không phải là giá trị `x` mà ta khai báo với từ khóa `let` ở bên trên. Đây là biến `x` trong _block-scoped_.
+
+Tiếp đó, chúng ta set giá trị của biến block-scoped này là `1`, và đồng thời cũng set giá trị cho biến `y`. Giờ đây chúng ta log ra giá trị của biến block-scoped variable `x`, bằng `1`.
+
+Bên ngoài `catch` block, `x` vẫn là `undefined`, và `y` là `2`. Khi gọi `console.log(x)` bên ngoài `catch` block, nó sẽ trả về `undefined`, và `y` trả về `2`.
+
+</p>
+</details>
+
+---
+
+###### 39. Mọi thứ trong JavaScript đều là...
+
+- A: primitives hoặc object
+- B: function hoặc object
+- C: hỏi mẹo khó đấy! chỉ _object_ thôi
+- D: number hoặc object
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+JavaScript chỉ có primitive types và objects.
+
+Primitive types là `boolean`, `null`, `undefined`, `bigint`, `number`, `string`, and `symbol`.
+
+Điểm khác nhau giữa primitive và object chính là primitives không có thuộc tính hay phương thức; tuy nhiên, chúng ta để ý rằng là `'foo'.toUpperCase()` sẽ trả về `'FOO'` mà không phải là một `TypeError`. Đó là bởi vì khi chúng ta truy cập các thuộc tính hay phương thức của một primitive như là string, JavaScript sẽ ngầm bao nó bởi một `wrapper class`, ví dụ `String`, và sau đó sẽ hủy việc bao đó ngay sau khi thực hiện xong. Mọi primitives ngoại trừ `null` và `undefine` đều hoạt động giống như vậy.
+
+</p>
+</details>
+
+---
+
+###### 40. Output là gì?
+
+```javascript
+;[
+  [0, 1],
+  [2, 3],
+].reduce(
+  (acc, cur) => {
+    return acc.concat(cur)
+  },
+  [1, 2]
+)
+```
+
+- A: `[0, 1, 2, 3, 1, 2]`
+- B: `[6, 1, 2]`
+- C: `[1, 2, 0, 1, 2, 3]`
+- D: `[1, 2, 6]`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+`[1, 2]` là giá trị khởi tạo. Đây là giá trị chúng ta bắt đầu, và cũng là giá trị đầu tiên của `acc`. Tại vòng đầu tiên, `acc` là `[1,2]`, và `cur` là `[0, 1]`. Ta nối chúng lại tạo ra `[1, 2, 0, 1]`.
+
+Tiếp tục, `[1, 2, 0, 1]` là `acc` và `[2, 3]` là `cur`. Ta nối chúng lại tạo ra `[1, 2, 0, 1, 2, 3]`.
+
+</p>
+</details>
+
+---

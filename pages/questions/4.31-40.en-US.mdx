@@ -1,7 +1,7 @@
 import Question from '../../components/Question.tsx'
 import Answer from '../../components/Answer.tsx'
 
-# 31-40
+# 4. 31-40
 
 ### Q. 31. What is the event.target when clicking the button?
 
@@ -35,8 +35,6 @@ The deepest nested element that caused the event is the target of the event. You
 
 </details>
 
----
-
 ### Q. 32. When you click the paragraph, what's the logged output?
 
 <Question render={
@@ -66,8 +64,6 @@ The deepest nested element that caused the event is the target of the event. You
 If we click `p`, we see two logs: `p` and `div`. During event propagation, there are 3 phases: capturing, target, and bubbling. By default, event handlers are executed in the bubbling phase (unless you set `useCapture` to `true`). It goes from the deepest nested element outwards.
 
 </details>
-
----
 
 ### Q. 33. What's the output?
 
@@ -106,8 +102,6 @@ With both, we can pass the object to which we want the `this` keyword to refer t
 
 </details>
 
----
-
 ### Q. 34. What's the output?
 
 <Question render={
@@ -141,8 +135,6 @@ The `sayHi` function returns the returned value of the immediately invoked funct
 FYI: there are only 7 built-in types: `null`, `undefined`, `boolean`, `number`, `string`, `object`, and `symbol`. `"function"` is not a type, since functions are objects, it's of type `"object"`.
 
 </details>
-
----
 
 ### Q. 35. Which of these values are falsy?
 
@@ -188,8 +180,6 @@ Function constructors, like `new Number` and `new Boolean` are truthy.
 
 </details>
 
----
-
 ### Q. 36. What's the output?
 
 <Question render={
@@ -219,8 +209,6 @@ console.log(typeof typeof 1)
 `typeof "number"` returns `"string"`
 
 </details>
-
----
 
 ### Q. 37. What's the output?
 
@@ -255,8 +243,6 @@ When you set a value to an element in an array that exceeds the length of the ar
 depending on where you run it (it's different for every browser, node, etc.)
 
 </details>
-
----
 
 ### Q. 38. What's the output?
 
@@ -300,8 +286,6 @@ Outside of the `catch` block, `x` is still `undefined`, and `y` is `2`. When we 
 
 </details>
 
----
-
 ### Q. 39. Everything in JavaScript is either a...
 
 <Question render={
@@ -329,8 +313,6 @@ Primitive types are `boolean`, `null`, `undefined`, `bigint`, `number`, `string`
 What differentiates a primitive from an object is that primitives do not have any properties or methods; however, you'll note that `'foo'.toUpperCase()` evaluates to `'FOO'` and does not result in a `TypeError`. This is because when you try to access a property or method on a primitive like a string, JavaScript will implicitly wrap the primitive type using one of the wrapper classes, i.e. `String`, and then immediately discard the wrapper after the expression evaluates. All primitives except for `null` and `undefined` exhibit this behaviour.
 
 </details>
-
----
 
 ### Q. 40. What's the output?
 
@@ -371,5 +353,3 @@ arr.reduce(
 Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and get `[1, 2, 0, 1, 2, 3]`
 
 </details>
-
----

@@ -1,9 +1,9 @@
 import Question from '../../components/Question.tsx'
 import Answer from '../../components/Answer.tsx'
 
-# 11-20
+# 2. 11-20
 
-### Q11. 무엇이 출력 될까요?
+### Q11. What is the output?
 
 <Question render={
   <Answer answer="A">
@@ -32,14 +32,14 @@ console.log(member.getFullName())
 
 <details>
      <summary>
-    <b>💡 답</b>
+    <b>💡 Answer</b>
     </summary>
 
-**_답: A_**
+**_Answer: A_**
 
-JavaScript에서, 함수는 객체이고 그렇기 때문에 메소드 `getFullName`은 생성자 함수 객체 자체에 추가돼요. 이런 이유로, 우리는 `Person.getFullName()`을 부를 수 있지만 `member.getFullName()`은 `TypeError`를 던져요.
+In JavaScript, functions are objects, and therefore, the method `getFullName` gets added to the constructor function object itself. For that reason, we can call `Person.getFullName()`, but `member.getFullName` throws a `TypeError`.
 
-모든 객체 인스턴스에서 메소드를 사용할 수 있게 하려면, 메소드를 프로토타입 속성에 추가하세요.
+If you want a method to be available to all object instances, you have to add it to the prototype property:
 
 ```js
 Person.prototype.getFullName = function () {
@@ -49,9 +49,7 @@ Person.prototype.getFullName = function () {
 
 </details>
 
----
-
-### Q12. 무엇이 출력 될까요?
+### Q12. What's the output?
 
 <Question render={
   <Answer answer="A">
@@ -77,22 +75,20 @@ console.log(sarah)
 
 </Question>
 
-<details> 
+<details>
     <summary>
-    <b>💡 답</b>
+    <b>💡 Answer</b>
     </summary>
 
-**_답: A_**
+**_Answer: A_**
 
-`sarah`에게 `new` 키워드를 사용하지 않았어요. `new`를 사용한 경우, `this`는 우리가 만든 새로운 빈 객체를 참조해요. 그러나, `new`를 추가하지 않으면 **전역 변수**를 참조해요!
+For `sarah`, we didn't use the `new` keyword. When using `new`, `this` refers to the new empty object we create. However, if you don't add `new`, `this` refers to the **global object**!
 
-`this.firstName`은 `"Sarah"`이고, `this.lastName`은 `"Smith"`라고 말했었어요. (그렇지만)실제로는, `global.firstName = 'Sarah'` 그리고 `global.lastName = 'Smith'`를 정의한 거예요. `sarah` 자체는 `undefined`로 남아있어요, 그렇기 때문에 `Person`함수의 값을 반환하지 않아요.
+We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smith"`. What we actually did, is defining `global.firstName = 'Sarah'` and `global.lastName = 'Smith'`. `sarah` itself is left `undefined`, since we don't return a value from the `Person` function.
 
 </details>
 
----
-
-### Q13. 이벤트 전달의 3단계는 무엇일까요?
+### Q13. What are the three phases of event propagation?
 
 <Question render={
 
@@ -108,20 +104,18 @@ console.log(sarah)
 
 <details>
     <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: D_**
+**_Answer: D_**
 
-**capturing** 단계 동안에, 이벤트는 조상 요소를 거쳐 target 요소까지 내려가요. 그런 다음 **target** 요소에 도달하고, **bubbling**이 시작돼요.
+During the **capturing** phase, the event goes through the ancestor elements down to the target element. It then reaches the **target** element, and **bubbling** begins.
 
 <img src="https://i.imgur.com/N18oRgd.png" width="200" />
 
 </details>
 
----
-
-### Q14. 모든 객체는 프로토 타입을 가져요.
+### Q14. All object have prototypes.
 
 <Question render={
 
@@ -135,18 +129,16 @@ console.log(sarah)
 
 <details>
     <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: B_**
+**_Answer: B_**
 
-**기본 객체**를 제외한, 모든 객체는 프로토타입을 가져요. 기본 객체는 사용자가 만든 객체이거나 `new` 키워드를 사용해 만들어진 객체예요. 기본 객체는 `.toString`과 같은 몇 개의 메소드와 속성에 접근할 수 있어요. 이것이 내장 JavaScript 메소드를 사용할 수 있는 이유죠! 이러한 모든 메소드는 프로토타입에서 사용할 수 있어요. JavaScript가 당신의 객체를 바로 찾을 수 없더라도, 당신이 접근할 수 있도록 프로토타입 체인으로 내려가 찾을 거예요.
+All objects have prototypes, except for the **base object**. The base object is the object created by the user, or an object that is created using the `new` keyword. The base object has access to some methods and properties, such as `.toString`. This is the reason why you can use built-in JavaScript methods! All of such methods are available on the prototype. Although JavaScript can't find it directly on your object, it goes down the prototype chain and finds it there, which makes it accessible for you.
 
 </details>
 
----
-
-### Q15. 무엇이 출력 될까요?
+### Q15. What's the output?
 
 <Question render={
 
@@ -170,18 +162,18 @@ sum(1, '2')
 
 <details>
     <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: C_**
+**_Answer: C_**
 
-JavaScript는 **동적으로 유형화된 언어**에요: 특정 변수가 어떤 유형인지 명시하지 않아요. 변수는 당신이 모르는 사이에 자동으로 다른 유형으로 변환될 수 있는데, 이걸 _암묵적 형 변환_ 이라고 불러요. **Coercion**은 하나의 유형을 다른 유형으로 변환해요.
+JavaScript is a **dynamically typed language**: we don't specify what types certain variables are. Values can automatically be converted into another type without you knowing, which is called _implicit type coercion_. **Coercion** is converting from one type into another.
 
-이 예제에서, JavaScript는 함수가 이해하고 값을 반환하도록 숫자 `1`을 문자열로 변환해요. 숫자 유형 (`1`)과 문자열 유형 (`'2'`)을 추가하는 동안, 숫자는 문자열로 취급돼요. `"Hello" + "World"`처럼 문자열을 연결해요, 따라서 여기서 일어나는 일은 `"1" + "2"`는 `"12"`에요.
+In this example, JavaScript converts the number `1` into a string, in order for the function to make sense and return a value. During the addition of a numeric type (`1`) and a string type (`'2'`), the number is treated as a string. We can concatenate strings like `"Hello" + "World"`, so what's happening here is `"1" + "2"` which returns `"12"`.
 
 </details>
 
-### Q16. 무엇이 출력 될까요?
+### Q16. What's the output?
 
 <Question render={
 
@@ -204,28 +196,26 @@ console.log(number)
 
 <details>
       <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: C_**
+**_Answer: C_**
 
-**접미사** 단항 연산자 `++`:
+The **postfix** unary operator `++`:
 
-1. 값 반환 (`0`을 반환해요)
-2. 값 증가 (지금 number는 `1`이에요)
+1. Returns the value (this returns `0`)
+2. Increments the value (number is now `1`)
 
-**접두사** 단항 연산자 `++`:
+The **prefix** unary operator `++`:
 
-1. 값 증가 (지금 number는 `2`이에요)
-2. 값 반환 (`2`를 반환해요)
+1. Increments the value (number is now `2`)
+2. Returns the value (this returns `2`)
 
-`0 2 2`를 반환해요.
+This returns `0 2 2`.
 
 </details>
 
----
-
-### Q17. 무엇이 출력 될까요?
+### Q17. What's the output?
 
 <Question render={
 
@@ -253,18 +243,16 @@ getPersonInfo`${person} is ${age} years old`
 
 <details>
     <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: B_**
+**_Answer: B_**
 
-태그가 지정된 템플릿 리터럴을 사용한다면, 첫 번째 인수의 값은 항상 문자열 값의 배열이에요. 나머지 인수는 표현식을 통과한 값을 가져요.
+If you use tagged template literals, the value of the first argument is always an array of the string values. The remaining arguments get the values of the passed expressions!
 
 </details>
 
----
-
-### Q18. 무엇이 출력 될까요?
+### Q18. What's the output?
 
 <Question render={
     <Answer answer="C">
@@ -292,22 +280,20 @@ checkAge({ age: 18 })
 
 <details>
      <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: C_**
+**_Answer: C_**
 
-동등성을 테스트할 때, 원시형은 _값_ 으로 비교되고, 객체는 _참조_ 로 비교돼요. JavaScript는 객체가 메모리 내의 같은 장소를 참조하고 있는지를 확인해요.
+When testing equality, primitives are compared by their _value_, while objects are compared by their _reference_. JavaScript checks if the objects have a reference to the same location in memory.
 
-비교하고 있는 두 개의 객체는 그것이 없어요: 파라미터로 전달된 객체와 동등성을 확인하기 위해 사용한 객체는 메모리 내의 다른 장소를 참조해요.
+The two objects that we are comparing don't have that: the object we passed as a parameter refers to a different location in memory than the object we used in order to check equality.
 
-`{ age: 18 } === { age: 18 }` 그리고 `{ age: 18 } == { age: 18 }` 두 개 다 `false`를 반환하는 이유예요.
+This is why both `{ age: 18 } === { age: 18 }` and `{ age: 18 } == { age: 18 }` return `false`.
 
 </details>
 
----
-
-### Q19. 무엇이 출력 될까요?
+### Q19. What's the output?
 
 <Question render={
 
@@ -332,16 +318,16 @@ getAge(21)
 
 <details>
      <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: C_**
+**_Answer: C_**
 
-rest 파라미터 (`...args`)는 남아있는 모든 인수을 하나의 배열로 "집합" 해요. 배열은 객체이니까 `typeof args`는 `"object"`를 반환해요.
+The rest parameter (`...args`) lets us "collect" all remaining arguments into an array. An array is an object, so `typeof args` returns `"object"`
 
 </details>
 
-### Q20. 무엇이 출력 될까요?
+### Q20. What's the output?
 
 <Question render={
 
@@ -368,11 +354,11 @@ getAge()
 
 <details>
     <summary>
-        <b>💡 답</b>
+        <b>💡 Answer</b>
     </summary>
 
-**_답: C_**
+**_Answer: C_**
 
-`"use strict"`을 사용하면, 실수로 전역 변수를 선언하지 않게 해줘요. `age`라는 변수를 선언한 적이 전혀 없고, `"use strict"`을 사용하고 있으니, reference error를 던지게 될 거예요. 만약 `"use strict"`을 사용하지 않았다면 동작할 거예요, `age` 속성이 전역 객체에 추가된 것이기 때문이죠.
+With `"use strict"`, you can make sure that you don't accidentally declare global variables. We never declared the variable `age`, and since we use `"use strict"`, it will throw a reference error. If we didn't use `"use strict"`, it would have worked, since the property `age` would have gotten added to the global object.
 
 </details>

@@ -1,0 +1,361 @@
+import Question from '../../components/Question.tsx'
+import Answer from '../../components/Answer.tsx'
+
+# 15. 141-150
+
+### 141. Output là gì?
+
+```javascript
+const person = {
+  name: 'Lydia Hallie',
+  hobbies: ['coding'],
+}
+
+function addHobby(hobby, hobbies = person.hobbies) {
+  hobbies.push(hobby)
+  return hobbies
+}
+
+addHobby('running', [])
+addHobby('dancing')
+addHobby('baking', person.hobbies)
+
+console.log(person.hobbies)
+```
+
+- A: `["coding"]`
+- B: `["coding", "dancing"]`
+- C: `["coding", "dancing", "baking"]`
+- D: `["coding", "running", "dancing", "baking"]`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Hàm `addHobby` nhận vào hai đối số, `hobby`, và `hobbies` với giá trị default là mảng `hobbies` của object `person`.
+
+Đầu tiên chúng ta gọi hàm `addHobby` và đưa vào `"running"` làm giá trị cho `hobby`, và một mảng rỗng cho `hobbies`. Do chúng ta đưa vào một mảng rỗng cho `hobbies`, `"running"` sẽ được add vào một mảng rỗng.
+
+Sau đó chúng ta tiếp tục gọi hàm `addHobby`, đưa `"dancing"` vào làm giá trị cho `hobby`. Chúng ta không hề đưa vào giá trị nào cho `hobbies`, do đó nó sẽ sử dụng giá trị mặc định, tức mảng `hobbies` trong thuộc tính của object `person`. Có nghĩa là ta đã thêm `dancing` vào trong mảng `person.hobbies`.
+
+Cuối cùng chúng ta lại gọi `addHobby`, đưa `"baking"` vào làm giá trị cho `hobby`, và mảng `person.hobbies` làm giá trị cho `hobbies`. Có nghĩa là ta đã thêm `baking` vào trong mảng `person.hobbies`.
+
+Sau khi thêm `dancing` và `baking`, giá trị của `person.hobbies` là `["coding", "dancing", "baking"]`
+
+</p>
+</details>
+
+### 142. Output là gì?
+
+```javascript
+class Bird {
+  constructor() {
+    console.log("I'm a bird. 🦢")
+  }
+}
+
+class Flamingo extends Bird {
+  constructor() {
+    console.log("I'm pink. 🌸")
+    super()
+  }
+}
+
+const pet = new Flamingo()
+```
+
+- A: `I'm pink. 🌸`
+- B: `I'm pink. 🌸` `I'm a bird. 🦢`
+- C: `I'm a bird. 🦢` `I'm pink. 🌸`
+- D: Nothing, we didn't call any method
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Chúng ta tạo ra biến `pet` là một instance của clas `Flamingo`. Khi ta tạo ra instance, `constructor` bên trong `Flamingo` sẽ được gọi. Đầu tiên, `"I'm pink. 🌸"` được in ra, sau đó chúng ta gọi `super()`. `super()` sẽ gọi constructor ở class cha, tức `Bird`. Hàm constructor trong `Bird` được gọi và in ra `"I'm a bird. 🦢"`.
+
+</p>
+</details>
+
+### 143. Câu lệnh nào sẽ bị lỗi?
+
+```javascript
+const emojis = ['🎄', '🎅🏼', '🎁', '⭐']
+
+/* 1 */ emojis.push('🦌')
+/* 2 */ emojis.splice(0, 2)
+/* 3 */ emojis = [...emojis, '🥂']
+/* 4 */ emojis.length = 0
+```
+
+- A: 1
+- B: 1 and 2
+- C: 3 and 4
+- D: 3
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+Từ khóa `const` làm cho ta không thể _định nghĩa lại_ giá trị của biến, nó là _read-only_. Tuy nhiên giá trị của bên trong nó thì không phải là bất biến. Các thuộc tính bên trong mảng `emojis` vẫn có thể được sửa đổi, ví dụ thêm phần tử, cắt, hoặc là đưa độ dài mảng về 0.
+
+</p>
+</details>
+
+### 144. Ta cần thêm gì vào object `person` để khi gọi `[...person]` sẽ cho kết quả là `["Lydia Hallie", 21]`?
+
+```javascript
+const person = {
+  name: "Lydia Hallie",
+  age: 21
+}
+
+[...person] // ["Lydia Hallie", 21]
+```
+
+- A: Nothing, object are iterable by default
+- B: `*[Symbol.iterator]() { for (let x in this) yield* this[x] }`
+- C: `*[Symbol.iterator]() { for (let x in this) yield* Object.values(this) }`
+- D: `*[Symbol.iterator]() { for (let x in this) yield this }`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Mặc định ta không thể duyệt qua được object. Trừ phi nó được cài đặt iterator protocol. Ta có thể cài đặt bằng cách thêm vào một iterator symbol `[Symbol.iterator]`, biến nó trở thành generator object (object có thể duyệt được), ví dụ `*[Symbol.iterator]() {}`.
+
+Để generator này trả về được mảng các giá trị của các thuộc tính của object `person`, tức `Object.values` của object `person`, ta sẽ sử dụng cấu trúc `yield* Object.values(this)`.
+
+</p>
+</details>
+
+### 145. Output là gì?
+
+```javascript
+let count = 0
+const nums = [0, 1, 2, 3]
+
+nums.forEach((num) => {
+  if (num) count += 1
+})
+
+console.log(count)
+```
+
+- A: 1
+- B: 2
+- C: 3
+- D: 4
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Câu lệnh `if` trong vòng lập `forEach` kiểm tra giá trị của `num` là truthy hay falsy. Vì số đầu tiên trong mảng `nums` là `0`, giá trị falsy, code trong câu lệnh `if` sẽ không chạy. `count` chỉ tăng giá trị đối với 3 số còn lại trong mảng `nums`, `1`, `2` và `3`. Vì giá trị của `count` tăng thêm `1` trong 3 lần, giá trị của `count` sẽ là `3`.
+
+</p>
+</details>
+
+### 146. Output là gì?
+
+```javascript
+function getFruit(fruits) {
+  console.log(fruits?.[1]?.[1])
+}
+
+getFruit([['🍊', '🍌'], ['🍍']])
+getFruit()
+getFruit([['🍍'], ['🍊', '🍌']])
+```
+
+- A: `null`, `undefined`, 🍌
+- B: `[]`, `null`, 🍌
+- C: `[]`, `[]`, 🍌
+- D: `undefined`, `undefined`, 🍌
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+Phép toán `?` cho phép ta truy cập giá trị bên trong của object. Chúng ta thử in ra phần tử có thứ tự là `1` trong mảng con với thứ tự là `1` trong mảng `fruits`. Nếu mảng con với thứ tự là `1` trong mảng `fruits` không tồn tại, nó sẽ trả về `undefined`. Nếu mảng con với thứ tự là `1` trong mảng `fruits` tồn tại, nhưng mảng con này không có phần tử nào mang thứ tự `1`, nó cũng sẽ trả về `undefined`.
+
+Trước tiên, chúng ta thử in ra phần tử thứ hai trong mảng con `['🍍']` của `[['🍊', '🍌'], ['🍍']]`. Mảng con này chỉ chứa một phần tử, nghĩa là không có phần tử nào với thứ tự là `1`, và trả về `undefined`.
+
+Sau đó, ta gọi hàm `getFruits` khi không truyền vào một đối số nào, nghĩa là `fruits` có giá trị mặc định là `undefined`. Vì ta truyền phần tử mang thứ tự `1` của `fruits`, nó trả về `undefined` do phần tử này không tồn tại.
+
+Cuối cùng, ta thử in ra phần tử thứ hai trong mảng con `['🍊', '🍌']` của mảng `['🍍'], ['🍊', '🍌']`. Phần tử mang thứ tự `1` bên trong mảng con này là `🍌` sẽ được in ra.
+
+</p>
+</details>
+
+### 147. Output là gì?
+
+```javascript
+class Calc {
+  constructor() {
+    this.count = 0
+  }
+
+  increase() {
+    this.count++
+  }
+}
+
+const calc = new Calc()
+new Calc().increase()
+
+console.log(calc.count)
+```
+
+- A: `0`
+- B: `1`
+- C: `undefined`
+- D: `ReferenceError`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Ta set biến `calc` bằng một instance mới của `Calc` class. Sau đó ta tạo ra instance mới của `Calc` và gọi `increase` hàm trên instance đó. Vì thuộc tính count nằm trong constructor của `Calc` class, thuộc tính count không được sử dụng trên prototype của `Calc`. Điều này nghĩa là giá trị của count chưa được thay đổi cho instance mà calc trỏ vào, giá trị của count vẫn là `0`.
+
+</p>
+</details>
+
+### 148. Output là gi?
+
+```javascript
+const user = {
+  email: 'e@mail.com',
+  password: '12345',
+}
+
+const updateUser = ({ email, password }) => {
+  if (email) {
+    Object.assign(user, { email })
+  }
+
+  if (password) {
+    user.password = password
+  }
+
+  return user
+}
+
+const updatedUser = updateUser({ email: 'new@email.com' })
+
+console.log(updatedUser === user)
+```
+
+- A: `false`
+- B: `true`
+- C: `TypeError`
+- D: `ReferenceError`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Hàm `updateUser` thay đổi các giá trị của thuộc tính `email` và `password` của user, nếu các giá trị của chúng được truyền vào hàm sau và sau đó hàm trả về `user` object. Giá trị trả về của hàm `updateUser` là `user` object, tức là giá trị của updateUser là trỏ đến cùng một `user` object mà `user` trỏ vào. `updatedUser === user` bằng `true`.
+
+</p>
+</details>
+
+### 149. Output là gi?
+
+```javascript
+const fruit = ['🍌', '🍊', '🍎']
+
+fruit.slice(0, 1)
+fruit.splice(0, 1)
+fruit.unshift('🍇')
+
+console.log(fruit)
+```
+
+- A: `['🍌', '🍊', '🍎']`
+- B: `['🍊', '🍎']`
+- C: `['🍇', '🍊', '🍎']`
+- D: `['🍇', '🍌', '🍊', '🍎']`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Trước tiên, ta gọi hàm `slice` trên mảng fruit. Hàm slice không thay đổi mảng ban đầu nhưng sẽ trả về giá trị mà nó cắt từ mảng đó: banana emoji. Sau đó ta gọi hàm `splice` trên mảng fruit. Hàm splice sẽ thay đổi mảng ban đầu, nghĩa là mảng fruit bây giờ sẽ bao gồm `['🍊', '🍎']`. Cuối cùng, ta gọi mảng `unshift` trên mảng `fruit` để thay đổi mảng ban đầu bằng cách cộng thêm giá trị được đưa ra, trong trường hợp này là ‘🍇’, phần tử đầu tiên của mảng. Mảng fruit bây giờ bao gồm ['🍇', '🍊', '🍎']`.
+
+</p>
+</details>
+
+### 150. Output là gì?
+
+```javascript
+const animals = {}
+let dog = { emoji: '🐶' }
+let cat = { emoji: '🐈' }
+
+animals[dog] = { ...dog, name: 'Mara' }
+animals[cat] = { ...cat, name: 'Sara' }
+
+console.log(animals[dog])
+```
+
+- A: `{ emoji: "🐶", name: "Mara" }`
+- B: `{ emoji: "🐈", name: "Sara" }`
+- C: `undefined`
+- D: `ReferenceError`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Các keys của object được chuyển thành các chuỗi.
+
+Do giá trị của `dog` là một object, `animals[dog]` thực sự nghĩa là ta tạo ra một thuộc tính mới gọi là `"object Object"` bằng với object mới. `animals["object Object"]` lúc này bằng với `{ emoji: "🐶", name: "Mara"}`.
+
+`cat` cũng là một object, nên `animals[cat]` thực sự nghĩa là ta thay đổi giá trị của ` animals[``"``object Object``"``] ` bằng thuộc tính cat mới.
+
+Khi in ra `animals[dog]`, hoặc thực chất là `animals["object Object"]` vì thay `dog` object bằng một chuỗi thì nó trả về `"object Object"`, ta nhận được `{ emoji: "🐈", name: "Sara" }`.
+
+</p>
+</details>

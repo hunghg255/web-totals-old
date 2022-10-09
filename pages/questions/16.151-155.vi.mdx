@@ -1,0 +1,176 @@
+import Question from '../../components/Question.tsx'
+import Answer from '../../components/Answer.tsx'
+
+# 16 141-155
+
+### 151. Output là gì?
+
+```javascript
+const user = {
+  email: 'my@email.com',
+  updateEmail: (email) => {
+    this.email = email
+  },
+}
+
+user.updateEmail('new@email.com')
+console.log(user.email)
+```
+
+- A: `my@email.com`
+- B: `new@email.com`
+- C: `undefined`
+- D: `ReferenceError`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Hàm `updateEmail` là một cú pháp arrow function và nó không gắn với `user` object. Điều này cho thấy từ khoá `this` không trỏ tới `user` object mà trỏ tới global scope. Giá trị của `email` trong `user` object không thay đổi. Khi ta in ra giá trị của `user.email`, nó trả về giá trị ban đầu của `my@email.com`.
+
+</p>
+</details>
+
+### 152. Output là gì?
+
+```javascript
+const promise1 = Promise.resolve('First')
+const promise2 = Promise.resolve('Second')
+const promise3 = Promise.reject('Third')
+const promise4 = Promise.resolve('Fourth')
+
+const runPromises = async () => {
+  const res1 = await Promise.all([promise1, promise2])
+  const res2 = await Promise.all([promise3, promise4])
+  return [res1, res2]
+}
+
+runPromises()
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err))
+```
+
+- A: `[['First', 'Second'], ['Fourth']]`
+- B: `[['First', 'Second'], ['Third', 'Fourth']]`
+- C: `[['First', 'Second']]`
+- D: `'Third'`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: D
+
+Hàm `Promise.all` trả về những promise truyền vào song song nhau. Nếu một promise thất bại, hàm `Promise.all` _rejects_ với giá trị của promise đó. Trong trường hợp này, `promise3` bị reject với giá trị `"Third"`. Ta đang kiểm tra giá trị bị reject trong chuỗi hàm `catch` khi goi hàm `runPromises` để tìm ra lỗi trong hàm `runPromises`. Chỉ có `"Third"` được trả về vì `promise3` reject giá trị này.
+
+</p>
+</details>
+
+### 153. Giá trị nào của `method` sẽ được trả về với log `{ name: "Lydia", age: 22 }`?
+
+```javascript
+const keys = ['name', 'age']
+const values = ['Lydia', 22]
+
+const method =
+  /* ?? */
+  Object[method](
+    keys.map((_, i) => {
+      return [keys[i], values[i]]
+    })
+  ) // { name: "Lydia", age: 22 }
+```
+
+- A: `entries`
+- B: `values`
+- C: `fromEntries`
+- D: `forEach`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Hàm `fromEntries` trả về một mảng 2d trong một object. Phần tử đầu tiên trong từng mảng con sẽ là từ khoá và phần tử thứ hai trong từng mảng con sẽ là giá trị. Trong trường hợp này, ta tiến hành map qua mảng `keys`, nó sẽ trả về một mảng mà phần tử đầu tiên của mảng đó là phần tử trên thứ tự hiện tại của mảng key, và phần tử thứ hai của mảng đó là phần tử trên thứ tự hiện tại của mảng values.
+
+Theo như trên thì ta tạo ra một mảng gồm những mảng con chứa đựng những từ khoá và giá trị đúng, và nó trả về `{ name: "Lydia", age: 22 }`.
+
+</p>
+</details>
+
+### 154. Output là gì?
+
+```javascript
+const createMember = ({ email, address = {} }) => {
+  const validEmail = /.+\@.+\..+/.test(email)
+  if (!validEmail) throw new Error('Valid email pls')
+
+  return {
+    email,
+    address: address ? address : null,
+  }
+}
+
+const member = createMember({ email: 'my@email.com' })
+console.log(member)
+```
+
+- A: `{ email: "my@email.com", address: null }`
+- B: `{ email: "my@email.com" }`
+- C: `{ email: "my@email.com", address: {} }`
+- D: `{ email: "my@email.com", address: undefined }`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Giá trị mặc định của `address` là một object rỗng `{}`. Khi ta cho biến `member` bằng với object được trả về bởi hàm `createMember`, ta đã không truyền vào một giá trị của address, nghĩa là giá trị của address là object rỗng `{}` được mặc định. Object rỗng mang giá trị truthy, tức là điều kiện `address ? address : null` trả về `true`. Giá trị của address là một object rỗng `{}`.
+
+</p>
+</details>
+
+### 155. Output là gì?
+
+```javascript
+let randomValue = { name: 'Lydia' }
+randomValue = 23
+
+if (!typeof randomValue === 'string') {
+  console.log("It's not a string!")
+} else {
+  console.log("Yay it's a string!")
+}
+```
+
+- A: `It's not a string!`
+- B: `Yay it's a string!`
+- C: `TypeError`
+- D: `undefined`
+
+<details>
+<summary>
+|<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Điều kiện trong mệnh đề `if` kiểm tra xem giá trị của `!typeof randomValue` bằng với `"string"` hay không. Phép toán `!` chuyển giá trị đó thành giá trị boolean. Nếu giá trị là truthy, giá trị trả về sẽ là `false`, nếu giá trị là falsy, giá trị trả về sẽ là `true`. Trong trường hợp này, giá trị trả về của `typeof randomValue` là giá trị truthy `"number"`, nghĩa là giá trị của `!typeof randomValue` là một giá trị boolean `false`.
+
+`!typeof randomValue === "string"` luôn trả về false, vì ta thực sự đang kiểm tra `false === "string"`. Vì điều kiện đã trả về `false`, code của mệnh đề `else` sẽ chạy và `Yay it's a string!` được in ra.
+
+</p>
+</details>

@@ -1,0 +1,325 @@
+import Question from '../../components/Question.tsx'
+import Answer from '../../components/Answer.tsx'
+
+# 3. 21-30
+
+###### 21. Giá trị của `sum` là gì?
+
+```javascript
+const sum = eval('10*10+5')
+```
+
+- A: `105`
+- B: `"105"`
+- C: `TypeError`
+- D: `"10*10+5"`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+`eval` sẽ đánh giá đoạn code bên trong string. Nếu nó là một biểu thức, giống như trong trường hợp này, nó sẽ tính toán giá trị đó. Biểu thức là `10 * 10 + 5`, kết quả sẽ là `105`.
+
+</p>
+</details>
+
+---
+
+###### 22. Biến cool_secret sẽ truy cập được trong bao lâu?
+
+```javascript
+sessionStorage.setItem('cool_secret', 123)
+```
+
+- A: Mãi mãi, dữ liệu sẽ không bao giờ mất.
+- B: Khi user đóng tab lại.
+- C: Khi user không chỉ là đóng tab, mà đóng browser lại.
+- D: Khi user tắt máy tính đi.
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Dữ liệu được lưu trữ trong `sessionStorage` sẽ được xóa khi đóng _tab_.
+
+Nếu chúng ta dùng `localStorage`, data sẽ được lưu trữ mãi mãi, trừ phi hàm `localStorage.clear()` được gọi.
+
+</p>
+</details>
+
+---
+
+###### 23. Output là gì?
+
+```javascript
+var num = 8
+var num = 10
+
+console.log(num)
+```
+
+- A: `8`
+- B: `10`
+- C: `SyntaxError`
+- D: `ReferenceError`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Với từ khóa `var` bạn có thể khai báo bao nhiêu biến trùng tên tùy thích. Biến đó sẽ có giá trị là lần cuối khai báo.
+
+Bạn không thể làm điều tương tự với `let` hay `const` vì chúng là _block-scoped_.
+
+</p>
+</details>
+
+---
+
+###### 24. Output là gì?
+
+```javascript
+const obj = { 1: 'a', 2: 'b', 3: 'c' }
+const set = new Set([1, 2, 3, 4, 5])
+
+obj.hasOwnProperty('1')
+obj.hasOwnProperty(1)
+set.has('1')
+set.has(1)
+```
+
+- A: `false` `true` `false` `true`
+- B: `false` `true` `true` `true`
+- C: `true` `true` `false` `true`
+- D: `true` `true` `true` `true`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Tất cả các keys của object (ngoại trừ Symbols) về bản chất đều là string, dù chúng ta có viết chúng ra dạng string hay không. Nó là lý do tại sao `obj.hasOwnProperty('1')` cũng trả về `true`.
+
+Tuy nhiên điều đó không đúng với `set`. Không hề có `'1'` trong set của chúng ta: `set.has('1')` trả về `false`. Có số `1` trong set, nên `set.has(1)` trả về `true`.
+
+</p>
+</details>
+
+---
+
+###### 25. Output là gì?
+
+```javascript
+const obj = { a: 'one', b: 'two', a: 'three' }
+console.log(obj)
+```
+
+- A: `{ a: "one", b: "two" }`
+- B: `{ b: "two", a: "three" }`
+- C: `{ a: "three", b: "two" }`
+- D: `SyntaxError`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Nếu chúng ta có 2 keys giống nhau, thì chúng sẽ bị replace. Nó sẽ vẫn nằm ở vị trí đầu tiên chúng được khai báo, nhưng giá trị thì sẽ là giá trị lần cuối.
+
+</p>
+</details>
+
+---
+
+###### 26. Ngữ cảnh thực thi global của JavaScript tạo ra 2 thứ cho chúng ta: global object, và từ khóa "this".
+
+- A: đúng
+- B: sai
+- C: còn tùy
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+Ngữ cảnh thực thi cơ bản chính là ngữ cảnh global: nó là thứ mà chúng ta có thể truy cập được ở bất cứ đâu trong code.
+
+</p>
+</details>
+
+---
+
+###### 27. Output là gì?
+
+```javascript
+for (let i = 1; i < 5; i++) {
+  if (i === 3) continue
+  console.log(i)
+}
+```
+
+- A: `1` `2`
+- B: `1` `2` `3`
+- C: `1` `2` `4`
+- D: `1` `3` `4`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: C
+
+Lệnh `continue` sẽ bỏ qua một vòng lặp nếu điều kiện của nó là `true`.
+
+</p>
+</details>
+
+---
+
+###### 28. Output là gì?
+
+```javascript
+String.prototype.giveLydiaPizza = () => {
+  return 'Just give Lydia pizza already!'
+}
+
+const name = 'Lydia'
+
+console.log(name.giveLydiaPizza())
+```
+
+- A: `"Just give Lydia pizza already!"`
+- B: `TypeError: not a function`
+- C: `SyntaxError`
+- D: `undefined`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: A
+
+`String` là một built-in constructor, có nghĩa là chúng ta có thể thêm các thuộc tính vào đó. Ta vừa thêm vào đó một thuộc tính. Kiểu String cơ bản sẽ được convert sang dạng object bởi hàm string prototype. Vì thế nên tất cả các string object đều có thể truy cập đến hàm `giveLydiaPizza` này!
+
+</p>
+</details>
+
+---
+
+###### 29. Output là gì?
+
+```javascript
+const a = {}
+const b = { key: 'b' }
+const c = { key: 'c' }
+
+a[b] = 123
+a[c] = 456
+
+console.log(a[b])
+```
+
+- A: `123`
+- B: `456`
+- C: `undefined`
+- D: `ReferenceError`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Object keys sẽ tự động được convert sang dạng string. Chúng ta đang set một object như là một key cho object `a`, với giá trị là `123`.
+
+Tuy nhiên khi ta string hóa một object, nó sẽ trở thành `"[object Object]"`. Nên tại đây phép gán này thực chất chính là `a["object Object"] = 123`. Phép gán tiếp theo cũng giống hệt vậy. `c` là một object khác mà chúng ta đang string hóa nó. Theo đó, `a["object Object"] = 456`.
+
+Cuối cùng khi gọi `a[b]`, thực chất chính là gọi `a["object Object"]`. Giá trị của nó là `456`, nên trả về là `456`.
+
+</p>
+</details>
+
+---
+
+###### 30. Output là gì?
+
+```javascript
+const foo = () => console.log('First')
+const bar = () => setTimeout(() => console.log('Second'))
+const baz = () => console.log('Third')
+
+bar()
+foo()
+baz()
+```
+
+- A: `First` `Second` `Third`
+- B: `First` `Third` `Second`
+- C: `Second` `First` `Third`
+- D: `Second` `Third` `First`
+
+<details>
+<summary>
+<b>Đáp án</b>
+</summary>
+<p>
+
+#### Đáp án: B
+
+Chúng ta có một hàm `setTimeout` được gọi đầu tiên. Nên, nó sẽ được log ra cuối cùng.
+
+Điều đó bởi vì trên browser, chúng ta không hề có runtime engine, đơn thuần chỉ có `WebAPI`. `WebAPI` cho chúng ta một hàm `setTimeout`, ta hãy ví dụ nó trên DOM.
+
+Sau khi _callback_ được gửi tới WebAPI, bản thân hàm `setTimeout` (nhưng không phải callback nhé!) sẽ được đưa ra khỏi stack.
+
+<img src="https://i.imgur.com/X5wsHOg.png" width="200" />
+
+Giờ đây, `foo` được gọi, và `"First"` được log ra.
+
+<img src="https://i.imgur.com/Pvc0dGq.png" width="200" />
+
+`foo` được đưa ra khỏi stack, và `baz` được gọi. `"Third"` được log ra.
+
+<img src="https://i.imgur.com/WhA2bCP.png" width="200" />
+
+WebAPI không thể thêm thứ gì đó vào stack cho tới khi nó được sẵn sàng. Thay vào đó, nó đẩy callback function đến một nơi gọi là _queue_.
+
+<img src="https://i.imgur.com/NSnDZmU.png" width="200" />
+
+Đó chính là nơi mà **event loop** làm việc. Một **event loop** sẽ quan sát stack và task queue. Nếu stack trở nên rỗng, nó sẽ lấy giá trị đầu tiên trong queue để đưa tiếp vào stack.
+
+<img src="https://i.imgur.com/uyiScAI.png" width="200" />
+
+`bar` được gọi, `"Second"` được log ra, và nó được đưa ra khỏi stack.
+
+</p>
+</details>
+
+---

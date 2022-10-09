@@ -1,12 +1,11 @@
 import Image from 'next/image'
 export default {
-  github: 'https://github.com/heesungjang/javascript-questions-playground',
+  github: 'https://github.com/hunghg255/js-qna',
   titleSuffix: ' | JavaScript Questions',
   float: true,
   i18n: [
-    { locale: "en-US", text: "English" },
-    { locale: "ko", text: "한국어" },
-    
+    { locale: 'en-US', text: 'English' },
+    { locale: 'vi', text: 'Tiếng việt' },
   ],
   logo: (
     <>
@@ -28,10 +27,7 @@ export default {
       />
 
       <meta name="author" content="Heesung Jang" />
-      <meta
-        property="og:url"
-        content="https://jsquestions.vercel.app/questions"
-      />
+      <meta property="og:url" content="https://js-qna.vercel.app/questions" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:image:width" content="1200" />
@@ -78,19 +74,15 @@ export default {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
   ),
-  font: false,  
+  font: false,
   unstable_faviconGlyph: '👋',
   nextThemes: {
     defaultTheme: 'dark',
   },
   footer: {
     text() {
-      
-      return (
-        <>MIT {new Date().getFullYear()} © Heesung Jang</>,
-      );
+      return <>MIT {new Date().getFullYear()} © Hgh</>
     },
   },
-  docsRepositoryBase:
-    "https://github.com/heesungjang/javascript-questions-playground/tree/main/pages"
+  docsRepositoryBase: 'https://github.com/hunghg255/js-qna',
 }
