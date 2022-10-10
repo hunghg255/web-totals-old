@@ -8,17 +8,14 @@
     "start": "next start",
     "build": "next build"
   },
-  "author": "Heesung Jang",
+  "author": "Hgh",
   "license": "MIT",
   "dependencies": {
-    "react": "*",
-    "react-dom": "*",
     "next": ">=12",
-    "focus-visible": "^5.1.0",
     "nextra": "^2.0.0-beta.6",
     "nextra-theme-docs": "^2.0.0-beta.6",
-    "@react-aria/ssr": "3.1.2",
-    "markdown-to-jsx": "^6.11.4"
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "@types/node": "^18.7.13",
