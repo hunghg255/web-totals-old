@@ -26,7 +26,7 @@ export default {
         content="Playground website for javascript questions"
       />
 
-      <meta name="author" content="Heesung Jang" />
+      <meta name="author" content="hgh" />
       <meta property="og:url" content="https://js-qna.vercel.app/questions" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_US" />
@@ -35,7 +35,7 @@ export default {
       <meta property="og:title" content={`JavaScript Questions`} />
       <meta
         property="og:description"
-        content="Playground website for javascript questions by Heesung Jang"
+        content="Playground website for javascript questions"
       />
       <meta
         property="og:image"
