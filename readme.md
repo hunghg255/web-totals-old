@@ -10,6 +10,8 @@ Playground for a long list of (advanced) interactive JavaScript questions.
 
 From basic to advanced: **test how well you know JavaScript**, refresh your knowledge a bit, or prepare for your coding interview!
 
+Refer: [Heesungjang](https://github.com/heesungjang)
+
 All of the questions are from [Lydia](https://github.com/lydiahallie)'s Javascript Questions Repository, I've simply added some interactivity to those great contents.
 
 </div>
