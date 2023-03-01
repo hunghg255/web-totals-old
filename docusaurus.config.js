@@ -137,7 +137,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/hunghg255/web-questions',
+            href: 'https://github.com/hunghg255/web-totals',
             label: 'GitHub',
             position: 'right',
           },
