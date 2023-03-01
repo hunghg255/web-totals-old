@@ -11,8 +11,8 @@ const config = {
   favicon: 'img/logo.png',
   url: 'https://web-questions.vercel.app',
   baseUrl: '/',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'hunghg255', // Usually your GitHub org/user name.
+  projectName: 'web-questions', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   webpack: {
