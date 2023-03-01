@@ -21,7 +21,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description='Web Questions 231'>
+    <Layout description='Web Questions'>
       <HomepageHeader />
 
       <div className={styles.img}>

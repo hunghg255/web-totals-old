@@ -1,6 +1,10 @@
 ---
 sidebar_position: 1
 title: Question 1 - 10
+comment: true
+date: '2022-10-23 11:03:14'
+tags:
+  - Javascript
 ---
 
 ### Q1. What's the output?

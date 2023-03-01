@@ -1,6 +1,9 @@
 ---
 sidebar_position: 7
 title: Question 61 - 70
+comment: true
+tags:
+  - Javascript
 ---
 
 ### 61. What's the output?

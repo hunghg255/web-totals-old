@@ -1,6 +1,9 @@
 ---
 sidebar_position: 3
 title: Question 21 - 30
+comment: true
+tags:
+  - Javascript
 ---
 
 ### Q21. What's the value of sum?

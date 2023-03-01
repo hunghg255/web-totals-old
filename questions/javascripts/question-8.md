@@ -1,6 +1,9 @@
 ---
 sidebar_position: 8
 title: Question 71 - 80
+comment: true
+tags:
+  - Javascript
 ---
 
 ### 71. How can we log the values that are commented out after the console.log statement?

@@ -1,6 +1,9 @@
 ---
 sidebar_position: 4
 title: Question 31 - 40
+comment: true
+tags:
+  - Javascript
 ---
 
 ### Q. 31. What is the event.target when clicking the button?

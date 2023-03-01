@@ -1,6 +1,9 @@
 ---
 sidebar_position: 2
 title: Question 11 - 20
+comment: true
+tags:
+  - Javascript
 ---
 
 ### Q11. What is the output?

@@ -1,5 +1,5 @@
 {
-  "name": "miniapp-docs",
+  "name": "web-totals",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -15,9 +15,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^1.0.0",
     "@docusaurus/core": "2.3.1",
     "@docusaurus/preset-classic": "2.3.1",
-    "@docusaurus/theme-search-algolia": "^2.3.1",
+    "@docusaurus/theme-live-codeblock": "^2.3.1",
+    "@docusaurus/theme-mermaid": "^2.3.1",
+    "@giscus/react": "^2.2.8",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "dedent": "^0.7.0",

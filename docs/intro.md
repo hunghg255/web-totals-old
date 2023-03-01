@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
-title: Tutorial
+sidebar_position: 100
+title: Documentation
 ---
 
 # Tutorial
 
-### This is tutorial
+### This is documentation

@@ -7,12 +7,12 @@ const SnackPlayer = require('./remark-snackplayer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Web Questions',
+  title: 'Web Totals',
   favicon: 'img/logo.png',
-  url: 'https://web-questions.vercel.app',
+  url: 'https://web-totals.vercel.app',
   baseUrl: '/',
   organizationName: 'hunghg255', // Usually your GitHub org/user name.
-  projectName: 'web-questions', // Usually your repo name.
+  projectName: 'web-totals', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   webpack: {
@@ -42,6 +42,34 @@ const config = {
     },
     { src: 'https://snack.expo.dev/embed.js', defer: true },
   ],
+  plugins: [
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'issues',
+        path: 'issues',
+        routeBasePath: 'issues',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }),
+    ],
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'questions',
+        path: 'questions',
+        routeBasePath: 'questions',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }),
+    ],
+    '@docusaurus/theme-live-codeblock',
+    require.resolve('@cmfcmf/docusaurus-search-local'),
+  ],
+  themes: ['@docusaurus/theme-mermaid'],
+  markdown: {
+    mermaid: true,
+  },
   presets: [
     [
       'classic',
@@ -51,14 +79,16 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/hunghg255/web-questions',
+          editUrl: 'https://github.com/hunghg255/web-totals',
           remarkPlugins: [SnackPlayer],
         },
         blog: {
+          blogTitle: 'Blogs',
+          blogDescription: 'Blogs',
+          blogSidebarTitle: 'Blogs',
+          blogSidebarCount: 10, // 隐藏博文侧边栏
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/hunghg255/web-questions',
+          editUrl: 'https://github.com/hunghg255/web-totals',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,26 +96,38 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: '/img/unicorn.png',
       navbar: {
-        title: 'Web Questions',
+        title: 'Web Totals',
         logo: {
-          alt: 'Web Questions',
+          alt: 'Web Totals',
           src: '/img/logo.png',
         },
         items: [
           {
             type: 'doc',
+            position: 'right',
+            label: 'Docs',
             docId: 'intro',
-            position: 'left',
-            label: 'Questions',
           },
-          // { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Blog', position: 'right' },
+
+          {
+            to: '/issues',
+            label: 'Issues',
+            position: 'right',
+            activeBaseRegex: `/issues`,
+          },
+          {
+            to: '/questions',
+            label: 'Questions',
+            position: 'right',
+            activeBaseRegex: `/questions`,
+          },
           {
             type: 'docsVersionDropdown',
             position: 'right',
@@ -104,15 +146,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Contact',
             items: [
@@ -142,12 +184,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // algolia: {
-      //   appId: 'N1ZOY7XK8O',
-      //   apiKey: 'c4dcc787befab120e979bac1ac182eff',
-      //   indexName: 'agiledocs',
-      //   contextualSearch: true,
-      // },
+
+      liveCodeBlock: {
+        playgroundPosition: 'bottom',
+      },
     }),
 };
 
