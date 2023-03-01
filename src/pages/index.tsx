@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
 
       <div className={styles.img}>
-        <img src='/img/union.png' alt='' />
+        <img src='/img/unicorn.png' alt='' />
       </div>
     </Layout>
   );

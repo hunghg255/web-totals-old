@@ -71,7 +71,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: '/img/union.png',
+      image: '/img/unicorn.png',
       navbar: {
         title: 'Web Questions',
         logo: {
