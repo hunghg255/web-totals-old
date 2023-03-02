@@ -64,7 +64,6 @@ const config = {
       }),
     ],
     '@docusaurus/theme-live-codeblock',
-    require.resolve('@cmfcmf/docusaurus-search-local'),
   ],
   themes: ['@docusaurus/theme-mermaid'],
   markdown: {
@@ -184,7 +183,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-
+      // ...
+      algolia: {
+        appId: 'N1ZOY7XK8O',
+        apiKey: '93bc1d5b9e29191f5bd0758d04332c34',
+        indexName: 'webtotals',
+        contextualSearch: true,
+        externalUrlRegex: 'web-totals\\.vercel.app|web-totals\\.vercel.app',
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
       liveCodeBlock: {
         playgroundPosition: 'bottom',
       },
