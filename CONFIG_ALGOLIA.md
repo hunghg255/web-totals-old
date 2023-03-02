@@ -1,3 +1,5 @@
+# Config Search Algolia
+
 ```
 1. Get api key, index_name: https://www.algolia.com/account
 2. add config.json, get here and update start url, add site map url => build project => serve
