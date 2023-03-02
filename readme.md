@@ -1,14 +1,51 @@
 # Share all about web development
 
-# Write markdown
+### Installation
 
-## Embed StackBlitz
+```
+npm install
+```
+
+### Local Development
+
+```
+npm start
+```
+
+### Build
+
+```
+npm build
+```
+
+## How to write markdown
+
+### Embed Expo
+
+````
+```SnackPlayer name=Hello%20World
+import React from 'react';
+import { Text, View } from 'react-native';
+
+const YourApp = () => {
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text>Try editing me! 🎉</Text>
+    </View>
+  );
+}
+
+export default YourApp;```
+
+````
+
+### Embed StackBlitz
 
 ```
 <stackblitz name={'react-ts-mdxcmx'} />
 ```
 
-## Live code: Add block with keywork live
+### Live code: Add block with keywork live
 
 ````
 ```tsx live
@@ -34,7 +71,7 @@ function Clock(props) {
 }```
 ````
 
-## Mermaid: add block with keyword mermaid
+### Mermaid: add block with keyword mermaid
 
 ````
 ```mermaid

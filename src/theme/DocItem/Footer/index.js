@@ -5,9 +5,7 @@ import Comments from '@site/src/components/Comments';
 
 export default function FooterWrapper(props) {
   const { frontMatter } = useDoc();
-  console.log({
-    frontMatter,
-  });
+
   return (
     <>
       <Footer {...props} />
