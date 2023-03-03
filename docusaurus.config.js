@@ -92,6 +92,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'G-WZW3J8S7EF',
+        },
+        gtag: {
+          trackingID: 'G-72XCT3FHGJ',
+        },
       }),
     ],
   ],
