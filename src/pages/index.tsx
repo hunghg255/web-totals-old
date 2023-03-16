@@ -22,10 +22,16 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout description='Web Questions'>
-      <HomepageHeader />
-
-      <div className={styles.img}>
-        <img src='/img/unicorn.png' alt='' />
+      {/* <HomepageHeader /> */}
+      <div className={styles.wrap}>
+        <div>
+          <h1>Web Totals</h1>
+          <p>Share all about web development</p>
+        </div>
+        <div className={styles.imgWrap}>
+          <div className={styles.mask}></div>
+          <img src='/img/unicorn.png' alt='' />
+        </div>
       </div>
     </Layout>
   );

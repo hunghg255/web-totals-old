@@ -10,17 +10,84 @@
   overflow: hidden;
 }
 
-.img {
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.wrap > div {
+  flex: 50% 1 0;
+}
+
+.wrap h1 {
+  font-size: 72px;
+  text-align: center;
+  background: -webkit-linear-gradient(
+    120deg,
+    var(--ifm-color-primary) 30%,
+    var(--ifm-color-primary-lightest)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrap p {
+  font-size: 60px;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.imgWrap {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
+  position: relative;
+}
+
+.imgWrap img {
+  position: relative;
+  z-index: 1;
+}
+
+.mask {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 75%;
+  background-image: conic-gradient(from 90deg at 50%50%, #8f0644 0deg, 180deg, #fff461 0deg);
+  border-radius: 50%;
+  filter: blur(72px);
+  z-index: 0;
 }
 
 @media screen and (max-width: 996px) {
+  .wrap {
+    flex-direction: column-reverse;
+    padding: 32px 10px;
+  }
+
   .heroBanner,
   .img {
     padding: 2rem;
+  }
+
+  .wrap h1 {
+    font-size: 38px;
+  }
+
+  .wrap p {
+    font-size: 24px;
   }
 }
