@@ -37,3 +37,7 @@ video {
   width: 100%;
   max-width: 768px;
 }
+
+.avatar__photo {
+  object-fit: cover;
+}
