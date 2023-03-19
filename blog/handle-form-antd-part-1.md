@@ -3,6 +3,7 @@ sidebar_position: 3
 title: Xử lý form với Ant Design (Phần 1)
 authors: hunghg
 tags: [Reactjs, Ant Design]
+image: https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg
 ---
 
 Cách xử lý form trong Ant Design sao cho đúng.

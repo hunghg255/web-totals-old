@@ -3,6 +3,7 @@ sidebar_position: 2
 title: The Most Popular Build Tools for Front-end Developers in 2023
 authors: hunghg
 tags: [Frontend, Build tools, 2023]
+image: https://res.cloudinary.com/hunghg255/image/upload/v1679049199/blog/Build-Tools-for-Front-end-Developers_kbidno.png
 ---
 
 Build tools are software applications that automate the process of building, testing, and deploying front-end code, helping developers to streamline their workflows and ensure consistent, high-quality results. In this article, we will explore some of the most popular build tools for front-end developers and discuss their key features and benefits.
