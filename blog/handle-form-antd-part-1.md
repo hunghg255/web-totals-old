@@ -77,9 +77,11 @@ Mình sẽ kiểm tra `props` của `CustomInput` xem có gì bất thường kh
 
 ![props](https://res.cloudinary.com/hunghg255/image/upload/v1679201545/blog/Screenshot_2023-03-19_at_11.52.18_byltfn.png)
 
-> Như ta thấy `props` của `CustomInput` là một object chứa `id`, `value`, `onChange`. Tức là khi ta đặt Input ngay bên trong `Form.Item` thì nó tự động pass props đó vào cho `Input` vì vậy ta sẽ lấy được value của Input.
+:::note
+Như ta thấy `props` của `CustomInput` là một object chứa `id`, `value`, `onChange`. Tức là khi ta đặt Input ngay bên trong `Form.Item` thì nó tự động pass props đó vào cho `Input` vì vậy ta sẽ lấy được value của Input.
 
-> Khi mình tách ra thành một component để tái sử dụng thì `value` và `onChange` sẽ không được pass vào Input nữa nên ta sẽ không lấy được value của Input
+Khi mình tách ra thành một component để tái sử dụng thì `value` và `onChange` sẽ không được pass vào Input nữa nên ta sẽ không lấy được value của Input
+:::
 
 Ok. vậy mình sẽ thử fix bằng cách pass `value` và `onChange` vào Input xem sao.
 
@@ -87,8 +89,9 @@ Ok. vậy mình sẽ thử fix bằng cách pass `value` và `onChange` vào Inp
 
 Oh. Hihi kết quả như mong đợi
 
-> Kết luận: Khi ta muốn truyền value từ component bất kì lên `Form.Item` ta chỉ cần
-> dùng hàm `onChange` từ `Form.Item` cái mà được truyền xuống props khi đặt component trong `Form.Item`
+:::note
+Kết luận: Khi ta muốn truyền value từ component bất kì lên `Form.Item` ta chỉ cần dùng hàm `onChange` từ `Form.Item` cái mà được truyền xuống props khi đặt component trong `Form.Item`
+:::
 
 ## 2. Cơ chế hoạt động `dependencies`, `shouldUpdate` và `useWatch`
 
@@ -256,7 +259,10 @@ Với `SelectWard` mình cần truyền thêm prop `district`
 
 <stackblitz name={'react-ts-3nasfc'} />
 
-> Một điều nữa là mình cần làm là reset field đã chọn khi mình thay đổi tỉnh hoặc huyện khác =))))
+:::danger
+Một điều nữa là mình cần làm là reset field đã chọn khi mình thay đổi tỉnh hoặc huyện khác =))))
+Bạn có thể giúp mình làm cái này đúng không xD
+:::
 
 ### b. shouldUpdate
 
@@ -284,8 +290,10 @@ Với `SelectWard` mình cần truyền thêm prop `district`
 </Form.Item>
 ```
 
+:::tip
 Với `shouldUpdate` thì cũng sẽ tương tự như `dependencies` nhưng nếu để `shouldUpdate` là true thì mỗi khi field nào trong form thay đổi thì component của mình sẽ re-render lại,
 để tránh re-render thì mình sẽ truyền vào 1 callback function để kiểm tra field nào mình muốn kiểm tra sự thay đổi
+:::
 
 ```tsx
 <Form.Item
