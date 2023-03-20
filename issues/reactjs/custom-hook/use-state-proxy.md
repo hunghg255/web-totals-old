@@ -1,16 +1,17 @@
 ---
 sidebar_position: 1
-title: Mutation State with Proxy
+title: useStateProxy
 comment: true
 tags:
   - Reactjs
   - Custom Hook
+  - useStateProxy
 ---
 
 This is a custom hook to mutate state in reactjs
 
 ```jsx live noInline
-const useReactState = (initialValues) => {
+const useStateProxy = (initialValues) => {
   const [, setTime] = useState(new Date().getTime());
 
   return useMemo(() => {
@@ -26,7 +27,7 @@ const useReactState = (initialValues) => {
 };
 
 function App() {
-  const state = useReactState({ count: 0 });
+  const state = useStateProxy({ count: 0 });
 
   return (
     <div>
