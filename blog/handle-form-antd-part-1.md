@@ -10,7 +10,7 @@ Cách xử lý form trong Ant Design sao cho đúng.
 
 <!--truncate-->
 
-### 1. Cơ chế hoạt động
+## 1. Cơ chế hoạt động
 
 Ta xét một ví dụ đơn giản như sau:
 
@@ -39,7 +39,7 @@ const App = () => (
 Như ta thấy khi đặt component `Input` trong `Form.Item` với `name` là `username` thì khi submit sẽ nhận được một object với key là `username` và value là giá trị của input.
 
 Vậy có phải cứ đặt `Input` bên trong `Form.Item` là ta sẽ lấy được value của Input khi submit không?
-Mình sẽ tuỳ custom xíu là thêm cái label hoặc cần tuỳ biến input thêm prefix hoặc suffix icon
+Mình sẽ custom xíu là thêm cái label hoặc cần tuỳ biến input thêm prefix hoặc suffix icon,...
 
 ```tsx
 <Form.Item name='username'>
@@ -90,9 +90,9 @@ Oh. Hihi kết quả như mong đợi
 > Kết luận: Khi ta muốn truyền value từ component bất kì lên `Form.Item` ta chỉ cần
 > dùng hàm `onChange` từ `Form.Item` cái mà được truyền xuống props khi đặt component trong `Form.Item`
 
-### 2. Cơ chế hoạt động `dependencies`, `shouldUpdate` và `useWatch`
+## 2. Cơ chế hoạt động `dependencies`, `shouldUpdate` và `useWatch`
 
-#### a. Dependencies
+### a. Dependencies
 
 Mình có một ví dụ đơn giản như sau: có 3 select gồm tỉnh, huyện, xã.
 Yêu cầu: Khi chọn tỉnh thì sẽ tải danh sách huyện, khi chọn huyện thì sẽ tải danh sách xã.
@@ -258,7 +258,7 @@ Với `SelectWard` mình cần truyền thêm prop `district`
 
 > Một điều nữa là mình cần làm là reset field đã chọn khi mình thay đổi tỉnh hoặc huyện khác =))))
 
-#### b. shouldUpdate
+### b. shouldUpdate
 
 ```tsx
 <Form.Item shouldUpdate noStyle>
@@ -285,7 +285,7 @@ Với `SelectWard` mình cần truyền thêm prop `district`
 ```
 
 Với `shouldUpdate` thì cũng sẽ tương tự như `dependencies` nhưng nếu để `shouldUpdate` là true thì mỗi khi field nào trong form thay đổi thì component của mình sẽ re-render lại,
-để tránh re-render thì mình sẽ truyền vào 1 callback function để tra field nào mình muốn kiểm tra sự thay đổi
+để tránh re-render thì mình sẽ truyền vào 1 callback function để kiểm tra field nào mình muốn kiểm tra sự thay đổi
 
 ```tsx
 <Form.Item
@@ -321,7 +321,7 @@ Kết quả cũng tương tự như dùng `dependencies`
 
 <stackblitz name={'react-ts-2nfddq'} />
 
-#### c. useWatch
+### c. useWatch
 
 `useWatch` là một hook được cung cấp bới form antd, dùng để lắng nghe những field mà có thay đổi
 
