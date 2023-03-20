@@ -71,6 +71,17 @@ function Clock(props) {
 }```
 ````
 
+### Live code with Mutil components
+
+````
+```jsx live noInline
+const project = 'Docusaurus';
+
+const Greeting = () => <p>Hello {project}!</p>;
+
+render(<Greeting />);```
+````
+
 ### Mermaid: add block with keyword mermaid
 
 ````
