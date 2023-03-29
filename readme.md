@@ -18,6 +18,14 @@ npm start
 npm build
 ```
 
+## Contributors
+
+This project exists thanks to all the people who contribute.
+
+<p>
+<a href="https://github.com/hunghg255/web-totals/graphs/contributors"><img src="https://contrib.rocks/image?repo=hunghg255/web-totals" /></a>
+</p>
+
 ## How to write markdown
 
 ### Embed Expo
