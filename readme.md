@@ -18,7 +18,7 @@ npm start
 npm build
 ```
 
-## Contributors
+## Contributorss
 
 This project exists thanks to all the people who contribute.
 
