@@ -9,6 +9,9 @@ tags: [Html]
 
 <!--truncate-->
 
+decimal
+Fractional numeric input keyboard containing the digits and decimal separator for the user's locale (typically . or ,). Devices may or may not show a minus key (-).
+
 ```jsx live
 function App() {
   return (
@@ -42,6 +45,12 @@ function App() {
       </div>
       <div>
         Number: <input type='number' />
+      </div>
+      <div>
+        Number + decimal: <input type='number' inputmode='decimal' />
+      </div>
+      <div>
+        Number + numeric: <input type='number' inputmode='numeric' />
       </div>
       <div>
         Password: <input type='password' />
