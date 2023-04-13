@@ -3,6 +3,7 @@ sidebar_position: 4
 title: Scroll Restoration in Nextjs
 authors: hunghg
 tags: [Nextjs, Scroll Restoration]
+image: https://decodenatura.com/static/fb8aa1bb70c9925ce1ae22dc2711b343/nextjs-logo.png
 ---
 
 ## Experimental scroll restoration flag
