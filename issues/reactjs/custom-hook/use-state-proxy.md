@@ -12,13 +12,13 @@ This is a custom hook to mutate state in reactjs
 
 ```jsx live noInline
 const useStateProxy = (initialValues) => {
-  const [, setTime] = useState(new Date().getTime());
+  const [, setTime] = useState({});
 
   return useMemo(() => {
     return new Proxy(initialValues, {
       set: (obj, prop, value) => {
         obj[prop] = value;
-        setTime(new Date().getTime());
+        setTime({});
 
         return true;
       },
