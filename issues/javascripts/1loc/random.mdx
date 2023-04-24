@@ -8,27 +8,41 @@ tags:
   - Random
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Generate a random integer in given range
 
-```js title=Javascript
+<Tabs>
+  <TabItem value='js' label='Javascript' default>
+
+```js
 const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 ```
 
-```ts title=Typescipt
+  </TabItem>
+  <TabItem value='ts' label='Typescipt'>
+
+```ts
 const randomInteger = (min: number, max: number): number =>
   Math.floor(Math.random() * (max - min + 1)) + min;
 ```
 
+  </TabItem>
+</Tabs>
+
 ## Sort an object by its properties
 
-```js title=Javascript
+<Tabs>
+  <TabItem value='js' label='Javascript' default>
+
+```js
 const sort = (obj) =>
   Object.keys(obj)
     .sort()
     .reduce((p, c) => ((p[c] = obj[c]), p), {});
-```
 
-```ts title=Example
+// Example
 const colors = {
   white: '#ffffff',
   black: '#000000',
@@ -48,25 +62,40 @@ sort(colors);
 */
 ```
 
+  </TabItem>
+</Tabs>
+
 ## Generate a random hex color
 
-```js title=Javascript
+<Tabs>
+  <TabItem value='js' label='Javascript' default>
+
+```js
 const randomColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
 
 // Or
 const randomColor = () => `#${(~~(Math.random() * (1 << 24))).toString(16)}`;
 ```
 
-```ts title=Typescipt
+  </TabItem>
+  <TabItem value='ts' label='Typescipt'>
+
+```ts
 const randomColor = (): string => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
 
 // Or
 const randomColor = (): string => `#${(~~(Math.random() * (1 << 24))).toString(16)}`;
 ```
 
+  </TabItem>
+</Tabs>
+
 ## Generate a random string from given characters
 
-```js title=Javascript
+<Tabs>
+  <TabItem value='js' label='Javascript' default>
+
+```js
 const generateString = (length, chars) =>
   Array(length)
     .fill('')
@@ -74,7 +103,10 @@ const generateString = (length, chars) =>
     .join('');
 ```
 
-```ts title=Typescipt
+  </TabItem>
+  <TabItem value='ts' label='Typescipt'>
+
+```ts
 const generateString = (length: number, chars: string) =>
   Array(length)
     .fill('')
@@ -82,11 +114,20 @@ const generateString = (length: number, chars: string) =>
     .join('');
 ```
 
+  </TabItem>
+</Tabs>
+
 ## Generate a random UUID
 
-```js title=Javascript
+<Tabs>
+  <TabItem value='js' label='Javascript' default>
+
+```js
 const uuid = (a) =>
   a
     ? (a ^ ((Math.random() * 16) >> (a / 4))).toString(16)
     : ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, uuid);
 ```
+
+  </TabItem>
+</Tabs>
