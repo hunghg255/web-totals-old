@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Convert svgs file to jsx by one script
 authors: hunghg
 tags: [svg, jsx, reactjs, scripts, generate]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 ---
 
 <!--truncate-->
