@@ -50,6 +50,9 @@ const config = {
         path: 'issues',
         routeBasePath: 'issues',
         sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: ({ versionDocsDirPath, docPath }) =>
+          `https://github.com/hunghg255/web-totals/tree/main/${versionDocsDirPath}/${docPath}`,
+        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
       }),
     ],
     [
@@ -60,6 +63,9 @@ const config = {
         path: 'questions',
         routeBasePath: 'questions',
         sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: ({ versionDocsDirPath, docPath }) =>
+          `https://github.com/hunghg255/web-totals/tree/main/${versionDocsDirPath}/${docPath}`,
+        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
       }),
     ],
     '@docusaurus/theme-live-codeblock',
@@ -77,8 +83,14 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/hunghg255/web-totals',
-          remarkPlugins: [SnackPlayer],
+          editUrl: 'https://github.com/hunghg255/web-totals/tree/main',
+          remarkPlugins: [
+            SnackPlayer,
+            [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
+          ],
+        },
+        pages: {
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
         },
         blog: {
           blogTitle: 'Blogs',
@@ -86,7 +98,8 @@ const config = {
           blogSidebarTitle: 'Blogs',
           blogSidebarCount: 10, // 隐藏博文侧边栏
           showReadingTime: true,
-          editUrl: 'https://github.com/hunghg255/web-totals',
+          editUrl: 'https://github.com/hunghg255/web-totals/tree/main',
+          remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

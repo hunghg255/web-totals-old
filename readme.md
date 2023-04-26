@@ -100,3 +100,10 @@ graph TD;
     B-->D;
     C-->D;```
 ````
+
+### npm2yarn
+
+````
+```bash npm2yarn
+npm install rc-select```
+````
