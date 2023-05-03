@@ -27,7 +27,7 @@
 
 .wrap h1 {
   font-size: 72px;
-  text-align: center;
+  text-align: left;
   background: -webkit-linear-gradient(
     120deg,
     var(--ifm-color-primary) 30%,
@@ -40,9 +40,9 @@
 
 .wrap p {
   font-size: 60px;
-  text-align: center;
   line-height: 1.1;
   font-weight: bold;
+  text-align: left;
 }
 
 .imgWrap {
@@ -66,7 +66,12 @@
   transform: translate(-50%, -50%);
   width: 75%;
   height: 75%;
-  background-image: conic-gradient(from 90deg at 50%50%, #8f0644 0deg, 180deg, #fff461 0deg);
+  background-image: conic-gradient(
+    from 90deg at 50%50%,
+    var(--ifm-color-primary) 0deg,
+    180deg,
+    var(--ifm-color-primary-lightest) 0deg
+  );
   border-radius: 50%;
   filter: blur(72px);
   z-index: 0;
