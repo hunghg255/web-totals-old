@@ -113,6 +113,7 @@ const config = {
       }),
     ],
   ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -160,6 +161,11 @@ const config = {
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       footer: {
         style: 'dark',
         links: [
@@ -195,7 +201,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Web Quesstions`,
+        copyright: `Copyright © ${new Date().getFullYear()} Web Totals`,
       },
       prism: {
         theme: darkCodeTheme,
