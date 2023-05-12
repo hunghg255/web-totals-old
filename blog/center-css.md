@@ -67,10 +67,17 @@ image: https://res.cloudinary.com/hunghg255/image/upload/v1683865180/css-center_
 # 5. Pop & Plop
 
 ```html title=HTML
-<div class="pop-plop">...</div>
+<div class="parent">
+  <div class="pop-plop">...</div>
+</div>
 ```
 
 ```css title=CSS
+.parent {
+  position: relative;
+}
+
+/* Option 1 */
 .pop-plop {
   position: absolute;
   left: 50%;
@@ -78,6 +85,7 @@ image: https://res.cloudinary.com/hunghg255/image/upload/v1683865180/css-center_
   transform: translate(-50%, -50%);
 }
 
+/* Option 2 */
 .pop-plop {
   position: absolute;
   inset: 0;
