@@ -64,7 +64,7 @@ image: https://res.cloudinary.com/hunghg255/image/upload/v1683865180/css-center_
 }
 ```
 
-# 5. Pop & Plop
+## 5. Pop & Plop
 
 ```html title=HTML
 <div class="parent">
