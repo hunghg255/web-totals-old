@@ -1,5 +1,4 @@
 ---
-sidebar_position: 5
 title: Convert svgs file to jsx by one script
 authors: hunghg
 tags: [svg, jsx, reactjs, scripts, generate]

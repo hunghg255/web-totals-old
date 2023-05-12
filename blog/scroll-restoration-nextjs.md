@@ -1,5 +1,4 @@
 ---
-sidebar_position: 4
 title: Scroll Restoration in Nextjs
 authors: hunghg
 tags: [Nextjs, Scroll Restoration]

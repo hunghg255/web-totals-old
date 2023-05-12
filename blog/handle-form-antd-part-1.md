@@ -1,5 +1,4 @@
 ---
-sidebar_position: 3
 title: Xử lý form với Ant Design (Phần 1)
 authors: hunghg
 tags: [Reactjs, Ant Design]

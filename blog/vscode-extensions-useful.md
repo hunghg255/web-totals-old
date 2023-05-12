@@ -1,5 +1,4 @@
 ---
-sidebar_position: 6
 title: Vscode extensions useful
 authors: hunghg
 tags: [vscode, extensions, css, tips]

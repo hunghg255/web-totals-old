@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 title: The Most Popular Build Tools for Front-end Developers in 2023
 authors: hunghg
 tags: [Frontend, Build tools, 2023]

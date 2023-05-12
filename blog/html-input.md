@@ -1,5 +1,4 @@
 ---
-sidebar_position: 5
 title: HTML Input Type
 authors: hunghg
 tags: [Html]
