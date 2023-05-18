@@ -16,3 +16,11 @@ Extensions useful on vscode
 ## Result
 
 ![](https://res.cloudinary.com/hunghg255/image/upload/v1682245314/agile-css-suggestion_jxh0ys.png)
+
+## 2. CSS to Tailwindcss
+
+[CSS to Tailwindcss](https://marketplace.visualstudio.com/items?itemName=hunghg255.css-2-tailwindcss)
+
+## Result
+
+![](https://res.cloudinary.com/hunghg255/image/upload/v1684144918/36f997ec-4931-41e2-a745-a5cccf67c146_nbtva6.gif)
