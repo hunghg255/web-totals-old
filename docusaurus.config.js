@@ -83,6 +83,9 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          sidebarCollapsible: true,
           editUrl: 'https://github.com/hunghg255/web-totals/tree/main',
           remarkPlugins: [
             SnackPlayer,

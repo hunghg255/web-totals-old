@@ -4,6 +4,9 @@ title: How to git work?
 comment: true
 tags:
   - Git
+last_update:
+  date: 03/03/2023
+  author: hunghg255
 ---
 
 ```mermaid
