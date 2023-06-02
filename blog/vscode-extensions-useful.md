@@ -23,4 +23,4 @@ Extensions useful on vscode
 
 ## Result
 
-![](https://res.cloudinary.com/hunghg255/image/upload/v1684144918/36f997ec-4931-41e2-a745-a5cccf67c146_nbtva6.gif)
+![](https://res.cloudinary.com/hunghg255/image/upload/v1685594372/css2tailwindcss-demo_lzpyfi.gif)
