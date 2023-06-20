@@ -1,9 +1,19 @@
 import React from 'react';
 
+declare const window: any;
+
 export const useWindowSize = () => {
-  const [windowSize, setWindowSize] = React.useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+  const [windowSize, setWindowSize] = React.useState(() => {
+    if (!window) {
+      return {
+        width: 400,
+        height: 400,
+      };
+    }
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
   });
 
   React.useEffect(() => {
