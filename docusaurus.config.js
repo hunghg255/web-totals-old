@@ -172,15 +172,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'RSS Feed',
+            items: [
+              {
+                label: 'RSS',
+                href: 'https://web-totals.vercel.app/sitemap.xml',
+              },
+            ],
+          },
           {
             title: 'Contact',
             items: [
