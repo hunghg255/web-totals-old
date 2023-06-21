@@ -185,6 +185,10 @@ const config = {
             title: 'Contact',
             items: [
               {
+                label: 'Twitter',
+                href: 'https://twitter.com/hunghg255',
+              },
+              {
                 label: 'Facebook',
                 href: 'https://facebook.com/hunghg255',
               },
