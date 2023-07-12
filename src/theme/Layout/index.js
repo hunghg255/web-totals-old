@@ -7,8 +7,8 @@ import LogArt from '@site/src/components/LogArt/LogArt';
 export default function LayoutWrapper(props) {
   return (
     <>
-      <BrowserOnly fallback={<>Loading...</>}>{() => <Plum />}</BrowserOnly>
-      <BrowserOnly fallback={<>Loading...</>}>{() => <LogArt />}</BrowserOnly>
+      <BrowserOnly fallback={<></>}>{() => <Plum />}</BrowserOnly>
+      <BrowserOnly fallback={<></>}>{() => <LogArt />}</BrowserOnly>
       <Layout {...props} />
     </>
   );
