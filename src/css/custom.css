@@ -1,3 +1,5 @@
+@import url('./font.css');
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,6 +8,7 @@
 
 * {
   text-rendering: optimizeLegibility;
+  font-family: 'iA Writer Quattro V', sans-serif !important;
 }
 
 html.touch * {
@@ -50,13 +53,25 @@ video {
 .avatar__photo {
   object-fit: cover;
 }
-
-.codeBlockTitle_Ktv7 {
+code * {
+  font-family: 'Fira Code Light' !important;
+  font-weight: 300;
+  font-style: normal;
+}
+.codeBlockTitle_Ktv7,
+.codeBlockTitle_Ktv7 * {
   border: 1px solid rgb(170 227 246 / 10%) !important;
   border-bottom: 1px solid rgb(170 227 246 / 100%) !important;
+  font-family: 'Fira Code Light' !important;
+  font-weight: 300;
+  font-style: normal;
 }
-.codeBlockContent_biex {
+.codeBlockContent_biex,
+.codeBlockContent_biex * {
   border: 1px solid rgb(170 227 246 / 10%) !important;
+  font-family: 'Fira Code Light' !important;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @keyframes rainbow {

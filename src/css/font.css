@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'iA Writer Quattro V';
+    src: url('iAWriterQuattroV-Italic.woff2') format('woff2'),
+        url('iAWriterQuattroV-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code Light';
+    src: url('FiraCodeLight-Medium.woff2') format('woff2'),
+        url('FiraCodeLight-Medium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Quattro V';
+    src: url('iAWriterQuattroV-Regular.woff2') format('woff2'),
+        url('iAWriterQuattroV-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCodeLight-Regular.woff2') format('woff2'),
+        url('FiraCodeLight-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
