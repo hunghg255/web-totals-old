@@ -58,17 +58,16 @@ code * {
   font-weight: 300;
   font-style: normal;
 }
-.codeBlockTitle_Ktv7,
-.codeBlockTitle_Ktv7 * {
+.codeBlockTitle_Ktv7 {
   border: 1px solid rgb(170 227 246 / 10%) !important;
   border-bottom: 1px solid rgb(170 227 246 / 100%) !important;
-  font-family: 'Fira Code Light' !important;
-  font-weight: 300;
-  font-style: normal;
 }
-.codeBlockContent_biex,
-.codeBlockContent_biex * {
+.codeBlockContent_biex {
   border: 1px solid rgb(170 227 246 / 10%) !important;
+}
+
+.codeBlockTitle_Ktv7 *,
+.codeBlockContent_biex * {
   font-family: 'Fira Code Light' !important;
   font-weight: 300;
   font-style: normal;
