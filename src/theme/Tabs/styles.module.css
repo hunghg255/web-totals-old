@@ -1,0 +1,13 @@
+.tabList {
+  margin-bottom: var(--ifm-leading);
+  /* background-color: hsla(0, 0%, 100%, 0.1); */
+  /* border-radius: 10px; */
+}
+
+.tabItem {
+  margin-top: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}

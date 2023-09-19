@@ -52,7 +52,19 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: ({ versionDocsDirPath, docPath }) =>
           `https://github.com/hunghg255/web-totals/tree/main/${versionDocsDirPath}/${docPath}`,
-        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
+        remarkPlugins: [
+          [
+            require('@docusaurus/remark-plugin-npm2yarn'),
+            {
+              sync: true,
+              converters: [
+                'yarn',
+                'pnpm',
+                ['bun', (code) => code.replace(/npm/g, 'bun').replace(/install/, 'add')],
+              ],
+            },
+          ],
+        ],
       }),
     ],
     [
@@ -65,7 +77,19 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: ({ versionDocsDirPath, docPath }) =>
           `https://github.com/hunghg255/web-totals/tree/main/${versionDocsDirPath}/${docPath}`,
-        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
+        remarkPlugins: [
+          [
+            require('@docusaurus/remark-plugin-npm2yarn'),
+            {
+              sync: true,
+              converters: [
+                'yarn',
+                'pnpm',
+                ['bun', (code) => code.replace(/npm/g, 'bun').replace(/install/, 'add')],
+              ],
+            },
+          ],
+        ],
       }),
     ],
     '@docusaurus/theme-live-codeblock',
@@ -89,11 +113,31 @@ const config = {
           editUrl: 'https://github.com/hunghg255/web-totals/tree/main',
           remarkPlugins: [
             SnackPlayer,
-            [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
+            [
+              require('@docusaurus/remark-plugin-npm2yarn'),
+              {
+                sync: true,
+                converters: [
+                  'yarn',
+                  'pnpm',
+                  ['bun', (code) => code.replace(/npm/g, 'bun').replace(/install/, 'add')],
+                ],
+              },
+            ],
           ],
         },
         pages: {
-          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
+          remarkPlugins: [
+            require('@docusaurus/remark-plugin-npm2yarn'),
+            {
+              sync: true,
+              converters: [
+                'yarn',
+                'pnpm',
+                ['bun', (code) => code.replace(/npm/g, 'bun').replace(/install/, 'add')],
+              ],
+            },
+          ],
         },
         blog: {
           blogTitle: 'Blogs',
@@ -102,7 +146,19 @@ const config = {
           blogSidebarCount: 10, // 隐藏博文侧边栏
           showReadingTime: true,
           editUrl: 'https://github.com/hunghg255/web-totals/tree/main',
-          remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
+          remarkPlugins: [
+            [
+              require('@docusaurus/remark-plugin-npm2yarn'),
+              {
+                sync: true,
+                converters: [
+                  'yarn',
+                  'pnpm',
+                  ['bun', (code) => code.replace(/npm/g, 'bun').replace(/install/, 'add')],
+                ],
+              },
+            ],
+          ],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

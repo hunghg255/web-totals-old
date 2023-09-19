@@ -9,13 +9,13 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/
 
 ## Run this script on terminal
 
-[npm](https://www.npmjs.com/package/agile-svg2jsx)
+[npm link](https://www.npmjs.com/package/agile-svg2jsx)
 
-```bash title=Bash
-npx agile-svg2jsx --i $PATH_SVGS_FOLDER --o $PATH_REACT_FOLDER
-```
+## CLI
 
-Or setup at `package.json`
+<npxConvert packageBinCli="agile-svg2jsx --i $PATH_SVGS_FOLDER --o $PATH_REACT_FOLDER"/>
+
+## setup at `package.json`
 
 ```json
 "scripts": {
