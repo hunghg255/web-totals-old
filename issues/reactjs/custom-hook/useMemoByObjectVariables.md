@@ -9,8 +9,8 @@ tags:
 ---
 
 ```jsx live noInline
-const aStackPool: any[] = [];
-const bStackPool: any[] = [];
+const aStackPool = [];
+const bStackPool = [];
 
 /**
  * Checks if two values are equal. Values may be primitives, arrays, or objects.
@@ -20,7 +20,7 @@ const bStackPool: any[] = [];
  * @copyright 2009-2013 Jeremy Ashkenas, DocumentCloud Inc.
  * @license MIT
  */
-export function areEqual(a: any, b: any): boolean {
+export function areEqual(a, b) {
   const aStack = aStackPool.length ? aStackPool.pop() : [];
   const bStack = bStackPool.length ? bStackPool.pop() : [];
   const result = eq(a, b, aStack, bStack);
@@ -31,7 +31,7 @@ export function areEqual(a: any, b: any): boolean {
   return result;
 }
 
-function eq(a: any, b: any, aStack: Array<any>, bStack: Array<any>): boolean {
+function eq(a, b, aStack, bStack) {
   if (a === b) {
     // Identical objects are equal. `0 === -0`, but they aren't identical.
     return a !== 0 || 1 / a == 1 / b;

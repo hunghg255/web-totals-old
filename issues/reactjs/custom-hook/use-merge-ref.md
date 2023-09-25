@@ -9,7 +9,7 @@ tags:
 ---
 
 ```jsx live noInline
-function mergeRefs(...args: any[]) {
+function mergeRefs(...args) {
   let a = arguments.length,
     c = new Array(a);
   for (let d = 0; d < a; d++) c[d] = arguments[d];
@@ -32,7 +32,7 @@ function mergeRefs(...args: any[]) {
   };
 }
 
-function useMergeRefs(...args: any[]) {
+function useMergeRefs(...args) {
   const a = arguments.length;
   const c = new Array(a);
   for (let d = 0; d < a; d++) {
