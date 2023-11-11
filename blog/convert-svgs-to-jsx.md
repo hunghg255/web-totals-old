@@ -13,7 +13,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/
 
 ## CLI
 
-<npxConvert packageBinCli="agile-svg2jsx --i $PATH_SVGS_FOLDER --o $PATH_REACT_FOLDER"/>
+<NpxConvert packageBinCli="agile-svg2jsx --i $PATH_SVGS_FOLDER --o $PATH_REACT_FOLDER"/>
 
 ## setup at `package.json`
 

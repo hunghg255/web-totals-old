@@ -10,6 +10,6 @@ export default {
   ...MDXComponents,
   // Map the "highlight" tag to our <Highlight /> component!
   // `Highlight` will receive all props that were passed to `highlight` in MDX
-  stackblitz: StackBlitz,
-  npxConvert: NpxConvert,
+  Stackblitz: StackBlitz,
+  NpxConvert: NpxConvert,
 };

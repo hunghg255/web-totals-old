@@ -53,6 +53,7 @@ const config = {
         editUrl: ({ versionDocsDirPath, docPath }) =>
           `https://github.com/hunghg255/web-totals/tree/main/${versionDocsDirPath}/${docPath}`,
         remarkPlugins: [
+          SnackPlayer,
           [
             require('@docusaurus/remark-plugin-npm2yarn'),
             {

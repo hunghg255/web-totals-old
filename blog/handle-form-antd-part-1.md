@@ -256,7 +256,7 @@ Với `SelectWard` mình cần truyền thêm prop `district`
 
 Đây là kết quả đạt được:
 
-<stackblitz name={'react-ts-3nasfc'} />
+<Stackblitz name={'react-ts-3nasfc'} />
 
 :::danger
 Một điều nữa là mình cần làm là reset field đã chọn khi mình thay đổi tỉnh hoặc huyện khác =))))
@@ -326,7 +326,7 @@ Với `shouldUpdate` thì cũng sẽ tương tự như `dependencies` nhưng n�
 
 Kết quả cũng tương tự như dùng `dependencies`
 
-<stackblitz name={'react-ts-2nfddq'} />
+<Stackblitz name={'react-ts-2nfddq'} />
 
 ### c. useWatch
 
@@ -354,4 +354,4 @@ const SelectWard = (props) => {
 
 Kết quả vẫn như mình mong đợi:
 
-<stackblitz name={'react-ts-xdx9id'} />
+<Stackblitz name={'react-ts-xdx9id'} />

@@ -50,7 +50,7 @@ export default YourApp;```
 ### Embed StackBlitz
 
 ```
-<stackblitz name={'react-ts-mdxcmx'} />
+<Stackblitz name={'react-ts-mdxcmx'} />
 ```
 
 ### Live code: Add block with keywork live
