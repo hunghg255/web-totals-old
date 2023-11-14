@@ -1,0 +1,44 @@
+{
+  "id": "git/how-to-git-works",
+  "title": "How to git work?",
+  "description": "Working directory: where we edit files",
+  "source": "@site/docs/git/how-to-git-works.md",
+  "sourceDirName": "git",
+  "slug": "/git/how-to-git-works",
+  "permalink": "/docs/git/how-to-git-works",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/git/how-to-git-works.md",
+  "tags": [
+    {
+      "label": "Git",
+      "permalink": "/docs/tags/git"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1677776400,
+  "formattedLastUpdatedAt": "Mar 2, 2023",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "How to git work?",
+    "comment": true,
+    "tags": [
+      "Git"
+    ],
+    "last_update": {
+      "date": "03/03/2023",
+      "author": "hunghg255"
+    }
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "JS Extension - Import/Export Module",
+    "permalink": "/docs/javascript/js-extension-import-export-module"
+  }
+}

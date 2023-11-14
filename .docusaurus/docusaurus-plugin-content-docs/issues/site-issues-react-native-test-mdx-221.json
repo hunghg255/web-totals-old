@@ -1,0 +1,37 @@
+{
+  "id": "react-native/test",
+  "title": "Test",
+  "description": "",
+  "source": "@site/issues/react-native/test.mdx",
+  "sourceDirName": "react-native",
+  "slug": "/react-native/test",
+  "permalink": "/issues/react-native/test",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/react-native/test.mdx",
+  "tags": [
+    {
+      "label": "react",
+      "permalink": "/issues/tags/react"
+    },
+    {
+      "label": "provider",
+      "permalink": "/issues/tags/provider"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Test",
+    "authors": "hunghg",
+    "tags": [
+      "react",
+      "provider"
+    ],
+    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--HOQYtEP_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kj81kq4qurtf84xrvtm8.png"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RC Tooltip",
+    "permalink": "/issues/rc-style/rc-tooltip"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-previous",
+  "title": "usePrevious",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-previous.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-previous",
+  "permalink": "/issues/reactjs/custom-hook/use-previous",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-previous.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "usePrevious",
+      "permalink": "/issues/tags/use-previous"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "usePrevious",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "usePrevious"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useDeepEffect",
+    "permalink": "/issues/reactjs/custom-hook/use-deep-effect"
+  },
+  "next": {
+    "title": "useMergeRefs",
+    "permalink": "/issues/reactjs/custom-hook/use-merge-ref"
+  }
+}

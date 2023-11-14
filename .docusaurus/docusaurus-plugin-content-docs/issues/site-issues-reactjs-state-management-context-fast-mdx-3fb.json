@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/context-fast",
+  "title": "Context API Faster",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/context-fast.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/context-fast",
+  "permalink": "/issues/reactjs/state-management/context-fast",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/context-fast.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Context API Faster",
+      "permalink": "/issues/tags/context-api-faster"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Context API Faster",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Context API Faster"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Context API",
+    "permalink": "/issues/reactjs/state-management/context"
+  },
+  "next": {
+    "title": "Redux",
+    "permalink": "/issues/reactjs/state-management/redux"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "rendering-patterns/streaming-ssr",
+  "title": "Streaming Server Side Rendering",
+  "description": "",
+  "source": "@site/docs/rendering-patterns/streaming-ssr.mdx",
+  "sourceDirName": "rendering-patterns",
+  "slug": "/rendering-patterns/streaming-ssr",
+  "permalink": "/docs/rendering-patterns/streaming-ssr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/streaming-ssr.mdx",
+  "tags": [
+    {
+      "label": "Rendering Patterns",
+      "permalink": "/docs/tags/rendering-patterns"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1677781661,
+  "formattedLastUpdatedAt": "Mar 2, 2023",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Streaming Server Side Rendering",
+    "comment": true,
+    "tags": [
+      "Rendering Patterns"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Server Side Rendering",
+    "permalink": "/docs/rendering-patterns/server-side-rendering"
+  },
+  "next": {
+    "title": "Design patterns",
+    "permalink": "/docs/design-patterns/"
+  }
+}

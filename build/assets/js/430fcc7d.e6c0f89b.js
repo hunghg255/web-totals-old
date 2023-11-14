@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[4691],{46914:e=>{e.exports=JSON.parse('{"label":"Redux","permalink":"/issues/tags/redux","allTagsPath":"/issues/tags","count":1,"items":[{"id":"reactjs/state-management/redux","title":"Redux","description":"Demo","permalink":"/issues/reactjs/state-management/redux"}],"unlisted":false}')}}]);

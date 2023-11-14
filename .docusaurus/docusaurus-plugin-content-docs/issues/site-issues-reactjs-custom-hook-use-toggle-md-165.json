@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-toggle",
+  "title": "useToggle",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-toggle.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-toggle",
+  "permalink": "/issues/reactjs/custom-hook/use-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-toggle.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useToggle",
+      "permalink": "/issues/tags/use-toggle"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "useToggle",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useToggle"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useStateProxy",
+    "permalink": "/issues/reactjs/custom-hook/use-state-proxy"
+  },
+  "next": {
+    "title": "useTimeout",
+    "permalink": "/issues/reactjs/custom-hook/use-timeout"
+  }
+}

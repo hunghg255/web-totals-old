@@ -1,0 +1,37 @@
+{
+  "id": "javascripts/question-4",
+  "title": "Question 31 - 40",
+  "description": "Q. 31. What is the event.target when clicking the button?",
+  "source": "@site/questions/javascripts/question-4.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/question-4",
+  "permalink": "/questions/javascripts/question-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-4.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/questions/tags/javascript"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Question 31 - 40",
+    "comment": true,
+    "tags": [
+      "Javascript"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Question 21 - 30",
+    "permalink": "/questions/javascripts/question-3"
+  },
+  "next": {
+    "title": "Question 41 - 50",
+    "permalink": "/questions/javascripts/question-5"
+  }
+}

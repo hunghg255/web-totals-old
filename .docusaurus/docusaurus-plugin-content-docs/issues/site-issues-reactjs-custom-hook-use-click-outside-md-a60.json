@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-click-outside",
+  "title": "useClickOutside",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-click-outside.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-click-outside",
+  "permalink": "/issues/reactjs/custom-hook/use-click-outside",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-click-outside.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useClickOutside",
+      "permalink": "/issues/tags/use-click-outside"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "useClickOutside",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useClickOutside"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useFetch",
+    "permalink": "/issues/reactjs/custom-hook/use-fetch"
+  },
+  "next": {
+    "title": "useCountDown",
+    "permalink": "/issues/reactjs/custom-hook/use-count-down"
+  }
+}

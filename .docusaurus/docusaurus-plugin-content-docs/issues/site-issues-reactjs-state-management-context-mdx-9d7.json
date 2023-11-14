@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/context",
+  "title": "Context API",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/context.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/context",
+  "permalink": "/issues/reactjs/state-management/context",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/context.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Context API",
+      "permalink": "/issues/tags/context-api"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Context API",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Context API"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useFadeEffect",
+    "permalink": "/issues/reactjs/custom-hook/useFadeEffect"
+  },
+  "next": {
+    "title": "Context API Faster",
+    "permalink": "/issues/reactjs/state-management/context-fast"
+  }
+}

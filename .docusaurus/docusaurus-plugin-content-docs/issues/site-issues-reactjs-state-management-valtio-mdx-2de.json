@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/valtio",
+  "title": "Valtio",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/valtio.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/valtio",
+  "permalink": "/issues/reactjs/state-management/valtio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/valtio.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Valtio",
+      "permalink": "/issues/tags/valtio"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Valtio",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Valtio"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Zustand",
+    "permalink": "/issues/reactjs/state-management/zustand"
+  },
+  "next": {
+    "title": "RC Select",
+    "permalink": "/issues/rc-style/rc-select"
+  }
+}

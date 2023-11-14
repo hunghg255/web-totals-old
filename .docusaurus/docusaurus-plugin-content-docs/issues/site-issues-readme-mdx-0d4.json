@@ -1,0 +1,24 @@
+{
+  "id": "README",
+  "title": "Issues",
+  "description": "This is Issues",
+  "source": "@site/issues/README.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/issues/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/README.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Issues"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Delay without setTimeout",
+    "permalink": "/issues/javascripts/delay-without-set-timeout"
+  }
+}

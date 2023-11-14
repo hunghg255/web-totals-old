@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[7322],{1600:s=>{s.exports=JSON.parse('{"label":"Nextjs","permalink":"/blog/tags/nextjs","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,52 @@
+{
+  "id": "rc-style/rc-select",
+  "title": "RC Select",
+  "description": "Install rc-select component",
+  "source": "@site/issues/rc-style/rc-select.mdx",
+  "sourceDirName": "rc-style",
+  "slug": "/rc-style/rc-select",
+  "permalink": "/issues/rc-style/rc-select",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-select.mdx",
+  "tags": [
+    {
+      "label": "rc-select",
+      "permalink": "/issues/tags/rc-select"
+    },
+    {
+      "label": "Style",
+      "permalink": "/issues/tags/style"
+    },
+    {
+      "label": "CSS",
+      "permalink": "/issues/tags/css"
+    },
+    {
+      "label": "rc-component",
+      "permalink": "/issues/tags/rc-component"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "RC Select",
+    "comment": true,
+    "tags": [
+      "rc-select",
+      "Style",
+      "CSS",
+      "rc-component"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Valtio",
+    "permalink": "/issues/reactjs/state-management/valtio"
+  },
+  "next": {
+    "title": "RC Picker",
+    "permalink": "/issues/rc-style/rc-picker"
+  }
+}

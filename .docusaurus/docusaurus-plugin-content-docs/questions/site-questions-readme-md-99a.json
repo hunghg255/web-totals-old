@@ -1,0 +1,24 @@
+{
+  "id": "README",
+  "title": "Questions",
+  "description": "This is Questions",
+  "source": "@site/questions/README.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/questions/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/README.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Questions"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Question 1 - 10",
+    "permalink": "/questions/javascripts/question-1"
+  }
+}

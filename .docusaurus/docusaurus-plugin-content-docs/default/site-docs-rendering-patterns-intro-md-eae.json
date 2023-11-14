@@ -1,0 +1,40 @@
+{
+  "id": "rendering-patterns/intro",
+  "title": "Introduction",
+  "description": "Rendering content on the web can be done in many ways. The decision how and where to fetch and render content is key to the performance of an application.",
+  "source": "@site/docs/rendering-patterns/intro.md",
+  "sourceDirName": "rendering-patterns",
+  "slug": "/rendering-patterns/intro",
+  "permalink": "/docs/rendering-patterns/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/intro.md",
+  "tags": [
+    {
+      "label": "Rendering Patterns",
+      "permalink": "/docs/tags/rendering-patterns"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1679300862,
+  "formattedLastUpdatedAt": "Mar 20, 2023",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Introduction",
+    "comment": true,
+    "tags": [
+      "Rendering Patterns"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "State Managers",
+    "permalink": "/docs/reactjs/state-managers"
+  },
+  "next": {
+    "title": "Client Side Rendering",
+    "permalink": "/docs/rendering-patterns/client-side-rendering"
+  }
+}

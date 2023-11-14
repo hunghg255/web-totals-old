@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[7866],{52342:s=>{s.exports=JSON.parse('{"label":"useFetch","permalink":"/issues/tags/use-fetch","allTagsPath":"/issues/tags","count":1,"items":[{"id":"reactjs/custom-hook/use-fetch","title":"useFetch","description":"","permalink":"/issues/reactjs/custom-hook/use-fetch"}],"unlisted":false}')}}]);

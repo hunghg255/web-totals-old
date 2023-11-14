@@ -1,0 +1,40 @@
+{
+  "id": "design-patterns/index",
+  "title": "Design patterns",
+  "description": "Dp1",
+  "source": "@site/docs/design-patterns/index.md",
+  "sourceDirName": "design-patterns",
+  "slug": "/design-patterns/",
+  "permalink": "/docs/design-patterns/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/design-patterns/index.md",
+  "tags": [
+    {
+      "label": "Design Patterns",
+      "permalink": "/docs/tags/design-patterns"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1680800400,
+  "formattedLastUpdatedAt": "Apr 6, 2023",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Design patterns",
+    "comment": true,
+    "tags": [
+      "Design Patterns"
+    ],
+    "last_update": {
+      "date": "04/07/2023",
+      "author": "hunghg255"
+    }
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Streaming Server Side Rendering",
+    "permalink": "/docs/rendering-patterns/streaming-ssr"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-media-query",
+  "title": "useMediaQuery",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-media-query.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-media-query",
+  "permalink": "/issues/reactjs/custom-hook/use-media-query",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-media-query.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useMediaQuery",
+      "permalink": "/issues/tags/use-media-query"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "useMediaQuery",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useMediaQuery"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useCountDown",
+    "permalink": "/issues/reactjs/custom-hook/use-count-down"
+  },
+  "next": {
+    "title": "useWindowSize",
+    "permalink": "/issues/reactjs/custom-hook/use-window-size"
+  }
+}

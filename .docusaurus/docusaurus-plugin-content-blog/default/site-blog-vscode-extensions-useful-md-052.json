@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/vscode-extensions-useful",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/vscode-extensions-useful.md",
+  "source": "@site/blog/vscode-extensions-useful.md",
+  "title": "Vscode extensions useful",
+  "description": "Extensions useful on vscode",
+  "date": "2023-04-24T17:21:54.000Z",
+  "formattedDate": "April 24, 2023",
+  "tags": [
+    {
+      "label": "vscode",
+      "permalink": "/blog/tags/vscode"
+    },
+    {
+      "label": "extensions",
+      "permalink": "/blog/tags/extensions"
+    },
+    {
+      "label": "css",
+      "permalink": "/blog/tags/css"
+    },
+    {
+      "label": "tips",
+      "permalink": "/blog/tags/tips"
+    }
+  ],
+  "readingTime": 0.135,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Vscode extensions useful",
+    "authors": "hunghg",
+    "tags": [
+      "vscode",
+      "extensions",
+      "css",
+      "tips"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Centering in CSS",
+    "permalink": "/blog/center-css"
+  },
+  "nextItem": {
+    "title": "Convert svgs file to jsx by one script",
+    "permalink": "/blog/convert-svgs-to-jsx"
+  }
+}

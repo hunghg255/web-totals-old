@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/center-css",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/center-css.md",
+  "source": "@site/blog/center-css.md",
+  "title": "Centering in CSS",
+  "description": "1. Content Center",
+  "date": "2023-05-12T04:20:35.000Z",
+  "formattedDate": "May 12, 2023",
+  "tags": [
+    {
+      "label": "html",
+      "permalink": "/blog/tags/html"
+    },
+    {
+      "label": "css",
+      "permalink": "/blog/tags/css"
+    },
+    {
+      "label": "tips",
+      "permalink": "/blog/tags/tips"
+    }
+  ],
+  "readingTime": 0.685,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Centering in CSS",
+    "authors": "hunghg",
+    "tags": [
+      "html",
+      "css",
+      "tips"
+    ],
+    "image": "https://res.cloudinary.com/hunghg255/image/upload/v1683865180/css-center_m1zi5l.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Example Callstack And Event loop",
+    "permalink": "/blog/event-loop-call-stack-example"
+  },
+  "nextItem": {
+    "title": "Vscode extensions useful",
+    "permalink": "/blog/vscode-extensions-useful"
+  }
+}

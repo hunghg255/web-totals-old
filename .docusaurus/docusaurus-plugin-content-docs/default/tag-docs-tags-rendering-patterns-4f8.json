@@ -1,0 +1,45 @@
+{
+  "label": "Rendering Patterns",
+  "permalink": "/docs/tags/rendering-patterns",
+  "allTagsPath": "/docs/tags",
+  "count": 6,
+  "items": [
+    {
+      "id": "rendering-patterns/client-side-rendering",
+      "title": "Client Side Rendering",
+      "description": "",
+      "permalink": "/docs/rendering-patterns/client-side-rendering"
+    },
+    {
+      "id": "rendering-patterns/incremental-static-regeneration",
+      "title": "Incremental Static Regeneration",
+      "description": "",
+      "permalink": "/docs/rendering-patterns/incremental-static-regeneration"
+    },
+    {
+      "id": "rendering-patterns/intro",
+      "title": "Introduction",
+      "description": "Rendering content on the web can be done in many ways. The decision how and where to fetch and render content is key to the performance of an application.",
+      "permalink": "/docs/rendering-patterns/intro"
+    },
+    {
+      "id": "rendering-patterns/server-side-rendering",
+      "title": "Server Side Rendering",
+      "description": "",
+      "permalink": "/docs/rendering-patterns/server-side-rendering"
+    },
+    {
+      "id": "rendering-patterns/static-rendering",
+      "title": "Static Rendering",
+      "description": "",
+      "permalink": "/docs/rendering-patterns/static-rendering"
+    },
+    {
+      "id": "rendering-patterns/streaming-ssr",
+      "title": "Streaming Server Side Rendering",
+      "description": "",
+      "permalink": "/docs/rendering-patterns/streaming-ssr"
+    }
+  ],
+  "unlisted": false
+}

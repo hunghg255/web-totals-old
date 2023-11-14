@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/build-tools-frontend-2023",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/build-tools-frontend-2023.md",
+  "source": "@site/blog/build-tools-frontend-2023.md",
+  "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+  "description": "Build tools are software applications that automate the process of building, testing, and deploying front-end code, helping developers to streamline their workflows and ensure consistent, high-quality results. In this article, we will explore some of the most popular build tools for front-end developers and discuss their key features and benefits.",
+  "date": "2023-03-19T10:54:37.000Z",
+  "formattedDate": "March 19, 2023",
+  "tags": [
+    {
+      "label": "Frontend",
+      "permalink": "/blog/tags/frontend"
+    },
+    {
+      "label": "Build tools",
+      "permalink": "/blog/tags/build-tools"
+    },
+    {
+      "label": "2023",
+      "permalink": "/blog/tags/2023"
+    }
+  ],
+  "readingTime": 2.225,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+    "authors": "hunghg",
+    "tags": [
+      "Frontend",
+      "Build tools",
+      "2023"
+    ],
+    "image": "https://res.cloudinary.com/hunghg255/image/upload/v1679049199/blog/Build-Tools-for-Front-end-Developers_kbidno.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Xử lý form với Ant Design (Phần 1)",
+    "permalink": "/blog/handle-form-antd-part-1"
+  }
+}

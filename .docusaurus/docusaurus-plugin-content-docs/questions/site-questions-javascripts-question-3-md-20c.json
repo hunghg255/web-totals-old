@@ -1,0 +1,37 @@
+{
+  "id": "javascripts/question-3",
+  "title": "Question 21 - 30",
+  "description": "Q21. What's the value of sum?",
+  "source": "@site/questions/javascripts/question-3.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/question-3",
+  "permalink": "/questions/javascripts/question-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-3.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/questions/tags/javascript"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Question 21 - 30",
+    "comment": true,
+    "tags": [
+      "Javascript"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Question 11 - 20",
+    "permalink": "/questions/javascripts/question-2"
+  },
+  "next": {
+    "title": "Question 31 - 40",
+    "permalink": "/questions/javascripts/question-4"
+  }
+}

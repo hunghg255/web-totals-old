@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[5052],{96188:s=>{s.exports=JSON.parse('[{"label":"Javascript","permalink":"/questions/tags/javascript","count":16}]')}}]);

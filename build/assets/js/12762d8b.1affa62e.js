@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[172],{96478:a=>{a.exports=JSON.parse('{"label":"callstack","permalink":"/blog/tags/callstack","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

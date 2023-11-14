@@ -1,0 +1,15 @@
+{
+  "label": "react",
+  "permalink": "/issues/tags/react",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "react-native/test",
+      "title": "Test",
+      "description": "",
+      "permalink": "/issues/react-native/test"
+    }
+  ],
+  "unlisted": false
+}

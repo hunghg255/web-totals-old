@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/zustand",
+  "title": "Zustand",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/zustand.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/zustand",
+  "permalink": "/issues/reactjs/state-management/zustand",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/zustand.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Zustand",
+      "permalink": "/issues/tags/zustand"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Zustand",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Zustand"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Jotai",
+    "permalink": "/issues/reactjs/state-management/jotai"
+  },
+  "next": {
+    "title": "Valtio",
+    "permalink": "/issues/reactjs/state-management/valtio"
+  }
+}

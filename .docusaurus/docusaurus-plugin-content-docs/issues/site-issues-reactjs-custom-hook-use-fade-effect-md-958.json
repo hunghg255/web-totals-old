@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/useFadeEffect",
+  "title": "useFadeEffect",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/useFadeEffect.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/useFadeEffect",
+  "permalink": "/issues/reactjs/custom-hook/useFadeEffect",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/useFadeEffect.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useFadeEffect",
+      "permalink": "/issues/tags/use-fade-effect"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "title": "useFadeEffect",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useFadeEffect"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useDelayedState",
+    "permalink": "/issues/reactjs/custom-hook/useDelayedState"
+  },
+  "next": {
+    "title": "Context API",
+    "permalink": "/issues/reactjs/state-management/context"
+  }
+}

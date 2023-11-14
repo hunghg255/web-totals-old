@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/handle-form-antd-part-1",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/handle-form-antd-part-1.md",
+  "source": "@site/blog/handle-form-antd-part-1.md",
+  "title": "Xử lý form với Ant Design (Phần 1)",
+  "description": "Cách xử lý form trong Ant Design sao cho đúng.",
+  "date": "2023-03-19T10:54:44.000Z",
+  "formattedDate": "March 19, 2023",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/blog/tags/reactjs"
+    },
+    {
+      "label": "Ant Design",
+      "permalink": "/blog/tags/ant-design"
+    }
+  ],
+  "readingTime": 6.16,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Xử lý form với Ant Design (Phần 1)",
+    "authors": "hunghg",
+    "tags": [
+      "Reactjs",
+      "Ant Design"
+    ],
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Scroll Restoration in Nextjs",
+    "permalink": "/blog/scroll-restoration-nextjs"
+  },
+  "nextItem": {
+    "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+    "permalink": "/blog/build-tools-frontend-2023"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/useDelayedState",
+  "title": "useDelayedState",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/useDelayedState.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/useDelayedState",
+  "permalink": "/issues/reactjs/custom-hook/useDelayedState",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/useDelayedState.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useDelayedState",
+      "permalink": "/issues/tags/use-delayed-state"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "title": "useDelayedState",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useDelayedState"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useMemoByObjectVariables",
+    "permalink": "/issues/reactjs/custom-hook/useMemoByObjectVariables"
+  },
+  "next": {
+    "title": "useFadeEffect",
+    "permalink": "/issues/reactjs/custom-hook/useFadeEffect"
+  }
+}

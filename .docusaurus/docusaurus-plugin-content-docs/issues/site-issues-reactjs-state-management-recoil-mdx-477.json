@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/recoil",
+  "title": "Recoil",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/recoil.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/recoil",
+  "permalink": "/issues/reactjs/state-management/recoil",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/recoil.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Recoil",
+      "permalink": "/issues/tags/recoil"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Recoil",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Recoil"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Redux",
+    "permalink": "/issues/reactjs/state-management/redux"
+  },
+  "next": {
+    "title": "Jotai",
+    "permalink": "/issues/reactjs/state-management/jotai"
+  }
+}

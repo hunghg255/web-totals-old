@@ -1,0 +1,245 @@
+{
+  "pluginId": "questions",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Questions",
+        "href": "/questions/",
+        "docId": "README",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Javascript",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Question 1 - 10",
+            "href": "/questions/javascripts/question-1",
+            "docId": "javascripts/question-1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 11 - 20",
+            "href": "/questions/javascripts/question-2",
+            "docId": "javascripts/question-2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 21 - 30",
+            "href": "/questions/javascripts/question-3",
+            "docId": "javascripts/question-3",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 31 - 40",
+            "href": "/questions/javascripts/question-4",
+            "docId": "javascripts/question-4",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 41 - 50",
+            "href": "/questions/javascripts/question-5",
+            "docId": "javascripts/question-5",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 51 - 60",
+            "href": "/questions/javascripts/question-6",
+            "docId": "javascripts/question-6",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 61 - 70",
+            "href": "/questions/javascripts/question-7",
+            "docId": "javascripts/question-7",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 71 - 80",
+            "href": "/questions/javascripts/question-8",
+            "docId": "javascripts/question-8",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 81 - 90",
+            "href": "/questions/javascripts/question-9",
+            "docId": "javascripts/question-9",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 91 - 100",
+            "href": "/questions/javascripts/question-10",
+            "docId": "javascripts/question-10",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 101 - 110",
+            "href": "/questions/javascripts/question-11",
+            "docId": "javascripts/question-11",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 111 - 120",
+            "href": "/questions/javascripts/question-12",
+            "docId": "javascripts/question-12",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 121 - 130",
+            "href": "/questions/javascripts/question-13",
+            "docId": "javascripts/question-13",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 131 - 140",
+            "href": "/questions/javascripts/question-14",
+            "docId": "javascripts/question-14",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 141 - 150",
+            "href": "/questions/javascripts/question-15",
+            "docId": "javascripts/question-15",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Question 151 - 155",
+            "href": "/questions/javascripts/question-16",
+            "docId": "javascripts/question-16",
+            "unlisted": false
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "javascripts/question-1": {
+      "id": "javascripts/question-1",
+      "title": "Question 1 - 10",
+      "description": "Q1. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-10": {
+      "id": "javascripts/question-10",
+      "title": "Question 91 - 100",
+      "description": "91. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-11": {
+      "id": "javascripts/question-11",
+      "title": "Question 101 - 110",
+      "description": "101. What's the value of output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-12": {
+      "id": "javascripts/question-12",
+      "title": "Question 111 - 120",
+      "description": "111. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-13": {
+      "id": "javascripts/question-13",
+      "title": "Question 121 - 130",
+      "description": "121. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-14": {
+      "id": "javascripts/question-14",
+      "title": "Question 131 - 140",
+      "description": "131. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-15": {
+      "id": "javascripts/question-15",
+      "title": "Question 141 - 150",
+      "description": "141. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-16": {
+      "id": "javascripts/question-16",
+      "title": "Question 151 - 155",
+      "description": "150. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-2": {
+      "id": "javascripts/question-2",
+      "title": "Question 11 - 20",
+      "description": "Q11. What is the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-3": {
+      "id": "javascripts/question-3",
+      "title": "Question 21 - 30",
+      "description": "Q21. What's the value of sum?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-4": {
+      "id": "javascripts/question-4",
+      "title": "Question 31 - 40",
+      "description": "Q. 31. What is the event.target when clicking the button?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-5": {
+      "id": "javascripts/question-5",
+      "title": "Question 41 - 50",
+      "description": "Q. 41. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-6": {
+      "id": "javascripts/question-6",
+      "title": "Question 51 - 60",
+      "description": "51. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-7": {
+      "id": "javascripts/question-7",
+      "title": "Question 61 - 70",
+      "description": "61. What's the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-8": {
+      "id": "javascripts/question-8",
+      "title": "Question 71 - 80",
+      "description": "71. How can we log the values that are commented out after the console.log statement?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascripts/question-9": {
+      "id": "javascripts/question-9",
+      "title": "Question 81 - 90",
+      "description": "81. What is the output?",
+      "sidebar": "tutorialSidebar"
+    },
+    "README": {
+      "id": "README",
+      "title": "Questions",
+      "description": "This is Questions",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

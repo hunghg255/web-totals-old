@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[880],{53069:l=>{l.exports=JSON.parse('{"label":"Scroll Restoration","permalink":"/blog/tags/scroll-restoration","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,38 @@
+{
+  "id": "javascripts/question-1",
+  "title": "Question 1 - 10",
+  "description": "Q1. What's the output?",
+  "source": "@site/questions/javascripts/question-1.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/question-1",
+  "permalink": "/questions/javascripts/question-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-1.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/questions/tags/javascript"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Question 1 - 10",
+    "comment": true,
+    "date": "2022-10-23 11:03:14",
+    "tags": [
+      "Javascript"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Questions",
+    "permalink": "/questions/"
+  },
+  "next": {
+    "title": "Question 11 - 20",
+    "permalink": "/questions/javascripts/question-2"
+  }
+}

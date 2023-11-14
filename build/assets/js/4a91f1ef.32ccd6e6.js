@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[2690],{95144:e=>{e.exports=JSON.parse('{"label":"react","permalink":"/issues/tags/react","allTagsPath":"/issues/tags","count":1,"items":[{"id":"react-native/test","title":"Test","description":"","permalink":"/issues/react-native/test"}],"unlisted":false}')}}]);

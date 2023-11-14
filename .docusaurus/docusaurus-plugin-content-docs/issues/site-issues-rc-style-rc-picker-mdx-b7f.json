@@ -1,0 +1,52 @@
+{
+  "id": "rc-style/rc-picker",
+  "title": "RC Picker",
+  "description": "Install rc-picker component",
+  "source": "@site/issues/rc-style/rc-picker.mdx",
+  "sourceDirName": "rc-style",
+  "slug": "/rc-style/rc-picker",
+  "permalink": "/issues/rc-style/rc-picker",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-picker.mdx",
+  "tags": [
+    {
+      "label": "rc-picker",
+      "permalink": "/issues/tags/rc-picker"
+    },
+    {
+      "label": "Style",
+      "permalink": "/issues/tags/style"
+    },
+    {
+      "label": "CSS",
+      "permalink": "/issues/tags/css"
+    },
+    {
+      "label": "rc-component",
+      "permalink": "/issues/tags/rc-component"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "RC Picker",
+    "comment": true,
+    "tags": [
+      "rc-picker",
+      "Style",
+      "CSS",
+      "rc-component"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RC Select",
+    "permalink": "/issues/rc-style/rc-select"
+  },
+  "next": {
+    "title": "RC Dialog",
+    "permalink": "/issues/rc-style/rc-dialog"
+  }
+}

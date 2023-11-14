@@ -1,0 +1,52 @@
+{
+  "id": "rc-style/rc-dialog",
+  "title": "RC Dialog",
+  "description": "Install rc-dialog component",
+  "source": "@site/issues/rc-style/rc-dialog.mdx",
+  "sourceDirName": "rc-style",
+  "slug": "/rc-style/rc-dialog",
+  "permalink": "/issues/rc-style/rc-dialog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-dialog.mdx",
+  "tags": [
+    {
+      "label": "rc-dialog",
+      "permalink": "/issues/tags/rc-dialog"
+    },
+    {
+      "label": "Style",
+      "permalink": "/issues/tags/style"
+    },
+    {
+      "label": "CSS",
+      "permalink": "/issues/tags/css"
+    },
+    {
+      "label": "rc-component",
+      "permalink": "/issues/tags/rc-component"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "RC Dialog",
+    "comment": true,
+    "tags": [
+      "rc-dialog",
+      "Style",
+      "CSS",
+      "rc-component"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RC Picker",
+    "permalink": "/issues/rc-style/rc-picker"
+  },
+  "next": {
+    "title": "RC Tooltip",
+    "permalink": "/issues/rc-style/rc-tooltip"
+  }
+}

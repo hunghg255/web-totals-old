@@ -1,0 +1,42 @@
+{
+  "id": "javascripts/delay-without-set-timeout",
+  "title": "Delay without setTimeout",
+  "description": "This is a delay function without setTimeout and promise in javascript",
+  "source": "@site/issues/javascripts/delay-without-set-timeout.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/delay-without-set-timeout",
+  "permalink": "/issues/javascripts/delay-without-set-timeout",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/delay-without-set-timeout.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/issues/tags/javascript"
+    },
+    {
+      "label": "Utils",
+      "permalink": "/issues/tags/utils"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Delay without setTimeout",
+    "comment": true,
+    "tags": [
+      "Javascript",
+      "Utils"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Issues",
+    "permalink": "/issues/"
+  },
+  "next": {
+    "title": "Random",
+    "permalink": "/issues/javascripts/1loc/random"
+  }
+}

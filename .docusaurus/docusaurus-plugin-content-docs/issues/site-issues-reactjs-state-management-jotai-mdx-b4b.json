@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/jotai",
+  "title": "Jotai",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/jotai.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/jotai",
+  "permalink": "/issues/reactjs/state-management/jotai",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/jotai.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Jotai",
+      "permalink": "/issues/tags/jotai"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Jotai",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Jotai"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recoil",
+    "permalink": "/issues/reactjs/state-management/recoil"
+  },
+  "next": {
+    "title": "Zustand",
+    "permalink": "/issues/reactjs/state-management/zustand"
+  }
+}

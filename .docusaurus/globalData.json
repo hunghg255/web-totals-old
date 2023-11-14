@@ -1,0 +1,405 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-72XCT3FHGJ"
+      ],
+      "anonymizeIP": false,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "issues": {
+      "path": "/issues",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/issues",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "javascripts/1loc/random",
+              "path": "/issues/javascripts/1loc/random",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/delay-without-set-timeout",
+              "path": "/issues/javascripts/delay-without-set-timeout",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/sort/sleep-sort",
+              "path": "/issues/javascripts/sort/sleep-sort",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/split-text-utils",
+              "path": "/issues/javascripts/split-text-utils",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rc-style/rc-dialog",
+              "path": "/issues/rc-style/rc-dialog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rc-style/rc-picker",
+              "path": "/issues/rc-style/rc-picker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rc-style/rc-select",
+              "path": "/issues/rc-style/rc-select",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rc-style/rc-tooltip",
+              "path": "/issues/rc-style/rc-tooltip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-native/test",
+              "path": "/issues/react-native/test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-click-outside",
+              "path": "/issues/reactjs/custom-hook/use-click-outside",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-count-down",
+              "path": "/issues/reactjs/custom-hook/use-count-down",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-debounce",
+              "path": "/issues/reactjs/custom-hook/use-debounce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-deep-effect",
+              "path": "/issues/reactjs/custom-hook/use-deep-effect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-fetch",
+              "path": "/issues/reactjs/custom-hook/use-fetch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-geolocation",
+              "path": "/issues/reactjs/custom-hook/use-geolocation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-media-query",
+              "path": "/issues/reactjs/custom-hook/use-media-query",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-merge-ref",
+              "path": "/issues/reactjs/custom-hook/use-merge-ref",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-previous",
+              "path": "/issues/reactjs/custom-hook/use-previous",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-size",
+              "path": "/issues/reactjs/custom-hook/use-size",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-state-proxy",
+              "path": "/issues/reactjs/custom-hook/use-state-proxy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-timeout",
+              "path": "/issues/reactjs/custom-hook/use-timeout",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-toggle",
+              "path": "/issues/reactjs/custom-hook/use-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/use-window-size",
+              "path": "/issues/reactjs/custom-hook/use-window-size",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/useDelayedState",
+              "path": "/issues/reactjs/custom-hook/useDelayedState",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/useFadeEffect",
+              "path": "/issues/reactjs/custom-hook/useFadeEffect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/custom-hook/useMemoByObjectVariables",
+              "path": "/issues/reactjs/custom-hook/useMemoByObjectVariables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/context",
+              "path": "/issues/reactjs/state-management/context",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/context-fast",
+              "path": "/issues/reactjs/state-management/context-fast",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/jotai",
+              "path": "/issues/reactjs/state-management/jotai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/recoil",
+              "path": "/issues/reactjs/state-management/recoil",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/redux",
+              "path": "/issues/reactjs/state-management/redux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/valtio",
+              "path": "/issues/reactjs/state-management/valtio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-management/zustand",
+              "path": "/issues/reactjs/state-management/zustand",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/issues/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/issues/",
+                "label": "README"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "questions": {
+      "path": "/questions",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/questions",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "javascripts/question-1",
+              "path": "/questions/javascripts/question-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-10",
+              "path": "/questions/javascripts/question-10",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-11",
+              "path": "/questions/javascripts/question-11",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-12",
+              "path": "/questions/javascripts/question-12",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-13",
+              "path": "/questions/javascripts/question-13",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-14",
+              "path": "/questions/javascripts/question-14",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-15",
+              "path": "/questions/javascripts/question-15",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-16",
+              "path": "/questions/javascripts/question-16",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-2",
+              "path": "/questions/javascripts/question-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-3",
+              "path": "/questions/javascripts/question-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-4",
+              "path": "/questions/javascripts/question-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-5",
+              "path": "/questions/javascripts/question-5",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-6",
+              "path": "/questions/javascripts/question-6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-7",
+              "path": "/questions/javascripts/question-7",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-8",
+              "path": "/questions/javascripts/question-8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-9",
+              "path": "/questions/javascripts/question-9",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/questions/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/questions/",
+                "label": "README"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "design-patterns/index",
+              "path": "/docs/design-patterns/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "git/how-to-git-works",
+              "path": "/docs/git/how-to-git-works",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/js-extension-import-export-module",
+              "path": "/docs/javascript/js-extension-import-export-module",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/compound-pattern",
+              "path": "/docs/reactjs/compound-pattern",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/hoc-pattern",
+              "path": "/docs/reactjs/hoc-pattern",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-managers",
+              "path": "/docs/reactjs/state-managers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/client-side-rendering",
+              "path": "/docs/rendering-patterns/client-side-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/incremental-static-regeneration",
+              "path": "/docs/rendering-patterns/incremental-static-regeneration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/intro",
+              "path": "/docs/rendering-patterns/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/server-side-rendering",
+              "path": "/docs/rendering-patterns/server-side-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/static-rendering",
+              "path": "/docs/rendering-patterns/static-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/streaming-ssr",
+              "path": "/docs/rendering-patterns/streaming-ssr",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label": "Discord",
+  "permalink": "/issues/tags/discord",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "javascripts/split-text-utils",
+      "title": "Split Text Utils",
+      "description": "",
+      "permalink": "/issues/javascripts/split-text-utils"
+    }
+  ],
+  "unlisted": false
+}

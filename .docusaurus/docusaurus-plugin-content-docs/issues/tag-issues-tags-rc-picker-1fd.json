@@ -1,0 +1,15 @@
+{
+  "label": "rc-picker",
+  "permalink": "/issues/tags/rc-picker",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "rc-style/rc-picker",
+      "title": "RC Picker",
+      "description": "Install rc-picker component",
+      "permalink": "/issues/rc-style/rc-picker"
+    }
+  ],
+  "unlisted": false
+}

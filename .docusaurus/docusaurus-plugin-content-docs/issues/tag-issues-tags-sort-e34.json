@@ -1,0 +1,15 @@
+{
+  "label": "sort",
+  "permalink": "/issues/tags/sort",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "javascripts/sort/sleep-sort",
+      "title": "Sleep Sort",
+      "description": "",
+      "permalink": "/issues/javascripts/sort/sleep-sort"
+    }
+  ],
+  "unlisted": false
+}

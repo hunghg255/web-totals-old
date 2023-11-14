@@ -1,0 +1,50 @@
+{
+  "title": "Blogs",
+  "items": [
+    {
+      "title": "React Provider Hell",
+      "permalink": "/blog/react-provider-hell",
+      "unlisted": false
+    },
+    {
+      "title": "Example Callstack And Event loop",
+      "permalink": "/blog/event-loop-call-stack-example",
+      "unlisted": false
+    },
+    {
+      "title": "Centering in CSS",
+      "permalink": "/blog/center-css",
+      "unlisted": false
+    },
+    {
+      "title": "Vscode extensions useful",
+      "permalink": "/blog/vscode-extensions-useful",
+      "unlisted": false
+    },
+    {
+      "title": "Convert svgs file to jsx by one script",
+      "permalink": "/blog/convert-svgs-to-jsx",
+      "unlisted": false
+    },
+    {
+      "title": "HTML Input Type",
+      "permalink": "/blog/html-input",
+      "unlisted": false
+    },
+    {
+      "title": "Scroll Restoration in Nextjs",
+      "permalink": "/blog/scroll-restoration-nextjs",
+      "unlisted": false
+    },
+    {
+      "title": "Xử lý form với Ant Design (Phần 1)",
+      "permalink": "/blog/handle-form-antd-part-1",
+      "unlisted": false
+    },
+    {
+      "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+      "permalink": "/blog/build-tools-frontend-2023",
+      "unlisted": false
+    }
+  ]
+}

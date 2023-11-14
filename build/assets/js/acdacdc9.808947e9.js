@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[8790],{77480:e=>{e.exports=JSON.parse('{"label":"Jotai","permalink":"/issues/tags/jotai","allTagsPath":"/issues/tags","count":1,"items":[{"id":"reactjs/state-management/jotai","title":"Jotai","description":"Demo","permalink":"/issues/reactjs/state-management/jotai"}],"unlisted":false}')}}]);

@@ -1,0 +1,47 @@
+{
+  "id": "javascripts/1loc/random",
+  "title": "Random",
+  "description": "Generate a random integer in given range",
+  "source": "@site/issues/javascripts/1loc/random.mdx",
+  "sourceDirName": "javascripts/1loc",
+  "slug": "/javascripts/1loc/random",
+  "permalink": "/issues/javascripts/1loc/random",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/1loc/random.mdx",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/issues/tags/javascript"
+    },
+    {
+      "label": "1loc",
+      "permalink": "/issues/tags/1-loc"
+    },
+    {
+      "label": "Random",
+      "permalink": "/issues/tags/random"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Random",
+    "comment": true,
+    "tags": [
+      "Javascript",
+      "1loc",
+      "Random"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delay without setTimeout",
+    "permalink": "/issues/javascripts/delay-without-set-timeout"
+  },
+  "next": {
+    "title": "Split Text Utils",
+    "permalink": "/issues/javascripts/split-text-utils"
+  }
+}

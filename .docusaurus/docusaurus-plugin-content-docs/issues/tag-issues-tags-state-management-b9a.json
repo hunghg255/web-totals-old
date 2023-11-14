@@ -1,0 +1,51 @@
+{
+  "label": "State management",
+  "permalink": "/issues/tags/state-management",
+  "allTagsPath": "/issues/tags",
+  "count": 7,
+  "items": [
+    {
+      "id": "reactjs/state-management/context",
+      "title": "Context API",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/context"
+    },
+    {
+      "id": "reactjs/state-management/context-fast",
+      "title": "Context API Faster",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/context-fast"
+    },
+    {
+      "id": "reactjs/state-management/jotai",
+      "title": "Jotai",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/jotai"
+    },
+    {
+      "id": "reactjs/state-management/recoil",
+      "title": "Recoil",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/recoil"
+    },
+    {
+      "id": "reactjs/state-management/redux",
+      "title": "Redux",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/redux"
+    },
+    {
+      "id": "reactjs/state-management/valtio",
+      "title": "Valtio",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/valtio"
+    },
+    {
+      "id": "reactjs/state-management/zustand",
+      "title": "Zustand",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/zustand"
+    }
+  ],
+  "unlisted": false
+}

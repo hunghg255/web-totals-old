@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[297],{21543:e=>{e.exports=JSON.parse('{"label":"provider","permalink":"/blog/tags/provider","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

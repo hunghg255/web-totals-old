@@ -1,0 +1,37 @@
+{
+  "id": "javascripts/question-8",
+  "title": "Question 71 - 80",
+  "description": "71. How can we log the values that are commented out after the console.log statement?",
+  "source": "@site/questions/javascripts/question-8.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/question-8",
+  "permalink": "/questions/javascripts/question-8",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-8.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/questions/tags/javascript"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Question 71 - 80",
+    "comment": true,
+    "tags": [
+      "Javascript"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Question 61 - 70",
+    "permalink": "/questions/javascripts/question-7"
+  },
+  "next": {
+    "title": "Question 81 - 90",
+    "permalink": "/questions/javascripts/question-9"
+  }
+}

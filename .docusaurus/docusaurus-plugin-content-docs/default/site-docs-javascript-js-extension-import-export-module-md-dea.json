@@ -1,0 +1,44 @@
+{
+  "id": "javascript/js-extension-import-export-module",
+  "title": "JS Extension - Import/Export Module",
+  "description": "1. IIFE (Immediately Invoked Function Expression)",
+  "source": "@site/docs/javascript/js-extension-import-export-module.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/js-extension-import-export-module",
+  "permalink": "/docs/javascript/js-extension-import-export-module",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/javascript/js-extension-import-export-module.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/docs/tags/reactjs"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1683219600,
+  "formattedLastUpdatedAt": "May 4, 2023",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "JS Extension - Import/Export Module",
+    "comment": true,
+    "tags": [
+      "Reactjs"
+    ],
+    "last_update": {
+      "date": "05/05/2023",
+      "author": "hunghg255"
+    }
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to git work?",
+    "permalink": "/docs/git/how-to-git-works"
+  },
+  "next": {
+    "title": "Higher-Order Components",
+    "permalink": "/docs/reactjs/hoc-pattern"
+  }
+}

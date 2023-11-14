@@ -1,0 +1,49 @@
+{
+  "id": "reactjs/state-managers",
+  "title": "State Managers",
+  "description": "1. Overview",
+  "source": "@site/docs/reactjs/state-managers.mdx",
+  "sourceDirName": "reactjs",
+  "slug": "/reactjs/state-managers",
+  "permalink": "/docs/reactjs/state-managers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/reactjs/state-managers.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/docs/tags/reactjs"
+    },
+    {
+      "label": "State managers",
+      "permalink": "/docs/tags/state-managers"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1680109200,
+  "formattedLastUpdatedAt": "Mar 29, 2023",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "State Managers",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State managers"
+    ],
+    "last_update": {
+      "date": "03/30/2023",
+      "author": "hunghg255"
+    }
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compound Pattern",
+    "permalink": "/docs/reactjs/compound-pattern"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/rendering-patterns/intro"
+  }
+}

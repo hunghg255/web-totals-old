@@ -1,0 +1,52 @@
+{
+  "id": "rc-style/rc-tooltip",
+  "title": "RC Tooltip",
+  "description": "Install rc-tooltip component",
+  "source": "@site/issues/rc-style/rc-tooltip.mdx",
+  "sourceDirName": "rc-style",
+  "slug": "/rc-style/rc-tooltip",
+  "permalink": "/issues/rc-style/rc-tooltip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-tooltip.mdx",
+  "tags": [
+    {
+      "label": "rc-tooltip",
+      "permalink": "/issues/tags/rc-tooltip"
+    },
+    {
+      "label": "Style",
+      "permalink": "/issues/tags/style"
+    },
+    {
+      "label": "CSS",
+      "permalink": "/issues/tags/css"
+    },
+    {
+      "label": "rc-component",
+      "permalink": "/issues/tags/rc-component"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "RC Tooltip",
+    "comment": true,
+    "tags": [
+      "rc-tooltip",
+      "Style",
+      "CSS",
+      "rc-component"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RC Dialog",
+    "permalink": "/issues/rc-style/rc-dialog"
+  },
+  "next": {
+    "title": "Test",
+    "permalink": "/issues/react-native/test"
+  }
+}

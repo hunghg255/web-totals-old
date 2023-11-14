@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-debounce",
+  "title": "useDebounce",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-debounce.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-debounce",
+  "permalink": "/issues/reactjs/custom-hook/use-debounce",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-debounce.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useDebounce",
+      "permalink": "/issues/tags/use-debounce"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "useDebounce",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useDebounce"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useGeolocation",
+    "permalink": "/issues/reactjs/custom-hook/use-geolocation"
+  },
+  "next": {
+    "title": "useDeepEffect",
+    "permalink": "/issues/reactjs/custom-hook/use-deep-effect"
+  }
+}

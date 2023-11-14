@@ -1,0 +1,15 @@
+{
+  "label": "rc-select",
+  "permalink": "/issues/tags/rc-select",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "rc-style/rc-select",
+      "title": "RC Select",
+      "description": "Install rc-select component",
+      "permalink": "/issues/rc-style/rc-select"
+    }
+  ],
+  "unlisted": false
+}

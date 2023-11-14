@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/react-provider-hell",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/react-provider-hell.md",
+  "source": "@site/blog/react-provider-hell.md",
+  "title": "React Provider Hell",
+  "description": "React Provider Hell",
+  "date": "2023-09-19T19:28:57.000Z",
+  "formattedDate": "September 19, 2023",
+  "tags": [
+    {
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "label": "provider",
+      "permalink": "/blog/tags/provider"
+    }
+  ],
+  "readingTime": 1.18,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "React Provider Hell",
+    "authors": "hunghg",
+    "tags": [
+      "react",
+      "provider"
+    ],
+    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--HOQYtEP_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kj81kq4qurtf84xrvtm8.png"
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Example Callstack And Event loop",
+    "permalink": "/blog/event-loop-call-stack-example"
+  }
+}

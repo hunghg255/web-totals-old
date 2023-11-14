@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Design Patterns",
+    "permalink": "/docs/tags/design-patterns",
+    "count": 1
+  },
+  {
+    "label": "Git",
+    "permalink": "/docs/tags/git",
+    "count": 1
+  },
+  {
+    "label": "Reactjs",
+    "permalink": "/docs/tags/reactjs",
+    "count": 4
+  },
+  {
+    "label": "State managers",
+    "permalink": "/docs/tags/state-managers",
+    "count": 1
+  },
+  {
+    "label": "Rendering Patterns",
+    "permalink": "/docs/tags/rendering-patterns",
+    "count": 6
+  }
+]

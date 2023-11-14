@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-state-proxy",
+  "title": "useStateProxy",
+  "description": "This is a custom hook to mutate state in reactjs",
+  "source": "@site/issues/reactjs/custom-hook/use-state-proxy.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-state-proxy",
+  "permalink": "/issues/reactjs/custom-hook/use-state-proxy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-state-proxy.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useStateProxy",
+      "permalink": "/issues/tags/use-state-proxy"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "useStateProxy",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useStateProxy"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sleep Sort",
+    "permalink": "/issues/javascripts/sort/sleep-sort"
+  },
+  "next": {
+    "title": "useToggle",
+    "permalink": "/issues/reactjs/custom-hook/use-toggle"
+  }
+}

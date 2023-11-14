@@ -1,0 +1,42 @@
+{
+  "id": "javascripts/sort/sleep-sort",
+  "title": "Sleep Sort",
+  "description": "",
+  "source": "@site/issues/javascripts/sort/sleep-sort.md",
+  "sourceDirName": "javascripts/sort",
+  "slug": "/javascripts/sort/sleep-sort",
+  "permalink": "/issues/javascripts/sort/sleep-sort",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/sort/sleep-sort.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/issues/tags/javascript"
+    },
+    {
+      "label": "sort",
+      "permalink": "/issues/tags/sort"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Sleep Sort",
+    "comment": true,
+    "tags": [
+      "Javascript",
+      "sort"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Split Text Utils",
+    "permalink": "/issues/javascripts/split-text-utils"
+  },
+  "next": {
+    "title": "useStateProxy",
+    "permalink": "/issues/reactjs/custom-hook/use-state-proxy"
+  }
+}

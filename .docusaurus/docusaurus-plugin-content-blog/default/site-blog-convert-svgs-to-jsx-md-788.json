@@ -1,0 +1,64 @@
+{
+  "permalink": "/blog/convert-svgs-to-jsx",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/convert-svgs-to-jsx.md",
+  "source": "@site/blog/convert-svgs-to-jsx.md",
+  "title": "Convert svgs file to jsx by one script",
+  "description": "Run this script on terminal",
+  "date": "2023-04-24T17:13:15.000Z",
+  "formattedDate": "April 24, 2023",
+  "tags": [
+    {
+      "label": "svg",
+      "permalink": "/blog/tags/svg"
+    },
+    {
+      "label": "jsx",
+      "permalink": "/blog/tags/jsx"
+    },
+    {
+      "label": "reactjs",
+      "permalink": "/blog/tags/reactjs"
+    },
+    {
+      "label": "scripts",
+      "permalink": "/blog/tags/scripts"
+    },
+    {
+      "label": "generate",
+      "permalink": "/blog/tags/generate"
+    }
+  ],
+  "readingTime": 0.94,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Convert svgs file to jsx by one script",
+    "authors": "hunghg",
+    "tags": [
+      "svg",
+      "jsx",
+      "reactjs",
+      "scripts",
+      "generate"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Vscode extensions useful",
+    "permalink": "/blog/vscode-extensions-useful"
+  },
+  "nextItem": {
+    "title": "HTML Input Type",
+    "permalink": "/blog/html-input"
+  }
+}

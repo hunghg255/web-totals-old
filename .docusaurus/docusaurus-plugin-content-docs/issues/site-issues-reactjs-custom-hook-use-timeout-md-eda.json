@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-timeout",
+  "title": "useTimeout",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-timeout.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-timeout",
+  "permalink": "/issues/reactjs/custom-hook/use-timeout",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-timeout.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useTimeout",
+      "permalink": "/issues/tags/use-timeout"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "useTimeout",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useTimeout"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useToggle",
+    "permalink": "/issues/reactjs/custom-hook/use-toggle"
+  },
+  "next": {
+    "title": "useFetch",
+    "permalink": "/issues/reactjs/custom-hook/use-fetch"
+  }
+}

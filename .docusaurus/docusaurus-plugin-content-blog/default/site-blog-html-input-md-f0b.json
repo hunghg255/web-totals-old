@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/html-input",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/html-input.md",
+  "source": "@site/blog/html-input.md",
+  "title": "HTML Input Type",
+  "description": "All input type html!",
+  "date": "2023-04-13T10:15:25.000Z",
+  "formattedDate": "April 13, 2023",
+  "tags": [
+    {
+      "label": "Html",
+      "permalink": "/blog/tags/html"
+    }
+  ],
+  "readingTime": 0.89,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "HTML Input Type",
+    "authors": "hunghg",
+    "tags": [
+      "Html"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Convert svgs file to jsx by one script",
+    "permalink": "/blog/convert-svgs-to-jsx"
+  },
+  "nextItem": {
+    "title": "Scroll Restoration in Nextjs",
+    "permalink": "/blog/scroll-restoration-nextjs"
+  }
+}

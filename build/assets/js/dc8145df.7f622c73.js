@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[3069],{43853:s=>{s.exports=JSON.parse('{"label":"sort","permalink":"/issues/tags/sort","allTagsPath":"/issues/tags","count":1,"items":[{"id":"javascripts/sort/sleep-sort","title":"Sleep Sort","description":"","permalink":"/issues/javascripts/sort/sleep-sort"}],"unlisted":false}')}}]);

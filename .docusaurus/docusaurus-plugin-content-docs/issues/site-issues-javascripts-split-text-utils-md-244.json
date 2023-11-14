@@ -1,0 +1,47 @@
+{
+  "id": "javascripts/split-text-utils",
+  "title": "Split Text Utils",
+  "description": "",
+  "source": "@site/issues/javascripts/split-text-utils.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/split-text-utils",
+  "permalink": "/issues/javascripts/split-text-utils",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/split-text-utils.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/issues/tags/javascript"
+    },
+    {
+      "label": "Utils",
+      "permalink": "/issues/tags/utils"
+    },
+    {
+      "label": "Discord",
+      "permalink": "/issues/tags/discord"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Split Text Utils",
+    "comment": true,
+    "tags": [
+      "Javascript",
+      "Utils",
+      "Discord"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Random",
+    "permalink": "/issues/javascripts/1loc/random"
+  },
+  "next": {
+    "title": "Sleep Sort",
+    "permalink": "/issues/javascripts/sort/sleep-sort"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[6460],{32290:e=>{e.exports=JSON.parse('{"label":"Valtio","permalink":"/issues/tags/valtio","allTagsPath":"/issues/tags","count":1,"items":[{"id":"reactjs/state-management/valtio","title":"Valtio","description":"Demo","permalink":"/issues/reactjs/state-management/valtio"}],"unlisted":false}')}}]);

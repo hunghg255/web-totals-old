@@ -1,0 +1,15 @@
+{
+  "label": "Zustand",
+  "permalink": "/issues/tags/zustand",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "reactjs/state-management/zustand",
+      "title": "Zustand",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/zustand"
+    }
+  ],
+  "unlisted": false
+}

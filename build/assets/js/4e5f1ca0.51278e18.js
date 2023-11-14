@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[1835],{91676:s=>{s.exports=JSON.parse('{"label":"jsx","permalink":"/blog/tags/jsx","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

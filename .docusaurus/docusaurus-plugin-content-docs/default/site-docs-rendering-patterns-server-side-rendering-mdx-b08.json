@@ -1,0 +1,40 @@
+{
+  "id": "rendering-patterns/server-side-rendering",
+  "title": "Server Side Rendering",
+  "description": "",
+  "source": "@site/docs/rendering-patterns/server-side-rendering.mdx",
+  "sourceDirName": "rendering-patterns",
+  "slug": "/rendering-patterns/server-side-rendering",
+  "permalink": "/docs/rendering-patterns/server-side-rendering",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/server-side-rendering.mdx",
+  "tags": [
+    {
+      "label": "Rendering Patterns",
+      "permalink": "/docs/tags/rendering-patterns"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1677781661,
+  "formattedLastUpdatedAt": "Mar 2, 2023",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Server Side Rendering",
+    "comment": true,
+    "tags": [
+      "Rendering Patterns"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Incremental Static Regeneration",
+    "permalink": "/docs/rendering-patterns/incremental-static-regeneration"
+  },
+  "next": {
+    "title": "Streaming Server Side Rendering",
+    "permalink": "/docs/rendering-patterns/streaming-ssr"
+  }
+}

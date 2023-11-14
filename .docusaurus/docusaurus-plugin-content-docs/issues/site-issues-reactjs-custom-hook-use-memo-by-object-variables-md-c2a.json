@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/useMemoByObjectVariables",
+  "title": "useMemoByObjectVariables",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/useMemoByObjectVariables.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/useMemoByObjectVariables",
+  "permalink": "/issues/reactjs/custom-hook/useMemoByObjectVariables",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/useMemoByObjectVariables.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useMemoByObjectVariables",
+      "permalink": "/issues/tags/use-memo-by-object-variables"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15,
+    "title": "useMemoByObjectVariables",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useMemoByObjectVariables"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useMergeRefs",
+    "permalink": "/issues/reactjs/custom-hook/use-merge-ref"
+  },
+  "next": {
+    "title": "useDelayedState",
+    "permalink": "/issues/reactjs/custom-hook/useDelayedState"
+  }
+}

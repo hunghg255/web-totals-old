@@ -1,0 +1,217 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Documentation",
+        "href": "/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Git",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "How to git work?",
+            "href": "/docs/git/how-to-git-works",
+            "docId": "git/how-to-git-works",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Javascript",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "JS Extension - Import/Export Module",
+            "href": "/docs/javascript/js-extension-import-export-module",
+            "docId": "javascript/js-extension-import-export-module",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Reactjs",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Higher-Order Components",
+            "href": "/docs/reactjs/hoc-pattern",
+            "docId": "reactjs/hoc-pattern",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Compound Pattern",
+            "href": "/docs/reactjs/compound-pattern",
+            "docId": "reactjs/compound-pattern",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "State Managers",
+            "href": "/docs/reactjs/state-managers",
+            "docId": "reactjs/state-managers",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Rendering Patterns",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/rendering-patterns/intro",
+            "docId": "rendering-patterns/intro",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Client Side Rendering",
+            "href": "/docs/rendering-patterns/client-side-rendering",
+            "docId": "rendering-patterns/client-side-rendering",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Static Rendering",
+            "href": "/docs/rendering-patterns/static-rendering",
+            "docId": "rendering-patterns/static-rendering",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Incremental Static Regeneration",
+            "href": "/docs/rendering-patterns/incremental-static-regeneration",
+            "docId": "rendering-patterns/incremental-static-regeneration",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Server Side Rendering",
+            "href": "/docs/rendering-patterns/server-side-rendering",
+            "docId": "rendering-patterns/server-side-rendering",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Streaming Server Side Rendering",
+            "href": "/docs/rendering-patterns/streaming-ssr",
+            "docId": "rendering-patterns/streaming-ssr",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Design Patterns",
+        "href": "/docs/design-patterns/",
+        "docId": "design-patterns/index",
+        "unlisted": false
+      }
+    ]
+  },
+  "docs": {
+    "design-patterns/index": {
+      "id": "design-patterns/index",
+      "title": "Design patterns",
+      "description": "Dp1",
+      "sidebar": "tutorialSidebar"
+    },
+    "git/how-to-git-works": {
+      "id": "git/how-to-git-works",
+      "title": "How to git work?",
+      "description": "Working directory: where we edit files",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Documentation",
+      "description": "This is documentation",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/js-extension-import-export-module": {
+      "id": "javascript/js-extension-import-export-module",
+      "title": "JS Extension - Import/Export Module",
+      "description": "1. IIFE (Immediately Invoked Function Expression)",
+      "sidebar": "tutorialSidebar"
+    },
+    "reactjs/compound-pattern": {
+      "id": "reactjs/compound-pattern",
+      "title": "Compound Pattern",
+      "description": "Create multiple components that work together to perform a single task",
+      "sidebar": "tutorialSidebar"
+    },
+    "reactjs/hoc-pattern": {
+      "id": "reactjs/hoc-pattern",
+      "title": "Higher-Order Components",
+      "description": "Pass reusable logic down as props to components throughout your application",
+      "sidebar": "tutorialSidebar"
+    },
+    "reactjs/state-managers": {
+      "id": "reactjs/state-managers",
+      "title": "State Managers",
+      "description": "1. Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-patterns/client-side-rendering": {
+      "id": "rendering-patterns/client-side-rendering",
+      "title": "Client Side Rendering",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-patterns/incremental-static-regeneration": {
+      "id": "rendering-patterns/incremental-static-regeneration",
+      "title": "Incremental Static Regeneration",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-patterns/intro": {
+      "id": "rendering-patterns/intro",
+      "title": "Introduction",
+      "description": "Rendering content on the web can be done in many ways. The decision how and where to fetch and render content is key to the performance of an application.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-patterns/server-side-rendering": {
+      "id": "rendering-patterns/server-side-rendering",
+      "title": "Server Side Rendering",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-patterns/static-rendering": {
+      "id": "rendering-patterns/static-rendering",
+      "title": "Static Rendering",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-patterns/streaming-ssr": {
+      "id": "rendering-patterns/streaming-ssr",
+      "title": "Streaming Server Side Rendering",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

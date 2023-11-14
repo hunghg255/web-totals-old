@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-window-size",
+  "title": "useWindowSize",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-window-size.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-window-size",
+  "permalink": "/issues/reactjs/custom-hook/use-window-size",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-window-size.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useWindowSize",
+      "permalink": "/issues/tags/use-window-size"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "useWindowSize",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useWindowSize"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useMediaQuery",
+    "permalink": "/issues/reactjs/custom-hook/use-media-query"
+  },
+  "next": {
+    "title": "useSize",
+    "permalink": "/issues/reactjs/custom-hook/use-size"
+  }
+}

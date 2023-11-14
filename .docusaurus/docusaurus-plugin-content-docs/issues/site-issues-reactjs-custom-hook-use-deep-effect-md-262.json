@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-deep-effect",
+  "title": "useDeepEffect",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-deep-effect.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-deep-effect",
+  "permalink": "/issues/reactjs/custom-hook/use-deep-effect",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-deep-effect.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useDeepEffect",
+      "permalink": "/issues/tags/use-deep-effect"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "useDeepEffect",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useDeepEffect"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useDebounce",
+    "permalink": "/issues/reactjs/custom-hook/use-debounce"
+  },
+  "next": {
+    "title": "usePrevious",
+    "permalink": "/issues/reactjs/custom-hook/use-previous"
+  }
+}

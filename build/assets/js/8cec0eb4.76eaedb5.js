@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[2],{30469:e=>{e.exports=JSON.parse('{"label":"Recoil","permalink":"/issues/tags/recoil","allTagsPath":"/issues/tags","count":1,"items":[{"id":"reactjs/state-management/recoil","title":"Recoil","description":"Demo","permalink":"/issues/reactjs/state-management/recoil"}],"unlisted":false}')}}]);

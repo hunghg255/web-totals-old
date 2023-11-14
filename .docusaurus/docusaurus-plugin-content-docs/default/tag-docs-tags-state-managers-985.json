@@ -1,0 +1,15 @@
+{
+  "label": "State managers",
+  "permalink": "/docs/tags/state-managers",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "reactjs/state-managers",
+      "title": "State Managers",
+      "description": "1. Overview",
+      "permalink": "/docs/reactjs/state-managers"
+    }
+  ],
+  "unlisted": false
+}

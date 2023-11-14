@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/event-loop-call-stack-example",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/event-loop-call-stack-example.md",
+  "source": "@site/blog/event-loop-call-stack-example.md",
+  "title": "Example Callstack And Event loop",
+  "description": "Example callstack and event loop",
+  "date": "2023-09-05T04:54:37.000Z",
+  "formattedDate": "September 5, 2023",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    },
+    {
+      "label": "callstack",
+      "permalink": "/blog/tags/callstack"
+    },
+    {
+      "label": "event loop",
+      "permalink": "/blog/tags/event-loop"
+    }
+  ],
+  "readingTime": 0.835,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Example Callstack And Event loop",
+    "authors": "hunghg",
+    "tags": [
+      "javascript",
+      "callstack",
+      "event loop"
+    ],
+    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1644518372680/XWZCTFGrJ.png?auto=compress,format&format=webp"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "React Provider Hell",
+    "permalink": "/blog/react-provider-hell"
+  },
+  "nextItem": {
+    "title": "Centering in CSS",
+    "permalink": "/blog/center-css"
+  }
+}

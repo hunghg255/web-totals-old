@@ -1,0 +1,37 @@
+{
+  "id": "javascripts/question-5",
+  "title": "Question 41 - 50",
+  "description": "Q. 41. What's the output?",
+  "source": "@site/questions/javascripts/question-5.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/question-5",
+  "permalink": "/questions/javascripts/question-5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-5.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/questions/tags/javascript"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Question 41 - 50",
+    "comment": true,
+    "tags": [
+      "Javascript"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Question 31 - 40",
+    "permalink": "/questions/javascripts/question-4"
+  },
+  "next": {
+    "title": "Question 51 - 60",
+    "permalink": "/questions/javascripts/question-6"
+  }
+}

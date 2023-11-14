@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/state-management/redux",
+  "title": "Redux",
+  "description": "Demo",
+  "source": "@site/issues/reactjs/state-management/redux.mdx",
+  "sourceDirName": "reactjs/state-management",
+  "slug": "/reactjs/state-management/redux",
+  "permalink": "/issues/reactjs/state-management/redux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/redux.mdx",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "State management",
+      "permalink": "/issues/tags/state-management"
+    },
+    {
+      "label": "Redux",
+      "permalink": "/issues/tags/redux"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Redux",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "State management",
+      "Redux"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Context API Faster",
+    "permalink": "/issues/reactjs/state-management/context-fast"
+  },
+  "next": {
+    "title": "Recoil",
+    "permalink": "/issues/reactjs/state-management/recoil"
+  }
+}

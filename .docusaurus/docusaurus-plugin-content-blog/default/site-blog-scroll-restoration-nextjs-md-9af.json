@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/scroll-restoration-nextjs",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/scroll-restoration-nextjs.md",
+  "source": "@site/blog/scroll-restoration-nextjs.md",
+  "title": "Scroll Restoration in Nextjs",
+  "description": "Experimental scroll restoration flag",
+  "date": "2023-04-07T11:04:02.000Z",
+  "formattedDate": "April 7, 2023",
+  "tags": [
+    {
+      "label": "Nextjs",
+      "permalink": "/blog/tags/nextjs"
+    },
+    {
+      "label": "Scroll Restoration",
+      "permalink": "/blog/tags/scroll-restoration"
+    }
+  ],
+  "readingTime": 1.345,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Scroll Restoration in Nextjs",
+    "authors": "hunghg",
+    "tags": [
+      "Nextjs",
+      "Scroll Restoration"
+    ],
+    "image": "https://decodenatura.com/static/fb8aa1bb70c9925ce1ae22dc2711b343/nextjs-logo.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "HTML Input Type",
+    "permalink": "/blog/html-input"
+  },
+  "nextItem": {
+    "title": "Xử lý form với Ant Design (Phần 1)",
+    "permalink": "/blog/handle-form-antd-part-1"
+  }
+}

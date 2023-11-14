@@ -1,0 +1,40 @@
+{
+  "id": "rendering-patterns/incremental-static-regeneration",
+  "title": "Incremental Static Regeneration",
+  "description": "",
+  "source": "@site/docs/rendering-patterns/incremental-static-regeneration.mdx",
+  "sourceDirName": "rendering-patterns",
+  "slug": "/rendering-patterns/incremental-static-regeneration",
+  "permalink": "/docs/rendering-patterns/incremental-static-regeneration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/incremental-static-regeneration.mdx",
+  "tags": [
+    {
+      "label": "Rendering Patterns",
+      "permalink": "/docs/tags/rendering-patterns"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "hunghg255",
+  "lastUpdatedAt": 1677781661,
+  "formattedLastUpdatedAt": "Mar 2, 2023",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Incremental Static Regeneration",
+    "comment": true,
+    "tags": [
+      "Rendering Patterns"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Static Rendering",
+    "permalink": "/docs/rendering-patterns/static-rendering"
+  },
+  "next": {
+    "title": "Server Side Rendering",
+    "permalink": "/docs/rendering-patterns/server-side-rendering"
+  }
+}

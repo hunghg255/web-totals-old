@@ -1,0 +1,37 @@
+{
+  "id": "javascripts/question-2",
+  "title": "Question 11 - 20",
+  "description": "Q11. What is the output?",
+  "source": "@site/questions/javascripts/question-2.md",
+  "sourceDirName": "javascripts",
+  "slug": "/javascripts/question-2",
+  "permalink": "/questions/javascripts/question-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-2.md",
+  "tags": [
+    {
+      "label": "Javascript",
+      "permalink": "/questions/tags/javascript"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Question 11 - 20",
+    "comment": true,
+    "tags": [
+      "Javascript"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Question 1 - 10",
+    "permalink": "/questions/javascripts/question-1"
+  },
+  "next": {
+    "title": "Question 21 - 30",
+    "permalink": "/questions/javascripts/question-3"
+  }
+}

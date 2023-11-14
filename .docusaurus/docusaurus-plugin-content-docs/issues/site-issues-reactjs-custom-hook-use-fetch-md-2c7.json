@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-fetch",
+  "title": "useFetch",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-fetch.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-fetch",
+  "permalink": "/issues/reactjs/custom-hook/use-fetch",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-fetch.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useFetch",
+      "permalink": "/issues/tags/use-fetch"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "useFetch",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useFetch"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useTimeout",
+    "permalink": "/issues/reactjs/custom-hook/use-timeout"
+  },
+  "next": {
+    "title": "useClickOutside",
+    "permalink": "/issues/reactjs/custom-hook/use-click-outside"
+  }
+}

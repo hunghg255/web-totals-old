@@ -1,0 +1,15 @@
+{
+  "label": "Context API",
+  "permalink": "/issues/tags/context-api",
+  "allTagsPath": "/issues/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "reactjs/state-management/context",
+      "title": "Context API",
+      "description": "Demo",
+      "permalink": "/issues/reactjs/state-management/context"
+    }
+  ],
+  "unlisted": false
+}

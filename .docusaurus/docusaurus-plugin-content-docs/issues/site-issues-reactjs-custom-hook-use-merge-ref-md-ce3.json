@@ -1,0 +1,47 @@
+{
+  "id": "reactjs/custom-hook/use-merge-ref",
+  "title": "useMergeRefs",
+  "description": "",
+  "source": "@site/issues/reactjs/custom-hook/use-merge-ref.md",
+  "sourceDirName": "reactjs/custom-hook",
+  "slug": "/reactjs/custom-hook/use-merge-ref",
+  "permalink": "/issues/reactjs/custom-hook/use-merge-ref",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-merge-ref.md",
+  "tags": [
+    {
+      "label": "Reactjs",
+      "permalink": "/issues/tags/reactjs"
+    },
+    {
+      "label": "Custom Hook",
+      "permalink": "/issues/tags/custom-hook"
+    },
+    {
+      "label": "useMergeRefs",
+      "permalink": "/issues/tags/use-merge-refs"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "useMergeRefs",
+    "comment": true,
+    "tags": [
+      "Reactjs",
+      "Custom Hook",
+      "useMergeRefs"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "usePrevious",
+    "permalink": "/issues/reactjs/custom-hook/use-previous"
+  },
+  "next": {
+    "title": "useMemoByObjectVariables",
+    "permalink": "/issues/reactjs/custom-hook/useMemoByObjectVariables"
+  }
+}
