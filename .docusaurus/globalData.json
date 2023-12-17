@@ -203,6 +203,95 @@
       ],
       "breadcrumbs": true
     },
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "design-patterns/index",
+              "path": "/docs/design-patterns/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "git/how-to-git-works",
+              "path": "/docs/git/how-to-git-works",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/js-extension-import-export-module",
+              "path": "/docs/javascript/js-extension-import-export-module",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/compound-pattern",
+              "path": "/docs/reactjs/compound-pattern",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/hoc-pattern",
+              "path": "/docs/reactjs/hoc-pattern",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reactjs/state-managers",
+              "path": "/docs/reactjs/state-managers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/client-side-rendering",
+              "path": "/docs/rendering-patterns/client-side-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/incremental-static-regeneration",
+              "path": "/docs/rendering-patterns/incremental-static-regeneration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/intro",
+              "path": "/docs/rendering-patterns/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/server-side-rendering",
+              "path": "/docs/rendering-patterns/server-side-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/static-rendering",
+              "path": "/docs/rendering-patterns/static-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-patterns/streaming-ssr",
+              "path": "/docs/rendering-patterns/streaming-ssr",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "questions": {
       "path": "/questions",
       "versions": [
@@ -305,95 +394,6 @@
               "link": {
                 "path": "/questions/",
                 "label": "README"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "intro",
-          "docs": [
-            {
-              "id": "design-patterns/index",
-              "path": "/docs/design-patterns/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "git/how-to-git-works",
-              "path": "/docs/git/how-to-git-works",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascript/js-extension-import-export-module",
-              "path": "/docs/javascript/js-extension-import-export-module",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reactjs/compound-pattern",
-              "path": "/docs/reactjs/compound-pattern",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reactjs/hoc-pattern",
-              "path": "/docs/reactjs/hoc-pattern",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reactjs/state-managers",
-              "path": "/docs/reactjs/state-managers",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-patterns/client-side-rendering",
-              "path": "/docs/rendering-patterns/client-side-rendering",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-patterns/incremental-static-regeneration",
-              "path": "/docs/rendering-patterns/incremental-static-regeneration",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-patterns/intro",
-              "path": "/docs/rendering-patterns/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-patterns/server-side-rendering",
-              "path": "/docs/rendering-patterns/server-side-rendering",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-patterns/static-rendering",
-              "path": "/docs/rendering-patterns/static-rendering",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-patterns/streaming-ssr",
-              "path": "/docs/rendering-patterns/streaming-ssr",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/docs/intro",
-                "label": "intro"
               }
             }
           }
