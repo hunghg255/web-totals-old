@@ -1,0 +1,4237 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs",
+          "editUrlLocalized": "https://github.com/hunghg255/web-totals/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/kengzone/Documents/project/web-questions/sidebars.js",
+          "contentPath": "/Users/kengzone/Documents/project/web-questions/docs",
+          "contentPathLocalized": "/Users/kengzone/Documents/project/web-questions/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "design-patterns/index",
+              "title": "Design patterns",
+              "description": "Dp1",
+              "source": "@site/docs/design-patterns/index.md",
+              "sourceDirName": "design-patterns",
+              "slug": "/design-patterns/",
+              "permalink": "/docs/design-patterns/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/design-patterns/index.md",
+              "tags": [
+                {
+                  "label": "Design Patterns",
+                  "permalink": "/docs/tags/design-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1680800400,
+              "formattedLastUpdatedAt": "Apr 6, 2023",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Design patterns",
+                "comment": true,
+                "tags": [
+                  "Design Patterns"
+                ],
+                "last_update": {
+                  "date": "04/07/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Streaming Server Side Rendering",
+                "permalink": "/docs/rendering-patterns/streaming-ssr"
+              }
+            },
+            {
+              "id": "git/how-to-git-works",
+              "title": "How to git work?",
+              "description": "Working directory: where we edit files",
+              "source": "@site/docs/git/how-to-git-works.md",
+              "sourceDirName": "git",
+              "slug": "/git/how-to-git-works",
+              "permalink": "/docs/git/how-to-git-works",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/git/how-to-git-works.md",
+              "tags": [
+                {
+                  "label": "Git",
+                  "permalink": "/docs/tags/git"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1677776400,
+              "formattedLastUpdatedAt": "Mar 2, 2023",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "How to git work?",
+                "comment": true,
+                "tags": [
+                  "Git"
+                ],
+                "last_update": {
+                  "date": "03/03/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentation",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "JS Extension - Import/Export Module",
+                "permalink": "/docs/javascript/js-extension-import-export-module"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Documentation",
+              "description": "This is documentation",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1677776400,
+              "formattedLastUpdatedAt": "Mar 2, 2023",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Documentation",
+                "last_update": {
+                  "date": "03/03/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "How to git work?",
+                "permalink": "/docs/git/how-to-git-works"
+              }
+            },
+            {
+              "id": "javascript/js-extension-import-export-module",
+              "title": "JS Extension - Import/Export Module",
+              "description": "1. IIFE (Immediately Invoked Function Expression)",
+              "source": "@site/docs/javascript/js-extension-import-export-module.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/js-extension-import-export-module",
+              "permalink": "/docs/javascript/js-extension-import-export-module",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/javascript/js-extension-import-export-module.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/docs/tags/reactjs"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1683219600,
+              "formattedLastUpdatedAt": "May 4, 2023",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "JS Extension - Import/Export Module",
+                "comment": true,
+                "tags": [
+                  "Reactjs"
+                ],
+                "last_update": {
+                  "date": "05/05/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to git work?",
+                "permalink": "/docs/git/how-to-git-works"
+              },
+              "next": {
+                "title": "Higher-Order Components",
+                "permalink": "/docs/reactjs/hoc-pattern"
+              }
+            },
+            {
+              "id": "reactjs/compound-pattern",
+              "title": "Compound Pattern",
+              "description": "Create multiple components that work together to perform a single task",
+              "source": "@site/docs/reactjs/compound-pattern.mdx",
+              "sourceDirName": "reactjs",
+              "slug": "/reactjs/compound-pattern",
+              "permalink": "/docs/reactjs/compound-pattern",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/reactjs/compound-pattern.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/docs/tags/reactjs"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1683219600,
+              "formattedLastUpdatedAt": "May 4, 2023",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Compound Pattern",
+                "comment": true,
+                "tags": [
+                  "Reactjs"
+                ],
+                "last_update": {
+                  "date": "05/05/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Higher-Order Components",
+                "permalink": "/docs/reactjs/hoc-pattern"
+              },
+              "next": {
+                "title": "State Managers",
+                "permalink": "/docs/reactjs/state-managers"
+              }
+            },
+            {
+              "id": "reactjs/hoc-pattern",
+              "title": "Higher-Order Components",
+              "description": "Pass reusable logic down as props to components throughout your application",
+              "source": "@site/docs/reactjs/hoc-pattern.mdx",
+              "sourceDirName": "reactjs",
+              "slug": "/reactjs/hoc-pattern",
+              "permalink": "/docs/reactjs/hoc-pattern",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/reactjs/hoc-pattern.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/docs/tags/reactjs"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1683219600,
+              "formattedLastUpdatedAt": "May 4, 2023",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Higher-Order Components",
+                "comment": true,
+                "tags": [
+                  "Reactjs"
+                ],
+                "last_update": {
+                  "date": "05/05/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "JS Extension - Import/Export Module",
+                "permalink": "/docs/javascript/js-extension-import-export-module"
+              },
+              "next": {
+                "title": "Compound Pattern",
+                "permalink": "/docs/reactjs/compound-pattern"
+              }
+            },
+            {
+              "id": "reactjs/state-managers",
+              "title": "State Managers",
+              "description": "1. Overview",
+              "source": "@site/docs/reactjs/state-managers.mdx",
+              "sourceDirName": "reactjs",
+              "slug": "/reactjs/state-managers",
+              "permalink": "/docs/reactjs/state-managers",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/reactjs/state-managers.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/docs/tags/reactjs"
+                },
+                {
+                  "label": "State managers",
+                  "permalink": "/docs/tags/state-managers"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "hunghg255",
+              "lastUpdatedAt": 1680109200,
+              "formattedLastUpdatedAt": "Mar 29, 2023",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "State Managers",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State managers"
+                ],
+                "last_update": {
+                  "date": "03/30/2023",
+                  "author": "hunghg255"
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Compound Pattern",
+                "permalink": "/docs/reactjs/compound-pattern"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/rendering-patterns/intro"
+              }
+            },
+            {
+              "id": "rendering-patterns/client-side-rendering",
+              "title": "Client Side Rendering",
+              "description": "",
+              "source": "@site/docs/rendering-patterns/client-side-rendering.mdx",
+              "sourceDirName": "rendering-patterns",
+              "slug": "/rendering-patterns/client-side-rendering",
+              "permalink": "/docs/rendering-patterns/client-side-rendering",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/client-side-rendering.mdx",
+              "tags": [
+                {
+                  "label": "Rendering Patterns",
+                  "permalink": "/docs/tags/rendering-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Client Side Rendering",
+                "comment": true,
+                "tags": [
+                  "Rendering Patterns"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/rendering-patterns/intro"
+              },
+              "next": {
+                "title": "Static Rendering",
+                "permalink": "/docs/rendering-patterns/static-rendering"
+              }
+            },
+            {
+              "id": "rendering-patterns/incremental-static-regeneration",
+              "title": "Incremental Static Regeneration",
+              "description": "",
+              "source": "@site/docs/rendering-patterns/incremental-static-regeneration.mdx",
+              "sourceDirName": "rendering-patterns",
+              "slug": "/rendering-patterns/incremental-static-regeneration",
+              "permalink": "/docs/rendering-patterns/incremental-static-regeneration",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/incremental-static-regeneration.mdx",
+              "tags": [
+                {
+                  "label": "Rendering Patterns",
+                  "permalink": "/docs/tags/rendering-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Incremental Static Regeneration",
+                "comment": true,
+                "tags": [
+                  "Rendering Patterns"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Static Rendering",
+                "permalink": "/docs/rendering-patterns/static-rendering"
+              },
+              "next": {
+                "title": "Server Side Rendering",
+                "permalink": "/docs/rendering-patterns/server-side-rendering"
+              }
+            },
+            {
+              "id": "rendering-patterns/intro",
+              "title": "Introduction",
+              "description": "Rendering content on the web can be done in many ways. The decision how and where to fetch and render content is key to the performance of an application.",
+              "source": "@site/docs/rendering-patterns/intro.md",
+              "sourceDirName": "rendering-patterns",
+              "slug": "/rendering-patterns/intro",
+              "permalink": "/docs/rendering-patterns/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/intro.md",
+              "tags": [
+                {
+                  "label": "Rendering Patterns",
+                  "permalink": "/docs/tags/rendering-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Introduction",
+                "comment": true,
+                "tags": [
+                  "Rendering Patterns"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "State Managers",
+                "permalink": "/docs/reactjs/state-managers"
+              },
+              "next": {
+                "title": "Client Side Rendering",
+                "permalink": "/docs/rendering-patterns/client-side-rendering"
+              }
+            },
+            {
+              "id": "rendering-patterns/server-side-rendering",
+              "title": "Server Side Rendering",
+              "description": "",
+              "source": "@site/docs/rendering-patterns/server-side-rendering.mdx",
+              "sourceDirName": "rendering-patterns",
+              "slug": "/rendering-patterns/server-side-rendering",
+              "permalink": "/docs/rendering-patterns/server-side-rendering",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/server-side-rendering.mdx",
+              "tags": [
+                {
+                  "label": "Rendering Patterns",
+                  "permalink": "/docs/tags/rendering-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Server Side Rendering",
+                "comment": true,
+                "tags": [
+                  "Rendering Patterns"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Incremental Static Regeneration",
+                "permalink": "/docs/rendering-patterns/incremental-static-regeneration"
+              },
+              "next": {
+                "title": "Streaming Server Side Rendering",
+                "permalink": "/docs/rendering-patterns/streaming-ssr"
+              }
+            },
+            {
+              "id": "rendering-patterns/static-rendering",
+              "title": "Static Rendering",
+              "description": "",
+              "source": "@site/docs/rendering-patterns/static-rendering.mdx",
+              "sourceDirName": "rendering-patterns",
+              "slug": "/rendering-patterns/static-rendering",
+              "permalink": "/docs/rendering-patterns/static-rendering",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/static-rendering.mdx",
+              "tags": [
+                {
+                  "label": "Rendering Patterns",
+                  "permalink": "/docs/tags/rendering-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Static Rendering",
+                "comment": true,
+                "tags": [
+                  "Rendering Patterns"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Client Side Rendering",
+                "permalink": "/docs/rendering-patterns/client-side-rendering"
+              },
+              "next": {
+                "title": "Incremental Static Regeneration",
+                "permalink": "/docs/rendering-patterns/incremental-static-regeneration"
+              }
+            },
+            {
+              "id": "rendering-patterns/streaming-ssr",
+              "title": "Streaming Server Side Rendering",
+              "description": "",
+              "source": "@site/docs/rendering-patterns/streaming-ssr.mdx",
+              "sourceDirName": "rendering-patterns",
+              "slug": "/rendering-patterns/streaming-ssr",
+              "permalink": "/docs/rendering-patterns/streaming-ssr",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/docs/rendering-patterns/streaming-ssr.mdx",
+              "tags": [
+                {
+                  "label": "Rendering Patterns",
+                  "permalink": "/docs/tags/rendering-patterns"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Streaming Server Side Rendering",
+                "comment": true,
+                "tags": [
+                  "Rendering Patterns"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Server Side Rendering",
+                "permalink": "/docs/rendering-patterns/server-side-rendering"
+              },
+              "next": {
+                "title": "Design patterns",
+                "permalink": "/docs/design-patterns/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Git",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "git/how-to-git-works"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Javascript",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "javascript/js-extension-import-export-module"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Reactjs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "reactjs/hoc-pattern"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reactjs/compound-pattern"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reactjs/state-managers"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Rendering Patterns",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rendering-patterns/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rendering-patterns/client-side-rendering"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rendering-patterns/static-rendering"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rendering-patterns/incremental-static-regeneration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rendering-patterns/server-side-rendering"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rendering-patterns/streaming-ssr"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "label": "Design Patterns",
+                "id": "design-patterns/index"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "issues": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/issues",
+          "tagsPath": "/issues/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/kengzone/Documents/project/web-questions/sidebars.js",
+          "contentPath": "/Users/kengzone/Documents/project/web-questions/issues",
+          "contentPathLocalized": "/Users/kengzone/Documents/project/web-questions/i18n/en/docusaurus-plugin-content-docs-issues/current",
+          "docs": [
+            {
+              "id": "javascripts/1loc/random",
+              "title": "Random",
+              "description": "Generate a random integer in given range",
+              "source": "@site/issues/javascripts/1loc/random.mdx",
+              "sourceDirName": "javascripts/1loc",
+              "slug": "/javascripts/1loc/random",
+              "permalink": "/issues/javascripts/1loc/random",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/1loc/random.mdx",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/issues/tags/javascript"
+                },
+                {
+                  "label": "1loc",
+                  "permalink": "/issues/tags/1-loc"
+                },
+                {
+                  "label": "Random",
+                  "permalink": "/issues/tags/random"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Random",
+                "comment": true,
+                "tags": [
+                  "Javascript",
+                  "1loc",
+                  "Random"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Delay without setTimeout",
+                "permalink": "/issues/javascripts/delay-without-set-timeout"
+              },
+              "next": {
+                "title": "Split Text Utils",
+                "permalink": "/issues/javascripts/split-text-utils"
+              }
+            },
+            {
+              "id": "javascripts/delay-without-set-timeout",
+              "title": "Delay without setTimeout",
+              "description": "This is a delay function without setTimeout and promise in javascript",
+              "source": "@site/issues/javascripts/delay-without-set-timeout.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/delay-without-set-timeout",
+              "permalink": "/issues/javascripts/delay-without-set-timeout",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/delay-without-set-timeout.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/issues/tags/javascript"
+                },
+                {
+                  "label": "Utils",
+                  "permalink": "/issues/tags/utils"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Delay without setTimeout",
+                "comment": true,
+                "tags": [
+                  "Javascript",
+                  "Utils"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Issues",
+                "permalink": "/issues/"
+              },
+              "next": {
+                "title": "Random",
+                "permalink": "/issues/javascripts/1loc/random"
+              }
+            },
+            {
+              "id": "javascripts/sort/sleep-sort",
+              "title": "Sleep Sort",
+              "description": "",
+              "source": "@site/issues/javascripts/sort/sleep-sort.md",
+              "sourceDirName": "javascripts/sort",
+              "slug": "/javascripts/sort/sleep-sort",
+              "permalink": "/issues/javascripts/sort/sleep-sort",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/sort/sleep-sort.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/issues/tags/javascript"
+                },
+                {
+                  "label": "sort",
+                  "permalink": "/issues/tags/sort"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Sleep Sort",
+                "comment": true,
+                "tags": [
+                  "Javascript",
+                  "sort"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Split Text Utils",
+                "permalink": "/issues/javascripts/split-text-utils"
+              },
+              "next": {
+                "title": "useStateProxy",
+                "permalink": "/issues/reactjs/custom-hook/use-state-proxy"
+              }
+            },
+            {
+              "id": "javascripts/split-text-utils",
+              "title": "Split Text Utils",
+              "description": "",
+              "source": "@site/issues/javascripts/split-text-utils.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/split-text-utils",
+              "permalink": "/issues/javascripts/split-text-utils",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/javascripts/split-text-utils.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/issues/tags/javascript"
+                },
+                {
+                  "label": "Utils",
+                  "permalink": "/issues/tags/utils"
+                },
+                {
+                  "label": "Discord",
+                  "permalink": "/issues/tags/discord"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Split Text Utils",
+                "comment": true,
+                "tags": [
+                  "Javascript",
+                  "Utils",
+                  "Discord"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Random",
+                "permalink": "/issues/javascripts/1loc/random"
+              },
+              "next": {
+                "title": "Sleep Sort",
+                "permalink": "/issues/javascripts/sort/sleep-sort"
+              }
+            },
+            {
+              "id": "rc-style/rc-dialog",
+              "title": "RC Dialog",
+              "description": "Install rc-dialog component",
+              "source": "@site/issues/rc-style/rc-dialog.mdx",
+              "sourceDirName": "rc-style",
+              "slug": "/rc-style/rc-dialog",
+              "permalink": "/issues/rc-style/rc-dialog",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-dialog.mdx",
+              "tags": [
+                {
+                  "label": "rc-dialog",
+                  "permalink": "/issues/tags/rc-dialog"
+                },
+                {
+                  "label": "Style",
+                  "permalink": "/issues/tags/style"
+                },
+                {
+                  "label": "CSS",
+                  "permalink": "/issues/tags/css"
+                },
+                {
+                  "label": "rc-component",
+                  "permalink": "/issues/tags/rc-component"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "RC Dialog",
+                "comment": true,
+                "tags": [
+                  "rc-dialog",
+                  "Style",
+                  "CSS",
+                  "rc-component"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RC Picker",
+                "permalink": "/issues/rc-style/rc-picker"
+              },
+              "next": {
+                "title": "RC Tooltip",
+                "permalink": "/issues/rc-style/rc-tooltip"
+              }
+            },
+            {
+              "id": "rc-style/rc-picker",
+              "title": "RC Picker",
+              "description": "Install rc-picker component",
+              "source": "@site/issues/rc-style/rc-picker.mdx",
+              "sourceDirName": "rc-style",
+              "slug": "/rc-style/rc-picker",
+              "permalink": "/issues/rc-style/rc-picker",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-picker.mdx",
+              "tags": [
+                {
+                  "label": "rc-picker",
+                  "permalink": "/issues/tags/rc-picker"
+                },
+                {
+                  "label": "Style",
+                  "permalink": "/issues/tags/style"
+                },
+                {
+                  "label": "CSS",
+                  "permalink": "/issues/tags/css"
+                },
+                {
+                  "label": "rc-component",
+                  "permalink": "/issues/tags/rc-component"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "RC Picker",
+                "comment": true,
+                "tags": [
+                  "rc-picker",
+                  "Style",
+                  "CSS",
+                  "rc-component"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RC Select",
+                "permalink": "/issues/rc-style/rc-select"
+              },
+              "next": {
+                "title": "RC Dialog",
+                "permalink": "/issues/rc-style/rc-dialog"
+              }
+            },
+            {
+              "id": "rc-style/rc-select",
+              "title": "RC Select",
+              "description": "Install rc-select component",
+              "source": "@site/issues/rc-style/rc-select.mdx",
+              "sourceDirName": "rc-style",
+              "slug": "/rc-style/rc-select",
+              "permalink": "/issues/rc-style/rc-select",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-select.mdx",
+              "tags": [
+                {
+                  "label": "rc-select",
+                  "permalink": "/issues/tags/rc-select"
+                },
+                {
+                  "label": "Style",
+                  "permalink": "/issues/tags/style"
+                },
+                {
+                  "label": "CSS",
+                  "permalink": "/issues/tags/css"
+                },
+                {
+                  "label": "rc-component",
+                  "permalink": "/issues/tags/rc-component"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "RC Select",
+                "comment": true,
+                "tags": [
+                  "rc-select",
+                  "Style",
+                  "CSS",
+                  "rc-component"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Valtio",
+                "permalink": "/issues/reactjs/state-management/valtio"
+              },
+              "next": {
+                "title": "RC Picker",
+                "permalink": "/issues/rc-style/rc-picker"
+              }
+            },
+            {
+              "id": "rc-style/rc-tooltip",
+              "title": "RC Tooltip",
+              "description": "Install rc-tooltip component",
+              "source": "@site/issues/rc-style/rc-tooltip.mdx",
+              "sourceDirName": "rc-style",
+              "slug": "/rc-style/rc-tooltip",
+              "permalink": "/issues/rc-style/rc-tooltip",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/rc-style/rc-tooltip.mdx",
+              "tags": [
+                {
+                  "label": "rc-tooltip",
+                  "permalink": "/issues/tags/rc-tooltip"
+                },
+                {
+                  "label": "Style",
+                  "permalink": "/issues/tags/style"
+                },
+                {
+                  "label": "CSS",
+                  "permalink": "/issues/tags/css"
+                },
+                {
+                  "label": "rc-component",
+                  "permalink": "/issues/tags/rc-component"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "RC Tooltip",
+                "comment": true,
+                "tags": [
+                  "rc-tooltip",
+                  "Style",
+                  "CSS",
+                  "rc-component"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RC Dialog",
+                "permalink": "/issues/rc-style/rc-dialog"
+              },
+              "next": {
+                "title": "Test",
+                "permalink": "/issues/react-native/test"
+              }
+            },
+            {
+              "id": "react-native/test",
+              "title": "Test",
+              "description": "",
+              "source": "@site/issues/react-native/test.mdx",
+              "sourceDirName": "react-native",
+              "slug": "/react-native/test",
+              "permalink": "/issues/react-native/test",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/react-native/test.mdx",
+              "tags": [
+                {
+                  "label": "react",
+                  "permalink": "/issues/tags/react"
+                },
+                {
+                  "label": "provider",
+                  "permalink": "/issues/tags/provider"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "Test",
+                "authors": "hunghg",
+                "tags": [
+                  "react",
+                  "provider"
+                ],
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--HOQYtEP_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kj81kq4qurtf84xrvtm8.png"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RC Tooltip",
+                "permalink": "/issues/rc-style/rc-tooltip"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-click-outside",
+              "title": "useClickOutside",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-click-outside.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-click-outside",
+              "permalink": "/issues/reactjs/custom-hook/use-click-outside",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-click-outside.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useClickOutside",
+                  "permalink": "/issues/tags/use-click-outside"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "useClickOutside",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useClickOutside"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useFetch",
+                "permalink": "/issues/reactjs/custom-hook/use-fetch"
+              },
+              "next": {
+                "title": "useCountDown",
+                "permalink": "/issues/reactjs/custom-hook/use-count-down"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-count-down",
+              "title": "useCountDown",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-count-down.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-count-down",
+              "permalink": "/issues/reactjs/custom-hook/use-count-down",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-count-down.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useCountDown",
+                  "permalink": "/issues/tags/use-count-down"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "title": "useCountDown",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useCountDown"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useClickOutside",
+                "permalink": "/issues/reactjs/custom-hook/use-click-outside"
+              },
+              "next": {
+                "title": "useMediaQuery",
+                "permalink": "/issues/reactjs/custom-hook/use-media-query"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-debounce",
+              "title": "useDebounce",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-debounce.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-debounce",
+              "permalink": "/issues/reactjs/custom-hook/use-debounce",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-debounce.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useDebounce",
+                  "permalink": "/issues/tags/use-debounce"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11,
+                "title": "useDebounce",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useDebounce"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useGeolocation",
+                "permalink": "/issues/reactjs/custom-hook/use-geolocation"
+              },
+              "next": {
+                "title": "useDeepEffect",
+                "permalink": "/issues/reactjs/custom-hook/use-deep-effect"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-deep-effect",
+              "title": "useDeepEffect",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-deep-effect.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-deep-effect",
+              "permalink": "/issues/reactjs/custom-hook/use-deep-effect",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-deep-effect.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useDeepEffect",
+                  "permalink": "/issues/tags/use-deep-effect"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "title": "useDeepEffect",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useDeepEffect"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useDebounce",
+                "permalink": "/issues/reactjs/custom-hook/use-debounce"
+              },
+              "next": {
+                "title": "usePrevious",
+                "permalink": "/issues/reactjs/custom-hook/use-previous"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-fetch",
+              "title": "useFetch",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-fetch.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-fetch",
+              "permalink": "/issues/reactjs/custom-hook/use-fetch",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-fetch.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useFetch",
+                  "permalink": "/issues/tags/use-fetch"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "useFetch",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useFetch"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useTimeout",
+                "permalink": "/issues/reactjs/custom-hook/use-timeout"
+              },
+              "next": {
+                "title": "useClickOutside",
+                "permalink": "/issues/reactjs/custom-hook/use-click-outside"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-geolocation",
+              "title": "useGeolocation",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-geolocation.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-geolocation",
+              "permalink": "/issues/reactjs/custom-hook/use-geolocation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-geolocation.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useGeolocation",
+                  "permalink": "/issues/tags/use-geolocation"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "title": "useGeolocation",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useGeolocation"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useSize",
+                "permalink": "/issues/reactjs/custom-hook/use-size"
+              },
+              "next": {
+                "title": "useDebounce",
+                "permalink": "/issues/reactjs/custom-hook/use-debounce"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-media-query",
+              "title": "useMediaQuery",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-media-query.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-media-query",
+              "permalink": "/issues/reactjs/custom-hook/use-media-query",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-media-query.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useMediaQuery",
+                  "permalink": "/issues/tags/use-media-query"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7,
+                "title": "useMediaQuery",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useMediaQuery"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useCountDown",
+                "permalink": "/issues/reactjs/custom-hook/use-count-down"
+              },
+              "next": {
+                "title": "useWindowSize",
+                "permalink": "/issues/reactjs/custom-hook/use-window-size"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-merge-ref",
+              "title": "useMergeRefs",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-merge-ref.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-merge-ref",
+              "permalink": "/issues/reactjs/custom-hook/use-merge-ref",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-merge-ref.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useMergeRefs",
+                  "permalink": "/issues/tags/use-merge-refs"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14,
+                "title": "useMergeRefs",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useMergeRefs"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "usePrevious",
+                "permalink": "/issues/reactjs/custom-hook/use-previous"
+              },
+              "next": {
+                "title": "useMemoByObjectVariables",
+                "permalink": "/issues/reactjs/custom-hook/useMemoByObjectVariables"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-previous",
+              "title": "usePrevious",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-previous.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-previous",
+              "permalink": "/issues/reactjs/custom-hook/use-previous",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-previous.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "usePrevious",
+                  "permalink": "/issues/tags/use-previous"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13,
+                "title": "usePrevious",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "usePrevious"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useDeepEffect",
+                "permalink": "/issues/reactjs/custom-hook/use-deep-effect"
+              },
+              "next": {
+                "title": "useMergeRefs",
+                "permalink": "/issues/reactjs/custom-hook/use-merge-ref"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-size",
+              "title": "useSize",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-size.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-size",
+              "permalink": "/issues/reactjs/custom-hook/use-size",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-size.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useSize",
+                  "permalink": "/issues/tags/use-size"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9,
+                "title": "useSize",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useSize"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useWindowSize",
+                "permalink": "/issues/reactjs/custom-hook/use-window-size"
+              },
+              "next": {
+                "title": "useGeolocation",
+                "permalink": "/issues/reactjs/custom-hook/use-geolocation"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-state-proxy",
+              "title": "useStateProxy",
+              "description": "This is a custom hook to mutate state in reactjs",
+              "source": "@site/issues/reactjs/custom-hook/use-state-proxy.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-state-proxy",
+              "permalink": "/issues/reactjs/custom-hook/use-state-proxy",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-state-proxy.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useStateProxy",
+                  "permalink": "/issues/tags/use-state-proxy"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "useStateProxy",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useStateProxy"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sleep Sort",
+                "permalink": "/issues/javascripts/sort/sleep-sort"
+              },
+              "next": {
+                "title": "useToggle",
+                "permalink": "/issues/reactjs/custom-hook/use-toggle"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-timeout",
+              "title": "useTimeout",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-timeout.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-timeout",
+              "permalink": "/issues/reactjs/custom-hook/use-timeout",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-timeout.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useTimeout",
+                  "permalink": "/issues/tags/use-timeout"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "useTimeout",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useTimeout"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useToggle",
+                "permalink": "/issues/reactjs/custom-hook/use-toggle"
+              },
+              "next": {
+                "title": "useFetch",
+                "permalink": "/issues/reactjs/custom-hook/use-fetch"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-toggle",
+              "title": "useToggle",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-toggle.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-toggle",
+              "permalink": "/issues/reactjs/custom-hook/use-toggle",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-toggle.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useToggle",
+                  "permalink": "/issues/tags/use-toggle"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "useToggle",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useToggle"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useStateProxy",
+                "permalink": "/issues/reactjs/custom-hook/use-state-proxy"
+              },
+              "next": {
+                "title": "useTimeout",
+                "permalink": "/issues/reactjs/custom-hook/use-timeout"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/use-window-size",
+              "title": "useWindowSize",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/use-window-size.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/use-window-size",
+              "permalink": "/issues/reactjs/custom-hook/use-window-size",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/use-window-size.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useWindowSize",
+                  "permalink": "/issues/tags/use-window-size"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8,
+                "title": "useWindowSize",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useWindowSize"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useMediaQuery",
+                "permalink": "/issues/reactjs/custom-hook/use-media-query"
+              },
+              "next": {
+                "title": "useSize",
+                "permalink": "/issues/reactjs/custom-hook/use-size"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/useDelayedState",
+              "title": "useDelayedState",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/useDelayedState.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/useDelayedState",
+              "permalink": "/issues/reactjs/custom-hook/useDelayedState",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/useDelayedState.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useDelayedState",
+                  "permalink": "/issues/tags/use-delayed-state"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16,
+                "title": "useDelayedState",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useDelayedState"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useMemoByObjectVariables",
+                "permalink": "/issues/reactjs/custom-hook/useMemoByObjectVariables"
+              },
+              "next": {
+                "title": "useFadeEffect",
+                "permalink": "/issues/reactjs/custom-hook/useFadeEffect"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/useFadeEffect",
+              "title": "useFadeEffect",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/useFadeEffect.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/useFadeEffect",
+              "permalink": "/issues/reactjs/custom-hook/useFadeEffect",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/useFadeEffect.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useFadeEffect",
+                  "permalink": "/issues/tags/use-fade-effect"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16,
+                "title": "useFadeEffect",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useFadeEffect"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useDelayedState",
+                "permalink": "/issues/reactjs/custom-hook/useDelayedState"
+              },
+              "next": {
+                "title": "Context API",
+                "permalink": "/issues/reactjs/state-management/context"
+              }
+            },
+            {
+              "id": "reactjs/custom-hook/useMemoByObjectVariables",
+              "title": "useMemoByObjectVariables",
+              "description": "",
+              "source": "@site/issues/reactjs/custom-hook/useMemoByObjectVariables.md",
+              "sourceDirName": "reactjs/custom-hook",
+              "slug": "/reactjs/custom-hook/useMemoByObjectVariables",
+              "permalink": "/issues/reactjs/custom-hook/useMemoByObjectVariables",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/custom-hook/useMemoByObjectVariables.md",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "Custom Hook",
+                  "permalink": "/issues/tags/custom-hook"
+                },
+                {
+                  "label": "useMemoByObjectVariables",
+                  "permalink": "/issues/tags/use-memo-by-object-variables"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15,
+                "title": "useMemoByObjectVariables",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "Custom Hook",
+                  "useMemoByObjectVariables"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useMergeRefs",
+                "permalink": "/issues/reactjs/custom-hook/use-merge-ref"
+              },
+              "next": {
+                "title": "useDelayedState",
+                "permalink": "/issues/reactjs/custom-hook/useDelayedState"
+              }
+            },
+            {
+              "id": "reactjs/state-management/context",
+              "title": "Context API",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/context.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/context",
+              "permalink": "/issues/reactjs/state-management/context",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/context.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Context API",
+                  "permalink": "/issues/tags/context-api"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Context API",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Context API"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useFadeEffect",
+                "permalink": "/issues/reactjs/custom-hook/useFadeEffect"
+              },
+              "next": {
+                "title": "Context API Faster",
+                "permalink": "/issues/reactjs/state-management/context-fast"
+              }
+            },
+            {
+              "id": "reactjs/state-management/context-fast",
+              "title": "Context API Faster",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/context-fast.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/context-fast",
+              "permalink": "/issues/reactjs/state-management/context-fast",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/context-fast.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Context API Faster",
+                  "permalink": "/issues/tags/context-api-faster"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Context API Faster",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Context API Faster"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Context API",
+                "permalink": "/issues/reactjs/state-management/context"
+              },
+              "next": {
+                "title": "Redux",
+                "permalink": "/issues/reactjs/state-management/redux"
+              }
+            },
+            {
+              "id": "reactjs/state-management/jotai",
+              "title": "Jotai",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/jotai.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/jotai",
+              "permalink": "/issues/reactjs/state-management/jotai",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/jotai.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Jotai",
+                  "permalink": "/issues/tags/jotai"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Jotai",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Jotai"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Recoil",
+                "permalink": "/issues/reactjs/state-management/recoil"
+              },
+              "next": {
+                "title": "Zustand",
+                "permalink": "/issues/reactjs/state-management/zustand"
+              }
+            },
+            {
+              "id": "reactjs/state-management/recoil",
+              "title": "Recoil",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/recoil.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/recoil",
+              "permalink": "/issues/reactjs/state-management/recoil",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/recoil.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Recoil",
+                  "permalink": "/issues/tags/recoil"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Recoil",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Recoil"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Redux",
+                "permalink": "/issues/reactjs/state-management/redux"
+              },
+              "next": {
+                "title": "Jotai",
+                "permalink": "/issues/reactjs/state-management/jotai"
+              }
+            },
+            {
+              "id": "reactjs/state-management/redux",
+              "title": "Redux",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/redux.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/redux",
+              "permalink": "/issues/reactjs/state-management/redux",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/redux.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Redux",
+                  "permalink": "/issues/tags/redux"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Redux",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Redux"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Context API Faster",
+                "permalink": "/issues/reactjs/state-management/context-fast"
+              },
+              "next": {
+                "title": "Recoil",
+                "permalink": "/issues/reactjs/state-management/recoil"
+              }
+            },
+            {
+              "id": "reactjs/state-management/valtio",
+              "title": "Valtio",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/valtio.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/valtio",
+              "permalink": "/issues/reactjs/state-management/valtio",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/valtio.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Valtio",
+                  "permalink": "/issues/tags/valtio"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7,
+                "title": "Valtio",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Valtio"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Zustand",
+                "permalink": "/issues/reactjs/state-management/zustand"
+              },
+              "next": {
+                "title": "RC Select",
+                "permalink": "/issues/rc-style/rc-select"
+              }
+            },
+            {
+              "id": "reactjs/state-management/zustand",
+              "title": "Zustand",
+              "description": "Demo",
+              "source": "@site/issues/reactjs/state-management/zustand.mdx",
+              "sourceDirName": "reactjs/state-management",
+              "slug": "/reactjs/state-management/zustand",
+              "permalink": "/issues/reactjs/state-management/zustand",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/reactjs/state-management/zustand.mdx",
+              "tags": [
+                {
+                  "label": "Reactjs",
+                  "permalink": "/issues/tags/reactjs"
+                },
+                {
+                  "label": "State management",
+                  "permalink": "/issues/tags/state-management"
+                },
+                {
+                  "label": "Zustand",
+                  "permalink": "/issues/tags/zustand"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "title": "Zustand",
+                "comment": true,
+                "tags": [
+                  "Reactjs",
+                  "State management",
+                  "Zustand"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Jotai",
+                "permalink": "/issues/reactjs/state-management/jotai"
+              },
+              "next": {
+                "title": "Valtio",
+                "permalink": "/issues/reactjs/state-management/valtio"
+              }
+            },
+            {
+              "id": "README",
+              "title": "Issues",
+              "description": "This is Issues",
+              "source": "@site/issues/README.mdx",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/issues/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/issues/README.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Issues"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Delay without setTimeout",
+                "permalink": "/issues/javascripts/delay-without-set-timeout"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "README"
+              },
+              {
+                "type": "category",
+                "label": "Javascript",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "javascripts/delay-without-set-timeout"
+                  },
+                  {
+                    "type": "category",
+                    "label": "1 Line of code",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "javascripts/1loc/random"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/split-text-utils"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Sort",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "javascripts/sort/sleep-sort"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Reactjs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Custom Hook",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-state-proxy"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-toggle"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-timeout"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-fetch"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-click-outside"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-count-down"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-media-query"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-window-size"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-size"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-geolocation"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-debounce"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-deep-effect"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-previous"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/use-merge-ref"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/useMemoByObjectVariables"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/useDelayedState"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/custom-hook/useFadeEffect"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "State management",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/context"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/context-fast"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/redux"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/recoil"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/jotai"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/zustand"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reactjs/state-management/valtio"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "RC Component Styles",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rc-style/rc-select"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rc-style/rc-picker"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rc-style/rc-dialog"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rc-style/rc-tooltip"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "React Native",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-native/test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "questions": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/questions",
+          "tagsPath": "/questions/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/kengzone/Documents/project/web-questions/sidebars.js",
+          "contentPath": "/Users/kengzone/Documents/project/web-questions/questions",
+          "contentPathLocalized": "/Users/kengzone/Documents/project/web-questions/i18n/en/docusaurus-plugin-content-docs-questions/current",
+          "docs": [
+            {
+              "id": "javascripts/question-1",
+              "title": "Question 1 - 10",
+              "description": "Q1. What's the output?",
+              "source": "@site/questions/javascripts/question-1.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-1",
+              "permalink": "/questions/javascripts/question-1",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-1.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Question 1 - 10",
+                "comment": true,
+                "date": "2022-10-23 11:03:14",
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Questions",
+                "permalink": "/questions/"
+              },
+              "next": {
+                "title": "Question 11 - 20",
+                "permalink": "/questions/javascripts/question-2"
+              }
+            },
+            {
+              "id": "javascripts/question-10",
+              "title": "Question 91 - 100",
+              "description": "91. What's the output?",
+              "source": "@site/questions/javascripts/question-10.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-10",
+              "permalink": "/questions/javascripts/question-10",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-10.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "title": "Question 91 - 100",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 81 - 90",
+                "permalink": "/questions/javascripts/question-9"
+              },
+              "next": {
+                "title": "Question 101 - 110",
+                "permalink": "/questions/javascripts/question-11"
+              }
+            },
+            {
+              "id": "javascripts/question-11",
+              "title": "Question 101 - 110",
+              "description": "101. What's the value of output?",
+              "source": "@site/questions/javascripts/question-11.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-11",
+              "permalink": "/questions/javascripts/question-11",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-11.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11,
+                "title": "Question 101 - 110",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 91 - 100",
+                "permalink": "/questions/javascripts/question-10"
+              },
+              "next": {
+                "title": "Question 111 - 120",
+                "permalink": "/questions/javascripts/question-12"
+              }
+            },
+            {
+              "id": "javascripts/question-12",
+              "title": "Question 111 - 120",
+              "description": "111. What's the output?",
+              "source": "@site/questions/javascripts/question-12.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-12",
+              "permalink": "/questions/javascripts/question-12",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-12.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "title": "Question 111 - 120",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 101 - 110",
+                "permalink": "/questions/javascripts/question-11"
+              },
+              "next": {
+                "title": "Question 121 - 130",
+                "permalink": "/questions/javascripts/question-13"
+              }
+            },
+            {
+              "id": "javascripts/question-13",
+              "title": "Question 121 - 130",
+              "description": "121. What's the output?",
+              "source": "@site/questions/javascripts/question-13.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-13",
+              "permalink": "/questions/javascripts/question-13",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-13.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13,
+                "title": "Question 121 - 130",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 111 - 120",
+                "permalink": "/questions/javascripts/question-12"
+              },
+              "next": {
+                "title": "Question 131 - 140",
+                "permalink": "/questions/javascripts/question-14"
+              }
+            },
+            {
+              "id": "javascripts/question-14",
+              "title": "Question 131 - 140",
+              "description": "131. What's the output?",
+              "source": "@site/questions/javascripts/question-14.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-14",
+              "permalink": "/questions/javascripts/question-14",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-14.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14,
+                "title": "Question 131 - 140",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 121 - 130",
+                "permalink": "/questions/javascripts/question-13"
+              },
+              "next": {
+                "title": "Question 141 - 150",
+                "permalink": "/questions/javascripts/question-15"
+              }
+            },
+            {
+              "id": "javascripts/question-15",
+              "title": "Question 141 - 150",
+              "description": "141. What's the output?",
+              "source": "@site/questions/javascripts/question-15.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-15",
+              "permalink": "/questions/javascripts/question-15",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-15.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15,
+                "title": "Question 141 - 150",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 131 - 140",
+                "permalink": "/questions/javascripts/question-14"
+              },
+              "next": {
+                "title": "Question 151 - 155",
+                "permalink": "/questions/javascripts/question-16"
+              }
+            },
+            {
+              "id": "javascripts/question-16",
+              "title": "Question 151 - 155",
+              "description": "150. What's the output?",
+              "source": "@site/questions/javascripts/question-16.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-16",
+              "permalink": "/questions/javascripts/question-16",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-16.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16,
+                "title": "Question 151 - 155",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 141 - 150",
+                "permalink": "/questions/javascripts/question-15"
+              }
+            },
+            {
+              "id": "javascripts/question-2",
+              "title": "Question 11 - 20",
+              "description": "Q11. What is the output?",
+              "source": "@site/questions/javascripts/question-2.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-2",
+              "permalink": "/questions/javascripts/question-2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-2.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Question 11 - 20",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 1 - 10",
+                "permalink": "/questions/javascripts/question-1"
+              },
+              "next": {
+                "title": "Question 21 - 30",
+                "permalink": "/questions/javascripts/question-3"
+              }
+            },
+            {
+              "id": "javascripts/question-3",
+              "title": "Question 21 - 30",
+              "description": "Q21. What's the value of sum?",
+              "source": "@site/questions/javascripts/question-3.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-3",
+              "permalink": "/questions/javascripts/question-3",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-3.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Question 21 - 30",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 11 - 20",
+                "permalink": "/questions/javascripts/question-2"
+              },
+              "next": {
+                "title": "Question 31 - 40",
+                "permalink": "/questions/javascripts/question-4"
+              }
+            },
+            {
+              "id": "javascripts/question-4",
+              "title": "Question 31 - 40",
+              "description": "Q. 31. What is the event.target when clicking the button?",
+              "source": "@site/questions/javascripts/question-4.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-4",
+              "permalink": "/questions/javascripts/question-4",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-4.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Question 31 - 40",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 21 - 30",
+                "permalink": "/questions/javascripts/question-3"
+              },
+              "next": {
+                "title": "Question 41 - 50",
+                "permalink": "/questions/javascripts/question-5"
+              }
+            },
+            {
+              "id": "javascripts/question-5",
+              "title": "Question 41 - 50",
+              "description": "Q. 41. What's the output?",
+              "source": "@site/questions/javascripts/question-5.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-5",
+              "permalink": "/questions/javascripts/question-5",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-5.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Question 41 - 50",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 31 - 40",
+                "permalink": "/questions/javascripts/question-4"
+              },
+              "next": {
+                "title": "Question 51 - 60",
+                "permalink": "/questions/javascripts/question-6"
+              }
+            },
+            {
+              "id": "javascripts/question-6",
+              "title": "Question 51 - 60",
+              "description": "51. What's the output?",
+              "source": "@site/questions/javascripts/question-6.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-6",
+              "permalink": "/questions/javascripts/question-6",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-6.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "title": "Question 51 - 60",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 41 - 50",
+                "permalink": "/questions/javascripts/question-5"
+              },
+              "next": {
+                "title": "Question 61 - 70",
+                "permalink": "/questions/javascripts/question-7"
+              }
+            },
+            {
+              "id": "javascripts/question-7",
+              "title": "Question 61 - 70",
+              "description": "61. What's the output?",
+              "source": "@site/questions/javascripts/question-7.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-7",
+              "permalink": "/questions/javascripts/question-7",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-7.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7,
+                "title": "Question 61 - 70",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 51 - 60",
+                "permalink": "/questions/javascripts/question-6"
+              },
+              "next": {
+                "title": "Question 71 - 80",
+                "permalink": "/questions/javascripts/question-8"
+              }
+            },
+            {
+              "id": "javascripts/question-8",
+              "title": "Question 71 - 80",
+              "description": "71. How can we log the values that are commented out after the console.log statement?",
+              "source": "@site/questions/javascripts/question-8.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-8",
+              "permalink": "/questions/javascripts/question-8",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-8.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8,
+                "title": "Question 71 - 80",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 61 - 70",
+                "permalink": "/questions/javascripts/question-7"
+              },
+              "next": {
+                "title": "Question 81 - 90",
+                "permalink": "/questions/javascripts/question-9"
+              }
+            },
+            {
+              "id": "javascripts/question-9",
+              "title": "Question 81 - 90",
+              "description": "81. What is the output?",
+              "source": "@site/questions/javascripts/question-9.md",
+              "sourceDirName": "javascripts",
+              "slug": "/javascripts/question-9",
+              "permalink": "/questions/javascripts/question-9",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/javascripts/question-9.md",
+              "tags": [
+                {
+                  "label": "Javascript",
+                  "permalink": "/questions/tags/javascript"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9,
+                "title": "Question 81 - 90",
+                "comment": true,
+                "tags": [
+                  "Javascript"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Question 71 - 80",
+                "permalink": "/questions/javascripts/question-8"
+              },
+              "next": {
+                "title": "Question 91 - 100",
+                "permalink": "/questions/javascripts/question-10"
+              }
+            },
+            {
+              "id": "README",
+              "title": "Questions",
+              "description": "This is Questions",
+              "source": "@site/questions/README.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/questions/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/hunghg255/web-totals/tree/main/questions/README.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Questions"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Question 1 - 10",
+                "permalink": "/questions/javascripts/question-1"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "README"
+              },
+              {
+                "type": "category",
+                "label": "Javascript",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-6"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-7"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-8"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-9"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-10"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-11"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-12"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-13"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-14"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-15"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascripts/question-16"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Blogs",
+      "blogPosts": [
+        {
+          "id": "/react-provider-hell",
+          "metadata": {
+            "permalink": "/blog/react-provider-hell",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/react-provider-hell.md",
+            "source": "@site/blog/react-provider-hell.md",
+            "title": "React Provider Hell",
+            "description": "React Provider Hell",
+            "date": "2023-09-19T19:28:57.000Z",
+            "formattedDate": "September 19, 2023",
+            "tags": [
+              {
+                "label": "react",
+                "permalink": "/blog/tags/react"
+              },
+              {
+                "label": "provider",
+                "permalink": "/blog/tags/provider"
+              }
+            ],
+            "readingTime": 1.18,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "React Provider Hell",
+              "authors": "hunghg",
+              "tags": [
+                "react",
+                "provider"
+              ],
+              "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--HOQYtEP_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kj81kq4qurtf84xrvtm8.png"
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "Example Callstack And Event loop",
+              "permalink": "/blog/event-loop-call-stack-example"
+            }
+          },
+          "content": "React Provider Hell\n\n<!--truncate-->\n\n## Issue\n\n```jsx live noInline\nconst context1 = createContext({});\nconst context2 = createContext({});\nconst context3 = createContext({});\nconst context4 = createContext({});\n\nconst ChildApp = () => {\n  const v1 = useContext(context1);\n  const v2 = useContext(context2);\n  const v3 = useContext(context3);\n  const v4 = useContext(context4);\n\n  return (\n    <>\n      <h2>ChildApp</h2>\n      {v1.v}\n      {v2.v}\n      {v3.v}\n      {v4.v}\n    </>\n  );\n};\n\nconst App = () => {\n  return (\n    <>\n      <context1.Provider value={{ v: 1 }}>\n        <context2.Provider value={{ v: 2 }}>\n          <context3.Provider value={{ v: 3 }}>\n            <context4.Provider value={{ v: 4 }}>\n              <ChildApp />\n            </context4.Provider>\n          </context3.Provider>\n        </context2.Provider>\n      </context1.Provider>\n    </>\n  );\n};\n\nrender(<App />);\n```\n\n## Solution\n\n```jsx live noInline\nconst context1 = createContext({});\nconst context2 = createContext({});\nconst context3 = createContext({});\nconst context4 = createContext({});\n\nconst ChildApp = () => {\n  const v1 = useContext(context1);\n  const v2 = useContext(context2);\n  const v3 = useContext(context3);\n  const v4 = useContext(context4);\n\n  return (\n    <>\n      <h2>ChildApp</h2>\n      {v1.v}\n      {v2.v}\n      {v3.v}\n      {v4.v}\n    </>\n  );\n};\n\nconst buildProvidersTree = (componentWithProps = []) => {\n  return ({ children }) => {\n    return componentWithProps.reduceRight((acc, [Provider, props]) => {\n      return <Provider {...props}>{acc}</Provider>;\n    }, children);\n  };\n};\n\nconst ProvidersTree = buildProvidersTree([\n  [context1.Provider, { value: { v: 1 } }],\n  [context2.Provider, { value: { v: 2 } }],\n  [context3.Provider, { value: { v: 3 } }],\n  [context4.Provider, { value: { v: 4 } }],\n]);\n\nconst App = () => {\n  return (\n    <>\n      <ProvidersTree>\n        <ChildApp />\n      </ProvidersTree>\n    </>\n  );\n};\n\nrender(<App />);\n```"
+        },
+        {
+          "id": "/event-loop-call-stack-example",
+          "metadata": {
+            "permalink": "/blog/event-loop-call-stack-example",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/event-loop-call-stack-example.md",
+            "source": "@site/blog/event-loop-call-stack-example.md",
+            "title": "Example Callstack And Event loop",
+            "description": "Example callstack and event loop",
+            "date": "2023-09-05T04:54:37.000Z",
+            "formattedDate": "September 5, 2023",
+            "tags": [
+              {
+                "label": "javascript",
+                "permalink": "/blog/tags/javascript"
+              },
+              {
+                "label": "callstack",
+                "permalink": "/blog/tags/callstack"
+              },
+              {
+                "label": "event loop",
+                "permalink": "/blog/tags/event-loop"
+              }
+            ],
+            "readingTime": 0.835,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Example Callstack And Event loop",
+              "authors": "hunghg",
+              "tags": [
+                "javascript",
+                "callstack",
+                "event loop"
+              ],
+              "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1644518372680/XWZCTFGrJ.png?auto=compress,format&format=webp"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "React Provider Hell",
+              "permalink": "/blog/react-provider-hell"
+            },
+            "nextItem": {
+              "title": "Centering in CSS",
+              "permalink": "/blog/center-css"
+            }
+          },
+          "content": "Example callstack and event loop\n\n<!--truncate-->\n\n## Example\n\n```js\nasync function abc() {\n  console.log(8);\n  await Promise.resolve(2).then(console.log);\n  console.log(3); // same .then(() => console.log(3))\n}\n\nsetTimeout(() => console.log(1), 0);\nabc();\nPromise.resolve(4).then(console.log);\nconsole.log(6);\n```\n\n## Information\n\n:::info\n\n- `Macrotasks`: setTimeout , setInterval , setImmediate , requestAnimationFrame , I / O , giao diện người dùng render\n\n- `Microtasks`: process.nextTick , Promises , queueMicrotask , MutationObserver\n\n:::\n\n![](https://res.cloudinary.com/hunghg255/image/upload/v1693889526/js-microtask-macro-task_gre5dw.webp)\n\n## Explain\n\n```md\n1. Chạy `setTimeout` => push `log(1)` vào `MacroTask Queue`\n\n2. Chạy func `abc` => `log(8)` => push `log(2)` vào `MicroTask Queue` => `await`\n   `Output: 8`\n\n3. push `log(4)` vào `MicroTask Queue`\n\n4. `log(6)`\n   `Output: 8 6`\n\n5. Thực thi `MicroTask Queue` có 2 callback `log(2)` và `log(4)`\n   `log(2)` => coi `log(3) là .then(() => log(3))` push `log(3)` vào `MicroTask Queue`\n   `log(4)` => `log(3)`\n\n   `Output: 8 6 2 4 3`\n\n6. `MicroTask Queue` đã rỗng kết thúc turn => bắt đầu 1 turn mới thực thi `MacroTask Queue` có 1 callback `log(1)`\n   `log(1)`\n   `Output: 8 6 2 4 3 1`\n```"
+        },
+        {
+          "id": "/center-css",
+          "metadata": {
+            "permalink": "/blog/center-css",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/center-css.md",
+            "source": "@site/blog/center-css.md",
+            "title": "Centering in CSS",
+            "description": "1. Content Center",
+            "date": "2023-05-12T04:20:35.000Z",
+            "formattedDate": "May 12, 2023",
+            "tags": [
+              {
+                "label": "html",
+                "permalink": "/blog/tags/html"
+              },
+              {
+                "label": "css",
+                "permalink": "/blog/tags/css"
+              },
+              {
+                "label": "tips",
+                "permalink": "/blog/tags/tips"
+              }
+            ],
+            "readingTime": 0.685,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Centering in CSS",
+              "authors": "hunghg",
+              "tags": [
+                "html",
+                "css",
+                "tips"
+              ],
+              "image": "https://res.cloudinary.com/hunghg255/image/upload/v1683865180/css-center_m1zi5l.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Example Callstack And Event loop",
+              "permalink": "/blog/event-loop-call-stack-example"
+            },
+            "nextItem": {
+              "title": "Vscode extensions useful",
+              "permalink": "/blog/vscode-extensions-useful"
+            }
+          },
+          "content": "<!--truncate-->\n\n## 1. Content Center\n\n```html title=HTML\n<div class=\"content-center\">...</div>\n```\n\n```css title=CSS\n.content-center {\n  display: grid;\n  place-content: center;\n  gap: 1ch;\n}\n```\n\n## 2. Gentle Flex\n\n```html title=HTML\n<div class=\"gentle-flex\">...</div>\n```\n\n```css title=CSS\n.gentle-flex {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1ch;\n}\n```\n\n## 3. Autobot\n\n```html title=HTML\n<div class=\"autobot\">...</div>\n```\n\n```css title=CSS\n.autobot {\n  display: flex;\n}\n.autobot > * {\n  margin: auto;\n}\n```\n\n## 4. Fluffy Center\n\n```html title=HTML\n<div class=\"fluffy-center\">...</div>\n```\n\n```css title=CSS\n.fluffy-center {\n  padding: 10ch;\n}\n```\n\n## 5. Pop & Plop\n\n```html title=HTML\n<div class=\"parent\">\n  <div class=\"pop-plop\">...</div>\n</div>\n```\n\n```css title=CSS\n.parent {\n  position: relative;\n}\n\n/* Option 1 */\n.pop-plop {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n\n/* Option 2 */\n.pop-plop {\n  position: absolute;\n  inset: 0;\n  margin: auto;\n}\n```"
+        },
+        {
+          "id": "/vscode-extensions-useful",
+          "metadata": {
+            "permalink": "/blog/vscode-extensions-useful",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/vscode-extensions-useful.md",
+            "source": "@site/blog/vscode-extensions-useful.md",
+            "title": "Vscode extensions useful",
+            "description": "Extensions useful on vscode",
+            "date": "2023-04-24T17:21:54.000Z",
+            "formattedDate": "April 24, 2023",
+            "tags": [
+              {
+                "label": "vscode",
+                "permalink": "/blog/tags/vscode"
+              },
+              {
+                "label": "extensions",
+                "permalink": "/blog/tags/extensions"
+              },
+              {
+                "label": "css",
+                "permalink": "/blog/tags/css"
+              },
+              {
+                "label": "tips",
+                "permalink": "/blog/tags/tips"
+              }
+            ],
+            "readingTime": 0.135,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Vscode extensions useful",
+              "authors": "hunghg",
+              "tags": [
+                "vscode",
+                "extensions",
+                "css",
+                "tips"
+              ],
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Centering in CSS",
+              "permalink": "/blog/center-css"
+            },
+            "nextItem": {
+              "title": "Convert svgs file to jsx by one script",
+              "permalink": "/blog/convert-svgs-to-jsx"
+            }
+          },
+          "content": "Extensions useful on vscode\n\n<!--truncate-->\n\n## 1. Agile CSS Suggestion\n\n[Agile CSS Suggestion](https://marketplace.visualstudio.com/items?itemName=AgileCssSuggestion.agile-css-suggestion)\n\n## Result\n\n![](https://res.cloudinary.com/hunghg255/image/upload/v1682245314/agile-css-suggestion_jxh0ys.png)\n\n## 2. CSS to Tailwindcss\n\n[CSS to Tailwindcss](https://marketplace.visualstudio.com/items?itemName=hunghg255.css-2-tailwindcss)\n\n## Result\n\n![](https://res.cloudinary.com/hunghg255/image/upload/v1685594372/css2tailwindcss-demo_lzpyfi.gif)"
+        },
+        {
+          "id": "/convert-svgs-to-jsx",
+          "metadata": {
+            "permalink": "/blog/convert-svgs-to-jsx",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/convert-svgs-to-jsx.md",
+            "source": "@site/blog/convert-svgs-to-jsx.md",
+            "title": "Convert svgs file to jsx by one script",
+            "description": "Run this script on terminal",
+            "date": "2023-04-24T17:13:15.000Z",
+            "formattedDate": "April 24, 2023",
+            "tags": [
+              {
+                "label": "svg",
+                "permalink": "/blog/tags/svg"
+              },
+              {
+                "label": "jsx",
+                "permalink": "/blog/tags/jsx"
+              },
+              {
+                "label": "reactjs",
+                "permalink": "/blog/tags/reactjs"
+              },
+              {
+                "label": "scripts",
+                "permalink": "/blog/tags/scripts"
+              },
+              {
+                "label": "generate",
+                "permalink": "/blog/tags/generate"
+              }
+            ],
+            "readingTime": 0.94,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Convert svgs file to jsx by one script",
+              "authors": "hunghg",
+              "tags": [
+                "svg",
+                "jsx",
+                "reactjs",
+                "scripts",
+                "generate"
+              ],
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Vscode extensions useful",
+              "permalink": "/blog/vscode-extensions-useful"
+            },
+            "nextItem": {
+              "title": "HTML Input Type",
+              "permalink": "/blog/html-input"
+            }
+          },
+          "content": "<!--truncate-->\n\n## Run this script on terminal\n\n[npm link](https://www.npmjs.com/package/agile-svg2jsx)\n\n## CLI\n\n<NpxConvert packageBinCli=\"agile-svg2jsx --i $PATH_SVGS_FOLDER --o $PATH_REACT_FOLDER\"/>\n\n## setup at `package.json`\n\n```json\n\"scripts\": {\n  ...\n  \"gen-icon\": \"npx agile-svg2jsx --i $PATH_SVGS_FOLDER --o $PATH_REACT_FOLDER\"\n},\n```\n\n## Demo\n\n[Github](https://github.com/hunghg255/react-generate-svg-2-icon)\n\n![](https://res.cloudinary.com/hunghg255/image/upload/v1682355827/svg2jsx_bbivgm.gif)\n\n## Live code\n\n```jsx live noInline\nconst IconAccountBook = (props) => {\n  return (\n    <span {...props}>\n      <svg\n        xmlns='http://www.w3.org/2000/svg'\n        className='icon'\n        viewBox='0 0 1024 1024'\n        fill='currentColor'\n        width='1em'\n        height='1em'\n      >\n        <path d='M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zM648.3 426.8l-87.7 161.1h45.7c5.5 0 10 4.5 10 10v21.3c0 5.5-4.5 10-10 10h-63.4v29.7h63.4c5.5 0 10 4.5 10 10v21.3c0 5.5-4.5 10-10 10h-63.4V752c0 5.5-4.5 10-10 10h-41.3c-5.5 0-10-4.5-10-10v-51.8h-63.1c-5.5 0-10-4.5-10-10v-21.3c0-5.5 4.5-10 10-10h63.1v-29.7h-63.1c-5.5 0-10-4.5-10-10v-21.3c0-5.5 4.5-10 10-10h45.2l-88-161.1c-2.6-4.8-.9-10.9 4-13.6 1.5-.8 3.1-1.2 4.8-1.2h46c3.8 0 7.2 2.1 8.9 5.5l72.9 144.3 73.2-144.3a10 10 0 0 1 8.9-5.5h45c5.5 0 10 4.5 10 10 .1 1.7-.3 3.3-1.1 4.8z' />\n      </svg>\n    </span>\n  );\n};\n\nconst App = () => (\n  <>\n    <IconAccountBook\n      onClick={() => alert('Hello')}\n      style={{\n        fontSize: 50,\n        color: 'red',\n      }}\n    />\n\n    <IconAccountBook\n      onClick={() => alert('Hello')}\n      style={{\n        fontSize: 50,\n        color: 'green',\n      }}\n    />\n\n    <IconAccountBook\n      onClick={() => alert('Hello')}\n      style={{\n        fontSize: 50,\n        color: 'blue',\n      }}\n    />\n  </>\n);\n\nrender(<App />);\n```"
+        },
+        {
+          "id": "/html-input",
+          "metadata": {
+            "permalink": "/blog/html-input",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/html-input.md",
+            "source": "@site/blog/html-input.md",
+            "title": "HTML Input Type",
+            "description": "All input type html!",
+            "date": "2023-04-13T10:15:25.000Z",
+            "formattedDate": "April 13, 2023",
+            "tags": [
+              {
+                "label": "Html",
+                "permalink": "/blog/tags/html"
+              }
+            ],
+            "readingTime": 0.89,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "HTML Input Type",
+              "authors": "hunghg",
+              "tags": [
+                "Html"
+              ],
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Convert svgs file to jsx by one script",
+              "permalink": "/blog/convert-svgs-to-jsx"
+            },
+            "nextItem": {
+              "title": "Scroll Restoration in Nextjs",
+              "permalink": "/blog/scroll-restoration-nextjs"
+            }
+          },
+          "content": "## All input type html!\n\n<!--truncate-->\n\n```jsx live\nfunction App() {\n  return (\n    <div>\n      <div>\n        Button: <input type='button' value='Click Me!' />\n      </div>\n      <div>\n        Checkbox: <input type='checkbox' />\n      </div>\n      <div>\n        Color: <input type='color' />\n      </div>\n      <div>\n        Date: <input type='date' />\n      </div>\n      <div>\n        Date Local: <input type='datetime-local' />\n      </div>\n      <div>\n        Email: <input type='email' />\n      </div>\n      <div>\n        File: <input type='file' />\n      </div>\n      <div>\n        Hidden: <input type='hidden' />\n      </div>\n      <div>\n        Image: <input type='image' />\n      </div>\n      <div>\n        Number: <input type='number' />\n      </div>\n      <div>\n        Number + decimal: <input type='number' inputmode='decimal' />\n      </div>\n      <div>\n        Number + numeric: <input type='number' inputmode='numeric' />\n      </div>\n      <div>\n        Password: <input type='password' />\n      </div>\n      <div>\n        Radio: <input type='radio' />\n      </div>\n      <div>\n        Range: <input type='range' />\n      </div>\n      <div>\n        Reset: <input type='reset' />\n      </div>\n      <div>\n        Search: <input type='search' />\n      </div>\n      <div>\n        Submit: <input type='submit' />\n      </div>\n      <div>\n        Tel: <input type='tel' />\n      </div>\n      <div>\n        Text: <input type='text' />\n      </div>\n      <div>\n        Time: <input type='time' />\n      </div>\n      <div>\n        Url: <input type='url' />\n      </div>\n      <div>\n        Week: <input type='week' />\n      </div>\n      <div>\n        Month: <input type='month' />\n      </div>\n    </div>\n  );\n}\n```\n\n:::note Reference\n1: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\n\n2: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode\n:::"
+        },
+        {
+          "id": "/scroll-restoration-nextjs",
+          "metadata": {
+            "permalink": "/blog/scroll-restoration-nextjs",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/scroll-restoration-nextjs.md",
+            "source": "@site/blog/scroll-restoration-nextjs.md",
+            "title": "Scroll Restoration in Nextjs",
+            "description": "Experimental scroll restoration flag",
+            "date": "2023-04-07T11:04:02.000Z",
+            "formattedDate": "April 7, 2023",
+            "tags": [
+              {
+                "label": "Nextjs",
+                "permalink": "/blog/tags/nextjs"
+              },
+              {
+                "label": "Scroll Restoration",
+                "permalink": "/blog/tags/scroll-restoration"
+              }
+            ],
+            "readingTime": 1.345,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Scroll Restoration in Nextjs",
+              "authors": "hunghg",
+              "tags": [
+                "Nextjs",
+                "Scroll Restoration"
+              ],
+              "image": "https://decodenatura.com/static/fb8aa1bb70c9925ce1ae22dc2711b343/nextjs-logo.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "HTML Input Type",
+              "permalink": "/blog/html-input"
+            },
+            "nextItem": {
+              "title": "Xử lý form với Ant Design (Phần 1)",
+              "permalink": "/blog/handle-form-antd-part-1"
+            }
+          },
+          "content": "## Experimental scroll restoration flag\n\nLuckily, Next.js has an [experimental scrollRestoration flag](https://github.com/vercel/next.js/commit/38bd1a024cb25923d8ea15f269a7294d073684d8) that you can enable to automatically restore the scroll positions.\n\n<!--truncate-->\n\nYou can enable it in your `next.config.js` file this way:\n\n```js title=next.config.js\nmodule.exports = {\n  experimental: {\n    scrollRestoration: true,\n  },\n};\n```\n\n## next-router-scroll\n\nThere are some cases where you need to take control of how your application scroll is handled; namely, you may want to restore scroll when the user is navigating within your application pages, but you need to do extra work before or after the page has changed, either by using some sort of page transition or any other feature.\nIn these cases, I’d suggest you give `@moxy/next-router-scroll` a try: This package is built on top of [scroll-behavior](https://www.npmjs.com/package/scroll-behavior) and it actively listens to Next.js router events, writing the scroll values associated with the current location in the Session Storage and reading these values whenever `updateScroll()` is called.\n\n## Completely disabling scroll restoration\n\nThere’s one inconsistency I noticed around not making scroll restoration work automatically in Next.js: by default, scroll restoration doesn’t work when the navigation logic is being handled by JavaScript, but it works fine when it’s handled by the browser (e.g.: on a full-refresh or while navigating with JavaScript disabled).\n\nSo, in the rare occasions where you want to fully disable scroll restoration, remember to add this snippet to the `<head>` of your project:\n\n```tsx\nimport Head from 'next/head';\n\nexport default function ScrollRestorationDisabler() {\n  return (\n    <Head>\n      {/* Tell the browser to never restore the scroll position on load */}\n      <script\n        dangerouslySetInnerHTML={{\n          __html: `history.scrollRestoration = \"manual\"`,\n        }}\n      />\n    </Head>\n  );\n}\n```"
+        },
+        {
+          "id": "/handle-form-antd-part-1",
+          "metadata": {
+            "permalink": "/blog/handle-form-antd-part-1",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/handle-form-antd-part-1.md",
+            "source": "@site/blog/handle-form-antd-part-1.md",
+            "title": "Xử lý form với Ant Design (Phần 1)",
+            "description": "Cách xử lý form trong Ant Design sao cho đúng.",
+            "date": "2023-03-19T10:54:44.000Z",
+            "formattedDate": "March 19, 2023",
+            "tags": [
+              {
+                "label": "Reactjs",
+                "permalink": "/blog/tags/reactjs"
+              },
+              {
+                "label": "Ant Design",
+                "permalink": "/blog/tags/ant-design"
+              }
+            ],
+            "readingTime": 6.16,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Xử lý form với Ant Design (Phần 1)",
+              "authors": "hunghg",
+              "tags": [
+                "Reactjs",
+                "Ant Design"
+              ],
+              "image": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Scroll Restoration in Nextjs",
+              "permalink": "/blog/scroll-restoration-nextjs"
+            },
+            "nextItem": {
+              "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+              "permalink": "/blog/build-tools-frontend-2023"
+            }
+          },
+          "content": "Cách xử lý form trong Ant Design sao cho đúng.\n\n<!--truncate-->\n\n## 1. Cơ chế hoạt động\n\nTa xét một ví dụ đơn giản như sau:\n\n```tsx\nimport { Button, Checkbox, Form, Input } from 'antd';\n\nconst onFinish = (values) => {\n  console.log('Success:', values);\n};\n\nconst App = () => (\n  <Form onFinish={onFinish}>\n    <Form.Item name='username'>\n      <Input />\n    </Form.Item>\n\n    <Button type='primary' htmlType='submit'>\n      Submit\n    </Button>\n  </Form>\n);\n```\n\n![Demo 1](https://res.cloudinary.com/hunghg255/image/upload/v1679199291/blog/Screenshot_2023-03-19_at_11.14.37_lp70zv.png)\n\nNhư ta thấy khi đặt component `Input` trong `Form.Item` với `name` là `username` thì khi submit sẽ nhận được một object với key là `username` và value là giá trị của input.\n\nVậy có phải cứ đặt `Input` bên trong `Form.Item` là ta sẽ lấy được value của Input khi submit không?\nMình sẽ custom xíu là thêm cái label hoặc cần tuỳ biến input thêm prefix hoặc suffix icon,...\n\n```tsx\n<Form.Item name='username'>\n  <Row>\n    <label>Username</label>\n    <Input />\n  </Row>\n</Form.Item>\n```\n\n![Demo 2](https://res.cloudinary.com/hunghg255/image/upload/v1679200848/blog/Screenshot_2023-03-19_at_11.40.41_onm9lw.png)\n\nVẫn cho mình cùng kết quả. nếu ta muốn dùng nhiều nơi thì phải copy sang nhiều chỗ khác nhau. vậy mình sẽ tách thành một component để sau có thể tái sử dụng\n\n```tsx\nconst CustomInput = () => {\n  return (\n    <Row>\n      <label>Username</label>\n      <Input />\n    </Row>\n  );\n};\n\n<Form.Item name='username'>\n  <CustomInput />\n</Form.Item>;\n```\n\n![Demo 3](https://res.cloudinary.com/hunghg255/image/upload/v1679200637/blog/Screenshot_2023-03-19_at_11.37.10_ixmjsf.png)\n\nMình kiểm tra lại kết quả xem sao. Ops kết quả không như ta mong đợi. Khi tách thành component để có thể tái sử dụng thì không còn lấy được value của `input` nữa. Vậy chuyện gì đã xảy ra mà khi đặt trong `Form.Item` thì có kết quả và mình muốn tách ra có thể tái sử dụng lại không hoạt động.\n\nMình sẽ kiểm tra `props` của `CustomInput` xem có gì bất thường không nhé =)))\n\n![props](https://res.cloudinary.com/hunghg255/image/upload/v1679201545/blog/Screenshot_2023-03-19_at_11.52.18_byltfn.png)\n\n:::note\nNhư ta thấy `props` của `CustomInput` là một object chứa `id`, `value`, `onChange`. Tức là khi ta đặt Input ngay bên trong `Form.Item` thì nó tự động pass props đó vào cho `Input` vì vậy ta sẽ lấy được value của Input.\n\nKhi mình tách ra thành một component để tái sử dụng thì `value` và `onChange` sẽ không được pass vào Input nữa nên ta sẽ không lấy được value của Input\n:::\n\nOk. vậy mình sẽ thử fix bằng cách pass `value` và `onChange` vào Input xem sao.\n\n![fix](https://res.cloudinary.com/hunghg255/image/upload/v1679202119/blog/Screenshot_2023-03-19_at_12.01.50_lk5yyg.png)\n\nOh. Hihi kết quả như mong đợi\n\n:::note\nKết luận: Khi ta muốn truyền value từ component bất kì lên `Form.Item` ta chỉ cần dùng hàm `onChange` từ `Form.Item` cái mà được truyền xuống props khi đặt component trong `Form.Item`\n:::\n\n## 2. Cơ chế hoạt động `dependencies`, `shouldUpdate` và `useWatch`\n\n### a. Dependencies\n\nMình có một ví dụ đơn giản như sau: có 3 select gồm tỉnh, huyện, xã.\nYêu cầu: Khi chọn tỉnh thì sẽ tải danh sách huyện, khi chọn huyện thì sẽ tải danh sách xã.\n\nSẽ có nhiều cách xử lý bài toán này. như một số anh em sẽ xử lý bằng cách dùng state lưu lại giá trị tỉnh, huyện, xã. có thay đổi về state thì lắng nghe trong `useEffect` để tải list huyện, xã. Cách này sẽ ảnh hưởng đến performance nếu mà form có nhiều field.\n\nỞ đây mình sẽ chọn cách giải quyết băng cách dùng `dependencies`\n\nĐầu tiên mình sẽ tạo custom select tỉnh, huyện, xã:\n\nBình thường data sẽ được lấy từ API nhưng trong ví dụ này mình sẽ tải về sẵn luôn.\n\n```tsx\n// Lấy data các tỉnh từ API\nconst SelectProvince = (props) => {\n  const { value, onChange } = props;\n\n  return (\n    <Select\n      placeholder='Chọn Tỉnh'\n      value={value}\n      onChange={onChange}\n      options={provinces.map((provinceItem) => {\n        return {\n          label: provinceItem.name_with_type,\n          value: provinceItem.code,\n        };\n      })}\n    />\n  );\n};\n```\n\n```tsx\n// Lấy data các huyện phụ thuộc vào tỉnh đã chọn từ API\nconst SelectDistrict = (props) => {\n  const { value, onChange, province } = props;\n\n  const districtsData = React.useMemo(() => {\n    if (!province) return [];\n\n    return districts.filter((districtItem) => {\n      return districtItem.parent_code === province;\n    });\n  }, [province]);\n\n  return (\n    <Select\n      placeholder='Chọn Huyện'\n      value={value}\n      onChange={onChange}\n      options={districtsData.map((districtItem) => {\n        return {\n          label: districtItem.name_with_type,\n          value: districtItem.code,\n        };\n      })}\n    />\n  );\n};\n```\n\n```tsx\n// Lấy data các xã phụ thuộc vào huyện đã chọn từ API\nconst SelectWard = (props) => {\n  const { value, onChange, district } = props;\n\n  const wardsData = React.useMemo(() => {\n    if (!district) return [];\n\n    return wards.filter((wardItem) => {\n      return wardItem.parent_code === district;\n    });\n  }, [district]);\n\n  return (\n    <Select\n      placeholder='Chọn Xã'\n      value={value}\n      onChange={onChange}\n      options={wardsData.map((wardItem) => {\n        return {\n          label: wardItem.name_with_type,\n          value: wardItem.code,\n        };\n      })}\n    />\n  );\n};\n```\n\nFile App của mình\n\n```tsx\nconst App = () => {\n  const onFinish = (values) => {\n    console.log('Success:', values);\n  };\n\n  return (\n    <Form onFinish={onFinish}>\n      <Form.Item name='province'>\n        <SelectProvince />\n      </Form.Item>\n\n      <Form.Item name='district'>\n        <SelectDistrict />\n      </Form.Item>\n\n      <Form.Item name='ward'>\n        <SelectWard />\n      </Form.Item>\n\n      <Button type='primary' htmlType='submit'>\n        Submit\n      </Button>\n    </Form>\n  );\n};\n```\n\nKết quả:\n\n![demo4](https://res.cloudinary.com/hunghg255/image/upload/v1679220579/blog/Screenshot_2023-03-19_at_17.09.29_lqob6e.png)\n\nHiện tại thì bạn đã thấy là chưa thể chọn được huyện và xã. giờ mình sẽ thêm `dependencies` để mỗi khi chọn xong tỉnh thì huyện sẽ update lại\n\n```tsx\n<Form.Item dependencies={['province']} noStyle>\n  {(props) => {\n    return (\n      <Form.Item name='district'>\n        <SelectDistrict province={props.getFieldValue('province')} />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n```\n\n```tsx\n<Form.Item dependencies={['district']} noStyle>\n  {(props) => {\n    return (\n      <Form.Item name='ward'>\n        <SelectWard district={props.getFieldValue('district')} />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n```\n\nMình sẽ wrap bằng 1 `Form.Item` nữa và thêm `dependencies` là mảng name của item mà mình sẽ muốn xem sự thay đổi. Log props ở trên ra thì mình sẽ thấy được các method của form instance\n\n![demo](https://res.cloudinary.com/hunghg255/image/upload/v1679221251/blog/Screenshot_2023-03-19_at_17.20.43_uj4n9d.png)\n\nVới `SelectDistrict` mình cần truyền thêm prop `province`\n\nVới `SelectWard` mình cần truyền thêm prop `district`\n\nĐây là kết quả đạt được:\n\n<Stackblitz name={'react-ts-3nasfc'} />\n\n:::danger\nMột điều nữa là mình cần làm là reset field đã chọn khi mình thay đổi tỉnh hoặc huyện khác =))))\nBạn có thể giúp mình làm cái này đúng không xD\n:::\n\n### b. shouldUpdate\n\n```tsx\n<Form.Item shouldUpdate noStyle>\n  {(props) => {\n    return (\n      <Form.Item name='district'>\n        <SelectDistrict province={props.getFieldValue('province')} />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n```\n\n```tsx\n<Form.Item shouldUpdate noStyle>\n  {(props) => {\n    return (\n      <Form.Item name='ward'>\n        <SelectWard district={props.getFieldValue('district')} />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n```\n\n:::tip\nVới `shouldUpdate` thì cũng sẽ tương tự như `dependencies` nhưng nếu để `shouldUpdate` là true thì mỗi khi field nào trong form thay đổi thì component của mình sẽ re-render lại,\nđể tránh re-render thì mình sẽ truyền vào 1 callback function để kiểm tra field nào mình muốn kiểm tra sự thay đổi\n:::\n\n```tsx\n<Form.Item\n  shouldUpdate={(prevValue, nextValue) => prevValue.province !== nextValue.province}\n  noStyle\n>\n  {(props) => {\n    return (\n      <Form.Item name='district'>\n        <SelectDistrict province={props.getFieldValue('province')} />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n```\n\n```tsx\n<Form.Item\n  shouldUpdate={(prevValue, nextValue) => prevValue.district !== nextValue.district}\n  noStyle\n>\n  {(props) => {\n    return (\n      <Form.Item name='ward'>\n        <SelectWard district={props.getFieldValue('district')} />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n```\n\nKết quả cũng tương tự như dùng `dependencies`\n\n<Stackblitz name={'react-ts-2nfddq'} />\n\n### c. useWatch\n\n`useWatch` là một hook được cung cấp bới form antd, dùng để lắng nghe những field mà có thay đổi\n\nMình sẽ update lại 2 component select của mình như sau: Thay vì truyền từ props xuống thì mình dùng `useWatch` để lấy data mới nhất khi có thay đổi\n\n```tsx\nconst SelectDistrict = (props) => {\n  const { value, onChange } = props;\n  const province = Form.useWatch(['province']);\n\n  ...\n};\n```\n\n```tsx\nconst SelectWard = (props) => {\n  const { value, onChange } = props;\n  const province = Form.useWatch(['district']);\n\n  ...\n};\n```\n\nKết quả vẫn như mình mong đợi:\n\n<Stackblitz name={'react-ts-xdx9id'} />"
+        },
+        {
+          "id": "/build-tools-frontend-2023",
+          "metadata": {
+            "permalink": "/blog/build-tools-frontend-2023",
+            "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/build-tools-frontend-2023.md",
+            "source": "@site/blog/build-tools-frontend-2023.md",
+            "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+            "description": "Build tools are software applications that automate the process of building, testing, and deploying front-end code, helping developers to streamline their workflows and ensure consistent, high-quality results. In this article, we will explore some of the most popular build tools for front-end developers and discuss their key features and benefits.",
+            "date": "2023-03-19T10:54:37.000Z",
+            "formattedDate": "March 19, 2023",
+            "tags": [
+              {
+                "label": "Frontend",
+                "permalink": "/blog/tags/frontend"
+              },
+              {
+                "label": "Build tools",
+                "permalink": "/blog/tags/build-tools"
+              },
+              {
+                "label": "2023",
+                "permalink": "/blog/tags/2023"
+              }
+            ],
+            "readingTime": 2.225,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Gia Hung",
+                "title": "Creator of Web totals",
+                "url": "https://github.com/hunghg255",
+                "email": "giahung197bg@gmail.com",
+                "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+                "key": "hunghg"
+              }
+            ],
+            "frontMatter": {
+              "title": "The Most Popular Build Tools for Front-end Developers in 2023",
+              "authors": "hunghg",
+              "tags": [
+                "Frontend",
+                "Build tools",
+                "2023"
+              ],
+              "image": "https://res.cloudinary.com/hunghg255/image/upload/v1679049199/blog/Build-Tools-for-Front-end-Developers_kbidno.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Xử lý form với Ant Design (Phần 1)",
+              "permalink": "/blog/handle-form-antd-part-1"
+            }
+          },
+          "content": "Build tools are software applications that automate the process of building, testing, and deploying front-end code, helping developers to streamline their workflows and ensure consistent, high-quality results. In this article, we will explore some of the most popular build tools for front-end developers and discuss their key features and benefits.\n\n<!--truncate-->\n\n![Build tools 2023](https://res.cloudinary.com/hunghg255/image/upload/v1679049199/blog/Build-Tools-for-Front-end-Developers_kbidno.png)\n\nSo, what are build tools, exactly? Well, they're a set of tools that help you automate repetitive tasks, optimize your code, and improve your workflow. There are three main categories of build tools: <b>task runners</b>, <b>bundlers</b>, and <b>compilers</b>.\n\nTask runners are tools that automate repetitive tasks such as testing, linting, and minifying code. Bundlers allow developers to bundle multiple files into one file, reducing load times and improving performance. Compilers enable developers to write code in one language and compile it into another, such as using TypeScript to write JavaScript code.\n\nUsing build tools has several benefits to improve the development workflow, including reducing development time, improving code quality, and streamlining the deployment process.\n\nBy automating repetitive tasks, optimizing code, and providing real-time feedback on errors and code quality, build tools help improve the overall developer experience and make development less stressful.\n\nLet's look at the currently most popular build tools that front-end developers are using:\n\n| Rank | Tool                                                                                                            | Description                                                                                                                                                                                          | Stars                                                                                 |\n| ---- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |\n| 1    | [Vite](https://github.com/vitejs/vite)                                                                          | Next generation frontend tooling. It's fast!                                                                                                                                                         | ![npm](https://img.shields.io/npm/dw/vite?color=white&label=%20&style=flat-square)    |\n| 2    | [Turbo](https://github.com/vercel/turbo)                                                                        | Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.                                                                   | ![npm](https://img.shields.io/npm/dw/turbo?color=white&label=%20&style=flat-square)   |\n| 3    | [swc](https://github.com/swc-project/swc)                                                                       | SWC is a super-fast TypeScript / JavaScript compiler written in Rust.                                                                                                                                | ![npm](https://img.shields.io/npm/dw/swc?color=white&label=%20&style=flat-square)     |\n| 4    | [Nx](https://github.com/nrwl/nx)                                                                                | Nx is a next generation build system with first class monorepo support and powerful integrations.                                                                                                    | ![npm](https://img.shields.io/npm/dw/nx?color=white&label=%20&style=flat-square)      |\n| 5    | [Rome](https://github.com/rome/tools)                                                                           | Rome is a formatter, linter, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.                                                                                            | ![npm](https://img.shields.io/npm/dw/rome?color=white&label=%20&style=flat-square)    |\n| 6    | [esbuild](https://github.com/evanw/esbuild)                                                                     | An extremely fast bundler for the web                                                                                                                                                                | ![npm](https://img.shields.io/npm/dw/esbuild?color=white&label=%20&style=flat-square) |\n| 7    | [Lerna](https://github.com/lerna/lerna)                                                                         | Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.                                                                   | ![npm](https://img.shields.io/npm/dw/lerna?color=white&label=%20&style=flat-square)   |\n| 8    | [Webpack](https://github.com/webpack/webpack)                                                                   | Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. | ![npm](https://img.shields.io/npm/dw/webpack?color=white&label=%20&style=flat-square) |\n| 9    | [Parcel](https://stackdiary.com/build-tools-for-web-development/#:~:text=9-,Parcel,-The%20zero%20configuration) | The zero configuration build tool for the web.                                                                                                                                                       | ![npm](https://img.shields.io/npm/dw/parcel?color=white&label=%20&style=flat-square)  |\n| 10   | [Rollup](https://github.com/rollup/rollup)                                                                      | Next-generation ES module bundler                                                                                                                                                                    | ![npm](https://img.shields.io/npm/dw/rollup?color=white&label=%20&style=flat-square)  |"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "/react-provider-hell",
+            "/event-loop-call-stack-example",
+            "/center-css",
+            "/vscode-extensions-useful",
+            "/convert-svgs-to-jsx",
+            "/html-input",
+            "/scroll-restoration-nextjs",
+            "/handle-form-antd-part-1",
+            "/build-tools-frontend-2023"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 9,
+            "blogDescription": "Blogs",
+            "blogTitle": "Blogs"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/react": {
+          "label": "react",
+          "items": [
+            "/react-provider-hell"
+          ],
+          "permalink": "/blog/tags/react",
+          "pages": [
+            {
+              "items": [
+                "/react-provider-hell"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/react",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/provider": {
+          "label": "provider",
+          "items": [
+            "/react-provider-hell"
+          ],
+          "permalink": "/blog/tags/provider",
+          "pages": [
+            {
+              "items": [
+                "/react-provider-hell"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/provider",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/javascript": {
+          "label": "javascript",
+          "items": [
+            "/event-loop-call-stack-example"
+          ],
+          "permalink": "/blog/tags/javascript",
+          "pages": [
+            {
+              "items": [
+                "/event-loop-call-stack-example"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/javascript",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/callstack": {
+          "label": "callstack",
+          "items": [
+            "/event-loop-call-stack-example"
+          ],
+          "permalink": "/blog/tags/callstack",
+          "pages": [
+            {
+              "items": [
+                "/event-loop-call-stack-example"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/callstack",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/event-loop": {
+          "label": "event loop",
+          "items": [
+            "/event-loop-call-stack-example"
+          ],
+          "permalink": "/blog/tags/event-loop",
+          "pages": [
+            {
+              "items": [
+                "/event-loop-call-stack-example"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/event-loop",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/html": {
+          "label": "html",
+          "items": [
+            "/center-css",
+            "/html-input"
+          ],
+          "permalink": "/blog/tags/html",
+          "pages": [
+            {
+              "items": [
+                "/center-css",
+                "/html-input"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/html",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/css": {
+          "label": "css",
+          "items": [
+            "/center-css",
+            "/vscode-extensions-useful"
+          ],
+          "permalink": "/blog/tags/css",
+          "pages": [
+            {
+              "items": [
+                "/center-css",
+                "/vscode-extensions-useful"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/css",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/tips": {
+          "label": "tips",
+          "items": [
+            "/center-css",
+            "/vscode-extensions-useful"
+          ],
+          "permalink": "/blog/tags/tips",
+          "pages": [
+            {
+              "items": [
+                "/center-css",
+                "/vscode-extensions-useful"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/tips",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/vscode": {
+          "label": "vscode",
+          "items": [
+            "/vscode-extensions-useful"
+          ],
+          "permalink": "/blog/tags/vscode",
+          "pages": [
+            {
+              "items": [
+                "/vscode-extensions-useful"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/vscode",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/extensions": {
+          "label": "extensions",
+          "items": [
+            "/vscode-extensions-useful"
+          ],
+          "permalink": "/blog/tags/extensions",
+          "pages": [
+            {
+              "items": [
+                "/vscode-extensions-useful"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/extensions",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/svg": {
+          "label": "svg",
+          "items": [
+            "/convert-svgs-to-jsx"
+          ],
+          "permalink": "/blog/tags/svg",
+          "pages": [
+            {
+              "items": [
+                "/convert-svgs-to-jsx"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/svg",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/jsx": {
+          "label": "jsx",
+          "items": [
+            "/convert-svgs-to-jsx"
+          ],
+          "permalink": "/blog/tags/jsx",
+          "pages": [
+            {
+              "items": [
+                "/convert-svgs-to-jsx"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/jsx",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/reactjs": {
+          "label": "reactjs",
+          "items": [
+            "/convert-svgs-to-jsx",
+            "/handle-form-antd-part-1"
+          ],
+          "permalink": "/blog/tags/reactjs",
+          "pages": [
+            {
+              "items": [
+                "/convert-svgs-to-jsx",
+                "/handle-form-antd-part-1"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/reactjs",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/scripts": {
+          "label": "scripts",
+          "items": [
+            "/convert-svgs-to-jsx"
+          ],
+          "permalink": "/blog/tags/scripts",
+          "pages": [
+            {
+              "items": [
+                "/convert-svgs-to-jsx"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/scripts",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/generate": {
+          "label": "generate",
+          "items": [
+            "/convert-svgs-to-jsx"
+          ],
+          "permalink": "/blog/tags/generate",
+          "pages": [
+            {
+              "items": [
+                "/convert-svgs-to-jsx"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/generate",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/nextjs": {
+          "label": "Nextjs",
+          "items": [
+            "/scroll-restoration-nextjs"
+          ],
+          "permalink": "/blog/tags/nextjs",
+          "pages": [
+            {
+              "items": [
+                "/scroll-restoration-nextjs"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/nextjs",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/scroll-restoration": {
+          "label": "Scroll Restoration",
+          "items": [
+            "/scroll-restoration-nextjs"
+          ],
+          "permalink": "/blog/tags/scroll-restoration",
+          "pages": [
+            {
+              "items": [
+                "/scroll-restoration-nextjs"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/scroll-restoration",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/ant-design": {
+          "label": "Ant Design",
+          "items": [
+            "/handle-form-antd-part-1"
+          ],
+          "permalink": "/blog/tags/ant-design",
+          "pages": [
+            {
+              "items": [
+                "/handle-form-antd-part-1"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/ant-design",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/frontend": {
+          "label": "Frontend",
+          "items": [
+            "/build-tools-frontend-2023"
+          ],
+          "permalink": "/blog/tags/frontend",
+          "pages": [
+            {
+              "items": [
+                "/build-tools-frontend-2023"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/frontend",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/build-tools": {
+          "label": "Build tools",
+          "items": [
+            "/build-tools-frontend-2023"
+          ],
+          "permalink": "/blog/tags/build-tools",
+          "pages": [
+            {
+              "items": [
+                "/build-tools-frontend-2023"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/build-tools",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/2023": {
+          "label": "2023",
+          "items": [
+            "/build-tools-frontend-2023"
+          ],
+          "permalink": "/blog/tags/2023",
+          "pages": [
+            {
+              "items": [
+                "/build-tools-frontend-2023"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/2023",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blogs",
+                "blogTitle": "Blogs"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-google-analytics": {},
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {},
+  "docusaurus-theme-live-codeblock": {},
+  "docusaurus-theme-mermaid": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

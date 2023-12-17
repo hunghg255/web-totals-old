@@ -6,6 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "echo 'Hello World'",
+    "buildDoc": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -29,6 +30,9 @@
     "prism-react-renderer": "^2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "shikiji": "^0.9.9",
+    "shikiji-transformers": "^0.9.9",
+    "shikiji-twoslash": "^0.9.9",
     "unist-util-visit-parents": "^3.1.1"
   },
   "devDependencies": {
