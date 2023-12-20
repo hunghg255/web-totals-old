@@ -9,99 +9,79 @@
     }
   },
   "docusaurus-plugin-content-docs": {
-    "questions": {
-      "path": "/questions",
+    "default": {
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/questions",
-          "mainDocId": "README",
+          "path": "/docs",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "javascripts/question-1",
-              "path": "/questions/javascripts/question-1",
+              "id": "design-patterns/index",
+              "path": "/docs/design-patterns/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-10",
-              "path": "/questions/javascripts/question-10",
+              "id": "git/how-to-git-works",
+              "path": "/docs/git/how-to-git-works",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-11",
-              "path": "/questions/javascripts/question-11",
+              "id": "intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-12",
-              "path": "/questions/javascripts/question-12",
+              "id": "javascript/js-extension-import-export-module",
+              "path": "/docs/javascript/js-extension-import-export-module",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-13",
-              "path": "/questions/javascripts/question-13",
+              "id": "reactjs/compound-pattern",
+              "path": "/docs/reactjs/compound-pattern",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-14",
-              "path": "/questions/javascripts/question-14",
+              "id": "reactjs/hoc-pattern",
+              "path": "/docs/reactjs/hoc-pattern",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-15",
-              "path": "/questions/javascripts/question-15",
+              "id": "reactjs/state-managers",
+              "path": "/docs/reactjs/state-managers",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-16",
-              "path": "/questions/javascripts/question-16",
+              "id": "rendering-patterns/client-side-rendering",
+              "path": "/docs/rendering-patterns/client-side-rendering",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-2",
-              "path": "/questions/javascripts/question-2",
+              "id": "rendering-patterns/incremental-static-regeneration",
+              "path": "/docs/rendering-patterns/incremental-static-regeneration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-3",
-              "path": "/questions/javascripts/question-3",
+              "id": "rendering-patterns/intro",
+              "path": "/docs/rendering-patterns/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-4",
-              "path": "/questions/javascripts/question-4",
+              "id": "rendering-patterns/server-side-rendering",
+              "path": "/docs/rendering-patterns/server-side-rendering",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-5",
-              "path": "/questions/javascripts/question-5",
+              "id": "rendering-patterns/static-rendering",
+              "path": "/docs/rendering-patterns/static-rendering",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascripts/question-6",
-              "path": "/questions/javascripts/question-6",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-7",
-              "path": "/questions/javascripts/question-7",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-8",
-              "path": "/questions/javascripts/question-8",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-9",
-              "path": "/questions/javascripts/question-9",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "README",
-              "path": "/questions/",
+              "id": "rendering-patterns/streaming-ssr",
+              "path": "/docs/rendering-patterns/streaming-ssr",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -109,8 +89,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/questions/",
-                "label": "README"
+                "path": "/docs/intro",
+                "label": "intro"
               }
             }
           }
@@ -312,79 +292,99 @@
       ],
       "breadcrumbs": true
     },
-    "default": {
-      "path": "/docs",
+    "questions": {
+      "path": "/questions",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "intro",
+          "path": "/questions",
+          "mainDocId": "README",
           "docs": [
             {
-              "id": "design-patterns/index",
-              "path": "/docs/design-patterns/",
+              "id": "javascripts/question-1",
+              "path": "/questions/javascripts/question-1",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "git/how-to-git-works",
-              "path": "/docs/git/how-to-git-works",
+              "id": "javascripts/question-10",
+              "path": "/questions/javascripts/question-10",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "javascripts/question-11",
+              "path": "/questions/javascripts/question-11",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "javascript/js-extension-import-export-module",
-              "path": "/docs/javascript/js-extension-import-export-module",
+              "id": "javascripts/question-12",
+              "path": "/questions/javascripts/question-12",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "reactjs/compound-pattern",
-              "path": "/docs/reactjs/compound-pattern",
+              "id": "javascripts/question-13",
+              "path": "/questions/javascripts/question-13",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "reactjs/hoc-pattern",
-              "path": "/docs/reactjs/hoc-pattern",
+              "id": "javascripts/question-14",
+              "path": "/questions/javascripts/question-14",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "reactjs/state-managers",
-              "path": "/docs/reactjs/state-managers",
+              "id": "javascripts/question-15",
+              "path": "/questions/javascripts/question-15",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rendering-patterns/client-side-rendering",
-              "path": "/docs/rendering-patterns/client-side-rendering",
+              "id": "javascripts/question-16",
+              "path": "/questions/javascripts/question-16",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rendering-patterns/incremental-static-regeneration",
-              "path": "/docs/rendering-patterns/incremental-static-regeneration",
+              "id": "javascripts/question-2",
+              "path": "/questions/javascripts/question-2",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rendering-patterns/intro",
-              "path": "/docs/rendering-patterns/intro",
+              "id": "javascripts/question-3",
+              "path": "/questions/javascripts/question-3",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rendering-patterns/server-side-rendering",
-              "path": "/docs/rendering-patterns/server-side-rendering",
+              "id": "javascripts/question-4",
+              "path": "/questions/javascripts/question-4",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rendering-patterns/static-rendering",
-              "path": "/docs/rendering-patterns/static-rendering",
+              "id": "javascripts/question-5",
+              "path": "/questions/javascripts/question-5",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rendering-patterns/streaming-ssr",
-              "path": "/docs/rendering-patterns/streaming-ssr",
+              "id": "javascripts/question-6",
+              "path": "/questions/javascripts/question-6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-7",
+              "path": "/questions/javascripts/question-7",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-8",
+              "path": "/questions/javascripts/question-8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-9",
+              "path": "/questions/javascripts/question-9",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/questions/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -392,8 +392,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/questions/",
+                "label": "README"
               }
             }
           }
