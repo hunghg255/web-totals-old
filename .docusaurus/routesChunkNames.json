@@ -1,11 +1,14 @@
 {
-  "/blog-795": {
+  "/blog-515": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "63f9f725"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "322e349a"
+      },
       {
         "content": "31e0c281"
       },
@@ -107,6 +110,14 @@
     "sidebar": "814f3328",
     "content": "9af12ed1"
   },
+  "/blog/svg-icon-with-pure-css-09a": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "63f9f725"
+    },
+    "sidebar": "814f3328",
+    "content": "da24c298"
+  },
   "/blog/tags-7f2": {
     "__comp": "01a85c17",
     "__context": {
@@ -171,13 +182,16 @@
     "tag": "12762d8b",
     "listMetadata": "bd63c445"
   },
-  "/blog/tags/css-927": {
+  "/blog/tags/css-771": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "63f9f725"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "322e349a"
+      },
       {
         "content": "a6bcb5e5"
       },
@@ -260,6 +274,20 @@
     ],
     "tag": "d1c21ad3",
     "listMetadata": "5892662e"
+  },
+  "/blog/tags/icon-b79": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "63f9f725"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "322e349a"
+      }
+    ],
+    "tag": "21ed22b9",
+    "listMetadata": "97e00a59"
   },
   "/blog/tags/javascript-843": {
     "__comp": "6875c492",
@@ -376,13 +404,16 @@
     "tag": "50e0fa22",
     "listMetadata": "b321a715"
   },
-  "/blog/tags/svg-c96": {
+  "/blog/tags/svg-e50": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "63f9f725"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "322e349a"
+      },
       {
         "content": "753254ff"
       }

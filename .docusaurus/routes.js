@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '795'),
+    component: ComponentCreator('/blog', '515'),
     exact: true
   },
   {
@@ -53,6 +53,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/svg-icon-with-pure-css',
+    component: ComponentCreator('/blog/svg-icon-with-pure-css', '09a'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '7f2'),
     exact: true
@@ -79,7 +84,7 @@ export default [
   },
   {
     path: '/blog/tags/css',
-    component: ComponentCreator('/blog/tags/css', '927'),
+    component: ComponentCreator('/blog/tags/css', '771'),
     exact: true
   },
   {
@@ -105,6 +110,11 @@ export default [
   {
     path: '/blog/tags/html',
     component: ComponentCreator('/blog/tags/html', '10e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/icon',
+    component: ComponentCreator('/blog/tags/icon', 'b79'),
     exact: true
   },
   {
@@ -149,7 +159,7 @@ export default [
   },
   {
     path: '/blog/tags/svg',
-    component: ComponentCreator('/blog/tags/svg', 'c96'),
+    component: ComponentCreator('/blog/tags/svg', 'e50'),
     exact: true
   },
   {

@@ -2,6 +2,11 @@
   "title": "Blogs",
   "items": [
     {
+      "title": "SVG icon with pure css",
+      "permalink": "/blog/svg-icon-with-pure-css",
+      "unlisted": false
+    },
+    {
       "title": "React Provider Hell",
       "permalink": "/blog/react-provider-hell",
       "unlisted": false

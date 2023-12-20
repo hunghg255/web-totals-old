@@ -2,11 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://web-totals.vercel.app/blog</id>
     <title>Web Totals Blog</title>
-    <updated>2023-09-19T19:28:57.000Z</updated>
+    <updated>2023-12-20T03:47:58.126Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://web-totals.vercel.app/blog"/>
     <subtitle>Web Totals Blog</subtitle>
     <icon>https://web-totals.vercel.app/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[SVG icon with pure css]]></title>
+        <id>https://web-totals.vercel.app/blog/svg-icon-with-pure-css</id>
+        <link href="https://web-totals.vercel.app/blog/svg-icon-with-pure-css"/>
+        <updated>2023-12-20T03:47:58.126Z</updated>
+        <summary type="html"><![CDATA[SVG icon with pure css]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="svg-icon-with-pure-css">SVG icon with pure css<a href="https://web-totals.vercel.app/blog/svg-icon-with-pure-css#svg-icon-with-pure-css" class="hash-link" aria-label="Direct link to SVG icon with pure css" title="Direct link to SVG icon with pure css">​</a></h2>
+<ul>
+<li>
+<p>Cách cơ bản: Dùng svg qua thẻ <code>img</code> hoặc là dùng content của svg trong html</p>
+</li>
+<li>
+<p>Cách tiếp cận tiếp theo là chuyển hết svg icon thành một bộ font rồi load bộ font,css đó vào source code, sử dùng bên html chỉ cần thêm class của icon.</p>
+<ul>
+<li>Cách này sẽ có nhược điêm là không convert được icon multilplechrome</li>
+</ul>
+</li>
+<li>
+<p>Cách tiếp theo là chỉ cần chuyển svg thành dataURI rồi dùng trong css, bên html sẽ thêm class icon</p>
+<ul>
+<li>Cũng có một source họ dựng svg dùng với css <a href="https://css.gg/" target="_blank" rel="noopener noreferrer">css.gg</a> nhưng bị giới hạn icon và cách họ xử lý cũng phức tạp.</li>
+</ul>
+</li>
+<li>
+<p>HTML</p>
+</li>
+</ul>
+<!-- -->
+<ul>
+<li>CSS</li>
+</ul>
+<!-- -->
+<ul>
+<li>Để convert svg string sang dataURI</li>
+</ul>
+<!-- -->
+<ul>
+<li>
+<p>Nếu chuyển sang URI thì đều chọn là base64. nhưng nhược điểm là sẽ nặng khi tải, thực tế base64 để encode data binary như ảnh sang base64 để dùng trong file text như css.</p>
+</li>
+<li>
+<p>Với svg thực tế nó đã là text rồi vì thế mình không cần chuyển sang dạng base64 nữa, mn có thể đoc thêm về 2 bài này <a href="https://css-tricks.com/probably-dont-base64-svg/" target="_blank" rel="noopener noreferrer">probably-dont-base64-svg</a>, <a href="https://codepen.io/Tigt/post/optimizing-svgs-in-data-uris" target="_blank" rel="noopener noreferrer">optimizing-svgs-in-data-uris</a></p>
+</li>
+<li>
+<p>Có một cách khác để chuyển svg sang dataURI như sau</p>
+</li>
+</ul>
+<!-- -->
+<ul>
+<li>Về kích thước. ta chỉ cần dùng đơn vị <code>em</code> trong css</li>
+</ul>
+<!-- -->
+<ul>
+<li>
+<p>Về màu. với svg ta chỉ cần dùng <code>fill=currentColor</code> (<a href="https://www.w3.org/TR/css-color-3/#currentcolor" target="_blank" rel="noopener noreferrer">svg currentcolor</a>). Cách này svg sẽ fill theo màu của text, nhưng có một điểm là nếu ta dùng <code>background</code> thì màu sẽ không ăn với icon. Cũng có 1 bài xử lý vấn đề fill màu cho ảnh dùng css filter (<a href="https://css-tricks.com/solved-with-css-colorizing-svg-backgrounds/" target="_blank" rel="noopener noreferrer">solved-with-css-colorizing-svg-backgrounds</a>) nhưng cần tính toán matrix để thay đổi màu. nó cũng khá phức tạp nếu dùng cách này. mình chỉ muốn dùng với css thuần.</p>
+<ul>
+<li>Có vẻ như đã không có cách nào nhưng đã có một bài nói về fill màu cho image dùng css <a href="https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images" target="_blank" rel="noopener noreferrer">coloring-svgs-in-css-background-images</a>. bài viết nói về dùng css mask (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mask" target="_blank" rel="noopener noreferrer">css mask</a>) thuộc tính mình còn chưa nghe đến trước đây</li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul>
+<li>Như vậy vấn đề fill màu cho icon monochrome đã được giải quyết, còn icon multiplechorme thì sao.</li>
+<li>Đơn giản mình chỉ cần check xem icon đó có phải là multiplechrome hay không thôi và giữ nguyên màu nếu là multiplechrome</li>
+</ul>
+<!-- -->
+<p>Đây là trang demo: <a href="https://svg-to-css.surge.sh/" target="_blank" rel="noopener noreferrer">https://svg-to-css.surge.sh/</a></p>]]></content>
+        <author>
+            <name>Gia Hung</name>
+            <email>giahung197bg@gmail.com</email>
+            <uri>https://github.com/hunghg255</uri>
+        </author>
+        <category label="svg" term="svg"/>
+        <category label="icon" term="icon"/>
+        <category label="css" term="css"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[React Provider Hell]]></title>
         <id>https://web-totals.vercel.app/blog/react-provider-hell</id>

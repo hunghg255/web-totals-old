@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/svg-icon-with-pure-css",
+  "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/svg-icon-with-pure-css.md",
+  "source": "@site/blog/svg-icon-with-pure-css.md",
+  "title": "SVG icon with pure css",
+  "description": "SVG icon with pure css",
+  "date": "2023-12-20T03:47:58.126Z",
+  "formattedDate": "December 20, 2023",
+  "tags": [
+    {
+      "label": "svg",
+      "permalink": "/blog/tags/svg"
+    },
+    {
+      "label": "icon",
+      "permalink": "/blog/tags/icon"
+    },
+    {
+      "label": "css",
+      "permalink": "/blog/tags/css"
+    }
+  ],
+  "readingTime": 2.76,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Gia Hung",
+      "title": "Creator of Web totals",
+      "url": "https://github.com/hunghg255",
+      "email": "giahung197bg@gmail.com",
+      "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+      "key": "hunghg"
+    }
+  ],
+  "frontMatter": {
+    "title": "SVG icon with pure css",
+    "authors": "hunghg",
+    "tags": [
+      "svg",
+      "icon",
+      "css"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "React Provider Hell",
+    "permalink": "/blog/react-provider-hell"
+  }
+}
