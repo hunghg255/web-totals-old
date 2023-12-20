@@ -9,6 +9,115 @@
     }
   },
   "docusaurus-plugin-content-docs": {
+    "questions": {
+      "path": "/questions",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/questions",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "javascripts/question-1",
+              "path": "/questions/javascripts/question-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-10",
+              "path": "/questions/javascripts/question-10",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-11",
+              "path": "/questions/javascripts/question-11",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-12",
+              "path": "/questions/javascripts/question-12",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-13",
+              "path": "/questions/javascripts/question-13",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-14",
+              "path": "/questions/javascripts/question-14",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-15",
+              "path": "/questions/javascripts/question-15",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-16",
+              "path": "/questions/javascripts/question-16",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-2",
+              "path": "/questions/javascripts/question-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-3",
+              "path": "/questions/javascripts/question-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-4",
+              "path": "/questions/javascripts/question-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-5",
+              "path": "/questions/javascripts/question-5",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-6",
+              "path": "/questions/javascripts/question-6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-7",
+              "path": "/questions/javascripts/question-7",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-8",
+              "path": "/questions/javascripts/question-8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascripts/question-9",
+              "path": "/questions/javascripts/question-9",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/questions/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/questions/",
+                "label": "README"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "issues": {
       "path": "/issues",
       "versions": [
@@ -285,115 +394,6 @@
               "link": {
                 "path": "/docs/intro",
                 "label": "intro"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "questions": {
-      "path": "/questions",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/questions",
-          "mainDocId": "README",
-          "docs": [
-            {
-              "id": "javascripts/question-1",
-              "path": "/questions/javascripts/question-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-10",
-              "path": "/questions/javascripts/question-10",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-11",
-              "path": "/questions/javascripts/question-11",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-12",
-              "path": "/questions/javascripts/question-12",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-13",
-              "path": "/questions/javascripts/question-13",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-14",
-              "path": "/questions/javascripts/question-14",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-15",
-              "path": "/questions/javascripts/question-15",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-16",
-              "path": "/questions/javascripts/question-16",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-2",
-              "path": "/questions/javascripts/question-2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-3",
-              "path": "/questions/javascripts/question-3",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-4",
-              "path": "/questions/javascripts/question-4",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-5",
-              "path": "/questions/javascripts/question-5",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-6",
-              "path": "/questions/javascripts/question-6",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-7",
-              "path": "/questions/javascripts/question-7",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-8",
-              "path": "/questions/javascripts/question-8",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "javascripts/question-9",
-              "path": "/questions/javascripts/question-9",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "README",
-              "path": "/questions/",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/questions/",
-                "label": "README"
               }
             }
           }
