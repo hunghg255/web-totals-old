@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb_totals=self.webpackChunkweb_totals||[]).push([[9876],{61960:s=>{s.exports=JSON.parse('{"label":"svg","permalink":"/blog/tags/svg","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

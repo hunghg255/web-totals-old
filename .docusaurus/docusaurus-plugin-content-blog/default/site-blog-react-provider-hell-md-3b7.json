@@ -38,6 +38,10 @@
     "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--HOQYtEP_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kj81kq4qurtf84xrvtm8.png"
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "SVG icon with pure css",
+    "permalink": "/blog/svg-icon-with-pure-css"
+  },
   "nextItem": {
     "title": "Example Callstack And Event loop",
     "permalink": "/blog/event-loop-call-stack-example"

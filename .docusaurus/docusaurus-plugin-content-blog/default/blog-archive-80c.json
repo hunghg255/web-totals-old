@@ -1,6 +1,59 @@
 {
   "blogPosts": [
     {
+      "id": "/svg-icon-with-pure-css",
+      "metadata": {
+        "permalink": "/blog/svg-icon-with-pure-css",
+        "editUrl": "https://github.com/hunghg255/web-totals/tree/main/blog/svg-icon-with-pure-css.md",
+        "source": "@site/blog/svg-icon-with-pure-css.md",
+        "title": "SVG icon with pure css",
+        "description": "SVG icon with pure css",
+        "date": "2023-12-20T03:47:58.126Z",
+        "formattedDate": "December 20, 2023",
+        "tags": [
+          {
+            "label": "svg",
+            "permalink": "/blog/tags/svg"
+          },
+          {
+            "label": "icon",
+            "permalink": "/blog/tags/icon"
+          },
+          {
+            "label": "css",
+            "permalink": "/blog/tags/css"
+          }
+        ],
+        "readingTime": 2.76,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Gia Hung",
+            "title": "Creator of Web totals",
+            "url": "https://github.com/hunghg255",
+            "email": "giahung197bg@gmail.com",
+            "imageURL": "https://res.cloudinary.com/hunghg255/image/upload/v1654956015/Screen_Shot_2022-06-07_at_11.25.34_bpnymt.png",
+            "key": "hunghg"
+          }
+        ],
+        "frontMatter": {
+          "title": "SVG icon with pure css",
+          "authors": "hunghg",
+          "tags": [
+            "svg",
+            "icon",
+            "css"
+          ]
+        },
+        "unlisted": false,
+        "nextItem": {
+          "title": "React Provider Hell",
+          "permalink": "/blog/react-provider-hell"
+        }
+      },
+      "content": "## SVG icon with pure css\n\n<!--truncate-->\n\n- Cách cơ bản: Dùng svg qua thẻ `img` hoặc là dùng content của svg trong html\n\n- Cách tiếp cận tiếp theo là chuyển hết svg icon thành một bộ font rồi load bộ font,css đó vào source code, sử dùng bên html chỉ cần thêm class của icon.\n\n  - Cách này sẽ có nhược điêm là không convert được icon multilplechrome\n\n- Cách tiếp theo là chỉ cần chuyển svg thành dataURI rồi dùng trong css, bên html sẽ thêm class icon\n\n  - Cũng có một source họ dựng svg dùng với css [css.gg](https://css.gg/) nhưng bị giới hạn icon và cách họ xử lý cũng phức tạp.\n\n- HTML\n\n```html\n<div class=\"my-icon\"></div>\n```\n\n- CSS\n\n```css\n.my-icon {\n  background: url(data:...) no-repeat center;\n  background-color: transparent;\n  background-size: 16px 16px;\n  height: 16px;\n  width: 16px;\n  display: inline-block;\n}\n```\n\n- Để convert svg string sang dataURI\n\n```js\nconst svg = `<svg>...</svg>`;\nconst dataUri = `data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`;\n```\n\n- Nếu chuyển sang URI thì đều chọn là base64. nhưng nhược điểm là sẽ nặng khi tải, thực tế base64 để encode data binary như ảnh sang base64 để dùng trong file text như css.\n\n- Với svg thực tế nó đã là text rồi vì thế mình không cần chuyển sang dạng base64 nữa, mn có thể đoc thêm về 2 bài này [probably-dont-base64-svg](https://css-tricks.com/probably-dont-base64-svg/), [optimizing-svgs-in-data-uris](https://codepen.io/Tigt/post/optimizing-svgs-in-data-uris)\n\n- Có một cách khác để chuyển svg sang dataURI như sau\n\n```js\n// https://bl.ocks.org/jennyknuth/222825e315d45a738ed9d6e04c7a88d0\nfunction encodeSvg(svg: string) {\n  return svg\n    .replace('<svg', ~svg.indexOf('xmlns') ? '<svg' : '<svg xmlns=\"http://www.w3.org/2000/svg\"')\n    .replace(/\"/g, \"'\")\n    .replace(/%/g, '%25')\n    .replace(/#/g, '%23')\n    .replace(/{/g, '%7B')\n    .replace(/}/g, '%7D')\n    .replace(/</g, '%3C')\n    .replace(/>/g, '%3E');\n}\n\nconst dataUri = `data:image/svg+xml;utf8,${encodeSvg(svg)}`;\n```\n\n- Về kích thước. ta chỉ cần dùng đơn vị `em` trong css\n\n```css\n.my-icon {\n  background: url(data:...) no-repeat center;\n  background-color: transparent;\n  background-size: 100% 100%;\n  height: 1em;\n  width: 1em;\n}\n```\n\n- Về màu. với svg ta chỉ cần dùng `fill=currentColor` ([svg currentcolor](https://www.w3.org/TR/css-color-3/#currentcolor)). Cách này svg sẽ fill theo màu của text, nhưng có một điểm là nếu ta dùng `background` thì màu sẽ không ăn với icon. Cũng có 1 bài xử lý vấn đề fill màu cho ảnh dùng css filter ([solved-with-css-colorizing-svg-backgrounds](https://css-tricks.com/solved-with-css-colorizing-svg-backgrounds/)) nhưng cần tính toán matrix để thay đổi màu. nó cũng khá phức tạp nếu dùng cách này. mình chỉ muốn dùng với css thuần.\n\n  - Có vẻ như đã không có cách nào nhưng đã có một bài nói về fill màu cho image dùng css [coloring-svgs-in-css-background-images](https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images). bài viết nói về dùng css mask ([css mask](https://developer.mozilla.org/en-US/docs/Web/CSS/mask)) thuộc tính mình còn chưa nghe đến trước đây\n\n```css\n.my-icon {\n  background-color: currentColor;\n  mask-image: url(icon.svg);\n}\n```\n\n- Như vậy vấn đề fill màu cho icon monochrome đã được giải quyết, còn icon multiplechorme thì sao.\n- Đơn giản mình chỉ cần check xem icon đó có phải là multiplechrome hay không thôi và giữ nguyên màu nếu là multiplechrome\n\n```js\n// if an SVG icon have the `currentColor` value,\n// it's very likely to be a monochrome icon\nconst isMonochrome = checkMonochrome(svg);\n\nconst uri = `url(\"data:image/svg+xml;utf8,${encodeSvg(svg)}\")`;\n\n// monochrome\nif (isMonochrome) {\n  return {\n    mask: `${uri} no-repeat`,\n    'mask-size': '100% 100%',\n    'background-color': 'currentColor',\n    height: '1em',\n    width: '1em',\n  };\n}\n// colored\nelse {\n  return {\n    background: `${uri} no-repeat`,\n    'background-size': '100% 100%',\n    'background-color': 'transparent',\n    height: '1em',\n    width: '1em',\n  };\n}\n```\n\nĐây là trang demo: https://svg-to-css.surge.sh/"
+    },
+    {
       "id": "/react-provider-hell",
       "metadata": {
         "permalink": "/blog/react-provider-hell",
@@ -42,6 +95,10 @@
           "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--HOQYtEP_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kj81kq4qurtf84xrvtm8.png"
         },
         "unlisted": false,
+        "prevItem": {
+          "title": "SVG icon with pure css",
+          "permalink": "/blog/svg-icon-with-pure-css"
+        },
         "nextItem": {
           "title": "Example Callstack And Event loop",
           "permalink": "/blog/event-loop-call-stack-example"
